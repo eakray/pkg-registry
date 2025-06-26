@@ -1,0 +1,20 @@
+name = "node"
+version = "20.9.0"
+schema_version = "1"
+
+[meta]
+description = "Node.js JavaScript runtime"
+license = "MIT"
+homepage = "https://nodejs.org/"
+platforms = ["darwin"]
+
+[binaries.darwin.x64.binary]
+url = "https://nodejs.org/dist/v20.9.0/node-v20.9.0-darwin-x64.tar.gz"
+sha256 = "a7e6547a951406e4e546a74160ed27b26f9abd4baf7c44dd5a0fa992852d0cfa"
+strip_prefix = 1
+
+[install]
+steps = ["extract", "symlink bin/node", "symlink bin/npm"]
+
+# [dependencies]
+# openssl = ">=1.1"
