@@ -1,0 +1,17 @@
+name = "node"
+schema_version = "1"
+version = "18.12.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "0699c8e02581a9c312d7157331561d36ef23963766eb47daa702edb6fd6735bd"
+strip_prefix = 1
+url = "https://nodejs.org/dist/v20.9.0/node-v18.12.0-darwin-x64.tar.gz"
+
+[install]
+steps = ["extract", "symlink bin/node", "symlink bin/npm"]
+
+[meta]
+description = "Node.js JavaScript runtime"
+homepage = "https://nodejs.org/"
+license = "MIT"
+platforms = ["darwin"]
