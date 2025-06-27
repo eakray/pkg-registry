@@ -1,0 +1,14 @@
+name = "vcpkg"
+schema_version = "1"
+version = "2025.06.20"
+
+[binaries.darwin.x64.binary]
+sha256 = "a5c13011d253db8e885c54d2da6f6460741fec307fe93ee38bf17ab34922a467"
+strip_prefix = 1
+url = "https://github.com/microsoft/vcpkg-tool/archive/refs/tags/2025-06-20.tar.gz"
+
+[meta]
+description = "C++ Library Manager"
+homepage = "https://github.com/microsoft/vcpkg"
+license = "MIT"
+platforms = ["darwin"]

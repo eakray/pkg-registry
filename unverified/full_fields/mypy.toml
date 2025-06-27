@@ -1,0 +1,14 @@
+name = "mypy"
+schema_version = "1"
+version = "1.16.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "6bd00a0a2094841c5e47e7374bb42b83d64c527a502e3334e1173a0c24437bab"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/81/69/92c7fa98112e4d9eb075a239caa4ef4649ad7d441545ccffbd5e34607cbb/mypy-1.16.1.tar.gz"
+
+[meta]
+description = "Experimental optional static type checker for Python"
+homepage = "https://www.mypy-lang.org/"
+license = "MIT"
+platforms = ["darwin"]

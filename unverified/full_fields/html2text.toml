@@ -1,0 +1,14 @@
+name = "html2text"
+schema_version = "1"
+version = "html22.3.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "8cec23ed1ff43313f2d0e4b434cd39871bc002cad947a40d4a3738d1351921f7"
+strip_prefix = 1
+url = "https://github.com/grobian/html2text/releases/download/v2.3.0/html2text-2.3.0.tar.gz"
+
+[meta]
+description = "Advanced HTML-to-text converter"
+homepage = "https://gitlab.com/grobian/html2text"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

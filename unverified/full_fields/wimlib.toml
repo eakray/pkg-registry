@@ -1,0 +1,14 @@
+name = "wimlib"
+schema_version = "1"
+version = "1.14.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "3633db2b6c8b255eb86d3bf3df3059796bd1f08e50b8c9728c7eb66662e51300"
+strip_prefix = 1
+url = "https://wimlib.net/downloads/wimlib-1.14.4.tar.gz"
+
+[meta]
+description = "Library to create, extract, and modify Windows Imaging files"
+homepage = "https://wimlib.net/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

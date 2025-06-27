@@ -1,0 +1,14 @@
+name = "curl"
+schema_version = "1"
+version = "8.14.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "5760ed3c1a6aac68793fc502114f35c3e088e8cd5c084c2d044abdf646ee48fb"
+strip_prefix = 1
+url = "https://curl.se/download/curl-8.14.1.tar.bz2"
+
+[meta]
+description = "Get a file from an HTTP, HTTPS or FTP server"
+homepage = "https://curl.se"
+license = "curl"
+platforms = ["darwin"]

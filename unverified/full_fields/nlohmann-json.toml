@@ -1,0 +1,14 @@
+name = "nlohmann-json"
+schema_version = "1"
+version = "3.12.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "4b92eb0c06d10683f7447ce9406cb97cd4b453be18d7279320f7b2f025c10187"
+strip_prefix = 1
+url = "https://github.com/nlohmann/json/archive/refs/tags/v3.12.0.tar.gz"
+
+[meta]
+description = "JSON for modern C++"
+homepage = "https://json.nlohmann.me/"
+license = "MIT"
+platforms = ["darwin"]

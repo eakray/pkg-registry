@@ -1,0 +1,14 @@
+name = "bazelisk"
+schema_version = "1"
+version = "1.26.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "d55ea90acb6da4cacdfad0eeecf55e58da9d3fd4b88d58502ddd34e48bb28f70"
+strip_prefix = 1
+url = "https://github.com/bazelbuild/bazelisk/archive/refs/tags/v1.26.0.tar.gz"
+
+[meta]
+description = "User-friendly launcher for Bazel"
+homepage = "https://github.com/bazelbuild/bazelisk/"
+license = "Apache-2.0"
+platforms = ["darwin"]

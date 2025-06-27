@@ -1,0 +1,14 @@
+name = "jadx"
+schema_version = "1"
+version = "1.5.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "5a8b480839c9c61527895d81d5572182279d973abe112047417f237df958a3aa"
+strip_prefix = 1
+url = "https://github.com/skylot/jadx/releases/download/v1.5.2/jadx-1.5.2.zip"
+
+[meta]
+description = "Dex to Java decompiler"
+homepage = "https://github.com/skylot/jadx"
+license = "Apache-2.0"
+platforms = ["darwin"]

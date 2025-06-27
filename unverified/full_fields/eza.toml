@@ -1,0 +1,14 @@
+name = "eza"
+schema_version = "1"
+version = "0.21.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "8433260eff7be158cfdfafc7dffd620d878c1470b937a88f8a20117591990c67"
+strip_prefix = 1
+url = "https://github.com/eza-community/eza/archive/refs/tags/v0.21.6.tar.gz"
+
+[meta]
+description = "Modern, maintained replacement for ls"
+homepage = "https://github.com/eza-community/eza"
+license = "EUPL-1.2"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "topgrade"
+schema_version = "1"
+version = "16.0.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "62cfb4eacfe96ba74d510159812fb87076a31c595efd43eb44cb610ca11f5c9d"
+strip_prefix = 1
+url = "https://github.com/topgrade-rs/topgrade/archive/refs/tags/v16.0.4.tar.gz"
+
+[meta]
+description = "Upgrade all the things"
+homepage = "https://github.com/topgrade-rs/topgrade"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

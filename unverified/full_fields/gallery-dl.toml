@@ -1,0 +1,14 @@
+name = "gallery-dl"
+schema_version = "1"
+version = "1.29.7"
+
+[binaries.darwin.x64.binary]
+sha256 = "5fabac1ca7279420bb3ebff5bff8cee80478f48ffb314a42f4ed580f122c0117"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/a6/3e/e9c024254ff37553d02601205db34fdb854c9b556ee669679702807a50be/gallery_dl-1.29.7.tar.gz"
+
+[meta]
+description = "Command-line downloader for image-hosting site galleries and collections"
+homepage = "https://github.com/mikf/gallery-dl"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

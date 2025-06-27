@@ -1,0 +1,14 @@
+name = "conftest"
+schema_version = "1"
+version = "0.61.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "af8138e94ebd602ca98e0af3320669230130abfcc2a042ce9e35d301b4144863"
+strip_prefix = 1
+url = "https://github.com/open-policy-agent/conftest/archive/refs/tags/v0.61.2.tar.gz"
+
+[meta]
+description = "Test your configuration files using Open Policy Agent"
+homepage = "https://www.conftest.dev/"
+license = "Apache-2.0"
+platforms = ["darwin"]

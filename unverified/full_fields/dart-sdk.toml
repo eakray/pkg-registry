@@ -1,0 +1,14 @@
+name = "dart-sdk"
+schema_version = "1"
+version = "3.8.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "61e2bbaaca96938af68f18ef6eb4c238cb258d2dc531cb0d3737f5a4eda87e03"
+strip_prefix = 1
+url = "https://github.com/dart-lang/sdk/archive/refs/tags/3.8.1.tar.gz"
+
+[meta]
+description = "Dart Language SDK, including the VM, dart2js, core libraries, and more"
+homepage = "https://dart.dev"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

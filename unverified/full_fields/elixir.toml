@@ -1,0 +1,14 @@
+name = "elixir"
+schema_version = "1"
+version = "1.18.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "8e136c0a92160cdad8daa74560e0e9c6810486bd232fbce1709d40fcc426b5e0"
+strip_prefix = 1
+url = "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.18.4.tar.gz"
+
+[meta]
+description = "Functional metaprogramming aware language built on Erlang VM"
+homepage = "https://elixir-lang.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

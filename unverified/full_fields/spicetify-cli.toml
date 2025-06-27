@@ -1,0 +1,14 @@
+name = "spicetify-cli"
+schema_version = "1"
+version = "2.40.11"
+
+[binaries.darwin.x64.binary]
+sha256 = "64575466e75fc0909a14ce3e82bdfa4ecd0fee55556a27d50e5eeb7db6aa1656"
+strip_prefix = 1
+url = "https://github.com/spicetify/cli/archive/refs/tags/v2.40.11/v2.40.11.tar.gz"
+
+[meta]
+description = "Command-line tool to customize Spotify client"
+homepage = "https://spicetify.app/"
+license = "LGPL-2.1-only"
+platforms = ["darwin"]

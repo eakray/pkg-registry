@@ -1,0 +1,14 @@
+name = "mysql-client@8.4"
+schema_version = "1"
+version = "8.4.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "53639592a720a719fdfadf2c921b947eac86c06e333202e47667852a5781bd1a"
+strip_prefix = 1
+url = "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.5.tar.gz"
+
+[meta]
+description = "Open source relational database management system"
+homepage = "https://github.com/mysql/mysql-server"
+license = "GPL-2.0-only" => { with: "Universal-FOSS-exception-1.0 }"
+platforms = ["darwin"]

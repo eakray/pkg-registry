@@ -1,0 +1,5 @@
+name = "libb2"
+schema_version = "1"
+
+[meta]
+platforms = ["darwin"]

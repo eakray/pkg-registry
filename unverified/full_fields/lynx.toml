@@ -1,0 +1,14 @@
+name = "lynx"
+schema_version = "1"
+version = "2.9.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "7374b89936d991669e101f4e97f2c9592036e1e8cdaa7bafc259a77ab6fb07ce"
+strip_prefix = 1
+url = "https://invisible-mirror.net/archives/lynx/tarballs/lynx2.9.2.tar.bz2"
+
+[meta]
+description = "Text-based web browser"
+homepage = "https://invisible-island.net/lynx/"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "llm"
+schema_version = "1"
+version = "0.26"
+
+[binaries.darwin.x64.binary]
+sha256 = "c2e9ddbc582da10c61112c0f983383fa0dc7bee3ca7d6f2ade1a2d003771eb1b"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/4e/88/1acdae8cc6122d3ab2d3d30477d3273608f92177a6bb17ab98881af65627/llm-0.26.tar.gz"
+
+[meta]
+description = "Access large language models from the command-line"
+homepage = "https://llm.datasette.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

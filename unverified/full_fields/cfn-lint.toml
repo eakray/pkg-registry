@@ -1,0 +1,14 @@
+name = "cfn-lint"
+schema_version = "1"
+version = "1.36.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "ccb85398fb1d8d8d87edafe207ab6a133c4ab9aefd3ff93591b6ad8c3ccab291"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/3a/72/3c792b1814226ebfb8944d8df707979a43f3e5ee2f3f8093ee17d7692656/cfn_lint-1.36.1.tar.gz"
+
+[meta]
+description = "Validate CloudFormation templates against the CloudFormation spec"
+homepage = "https://github.com/aws-cloudformation/cfn-lint/"
+license = "MIT-0"
+platforms = ["darwin"]

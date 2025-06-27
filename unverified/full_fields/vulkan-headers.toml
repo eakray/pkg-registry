@@ -1,0 +1,14 @@
+name = "vulkan-headers"
+schema_version = "1"
+version = "1.4.319"
+
+[binaries.darwin.x64.binary]
+sha256 = "d79d05def3aaa7f339f2b88b62f73072df0660fb50e9286554a043bab9f6c4dd"
+strip_prefix = 1
+url = "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.319.tar.gz"
+
+[meta]
+description = "Vulkan Header files and API registry"
+homepage = "https://github.com/KhronosGroup/Vulkan-Headers"
+license = "Apache-2.0"
+platforms = ["darwin"]

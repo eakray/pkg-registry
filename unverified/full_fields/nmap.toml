@@ -1,0 +1,14 @@
+name = "nmap"
+schema_version = "1"
+version = "7.97"
+
+[binaries.darwin.x64.binary]
+sha256 = "af98f27925c670c257dd96a9ddf2724e06cb79b2fd1e0d08c9206316be1645c0"
+strip_prefix = 1
+url = "https://nmap.org/dist/nmap-7.97.tar.bz2"
+
+[meta]
+description = "Port scanning utility for large networks"
+homepage = "https://nmap.org/"
+license = "  license :cannot_represent"
+platforms = ["darwin"]

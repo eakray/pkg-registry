@@ -1,0 +1,14 @@
+name = "openjdk@11"
+schema_version = "1"
+version = "11.0.27"
+
+[binaries.darwin.x64.binary]
+sha256 = "eb1d802f854824261d7babac917179ce21c608a39675cf6e78f2ab19121cc7d0"
+strip_prefix = 1
+url = "https://github.com/openjdk/jdk11u/archive/refs/tags/jdk-11.0.27-ga.tar.gz"
+
+[meta]
+description = "Development kit for the Java programming language"
+homepage = "https://openjdk.java.net/"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

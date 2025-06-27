@@ -1,0 +1,14 @@
+name = "cilium-cli"
+schema_version = "1"
+version = "0.18.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "733764d4b519bd94144f1e2398583d06ae91ae5e7ad260cacf1ef9c3d914c3e8"
+strip_prefix = 1
+url = "https://github.com/cilium/cilium-cli/archive/refs/tags/v0.18.4.tar.gz"
+
+[meta]
+description = "CLI to install, manage & troubleshoot Kubernetes clusters running Cilium"
+homepage = "https://cilium.io"
+license = "Apache-2.0"
+platforms = ["darwin"]

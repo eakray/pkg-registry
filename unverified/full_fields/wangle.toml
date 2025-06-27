@@ -1,0 +1,14 @@
+name = "wangle"
+schema_version = "1"
+version = "2025.06.23"
+
+[binaries.darwin.x64.binary]
+sha256 = "17590983cbb1a79bf21e8b03b34da0c8cd8bea93f0f80b387b136ce636f2ef9e"
+strip_prefix = 1
+url = "https://github.com/facebook/wangle/archive/refs/tags/v2025.06.23.00.tar.gz"
+
+[meta]
+description = "Modular, composable client/server abstractions framework"
+homepage = "https://github.com/facebook/wangle"
+license = "Apache-2.0"
+platforms = ["darwin"]

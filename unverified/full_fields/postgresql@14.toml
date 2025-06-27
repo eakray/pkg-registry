@@ -1,0 +1,14 @@
+name = "postgresql@14"
+schema_version = "1"
+version = "14.18"
+
+[binaries.darwin.x64.binary]
+sha256 = "83ab29d6bfc3dc58b2ed3c664114fdfbeb6a0450c4b8d7fa69aee91e3ca14f8e"
+strip_prefix = 1
+url = "https://ftp.postgresql.org/pub/source/v14.18/postgresql-14.18.tar.bz2"
+
+[meta]
+description = "Object-relational database system"
+homepage = "https://www.postgresql.org/"
+license = "PostgreSQL"
+platforms = ["darwin"]

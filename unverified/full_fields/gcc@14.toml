@@ -1,0 +1,14 @@
+name = "gcc@14"
+schema_version = "1"
+version = "14.3.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "e0dc77297625631ac8e50fa92fffefe899a4eb702592da5c32ef04e2293aca3a"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/gcc/gcc-14.3.0/gcc-14.3.0.tar.xz"
+
+[meta]
+description = "GNU compiler collection"
+homepage = "https://gcc.gnu.org/"
+license = "GPL-3.0-or-later" => { with: "GCC-exception-3.1 }"
+platforms = ["darwin"]

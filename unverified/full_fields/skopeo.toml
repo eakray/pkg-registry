@@ -1,0 +1,14 @@
+name = "skopeo"
+schema_version = "1"
+version = "1.19.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "043e9f568440accf1aafca122a25c4d21441f16de49475192ec4abeef7430358"
+strip_prefix = 1
+url = "https://github.com/containers/skopeo/archive/refs/tags/v1.19.0.tar.gz"
+
+[meta]
+description = "Work with remote images registries"
+homepage = "https://github.com/containers/skopeo"
+license = "Apache-2.0"
+platforms = ["darwin"]

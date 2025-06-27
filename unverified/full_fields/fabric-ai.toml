@@ -1,0 +1,14 @@
+name = "fabric-ai"
+schema_version = "1"
+version = "1.4.218"
+
+[binaries.darwin.x64.binary]
+sha256 = "4afb9b574c02039db7b599f87fde535ef416ee2d2d7e2aa1111988b5ba3bf61d"
+strip_prefix = 1
+url = "https://github.com/danielmiessler/fabric/archive/refs/tags/v1.4.218.tar.gz"
+
+[meta]
+description = "Open-source framework for augmenting humans using AI"
+homepage = "https://danielmiessler.com/p/fabric-origin-story"
+license = "MIT"
+platforms = ["darwin"]

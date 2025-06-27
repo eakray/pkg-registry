@@ -1,0 +1,14 @@
+name = "goenv"
+schema_version = "1"
+version = "2.2.25"
+
+[binaries.darwin.x64.binary]
+sha256 = "c2c49ee706629f0dcc85ded7290f65536325364bf47b606ec76255ddbb3132a5"
+strip_prefix = 1
+url = "https://github.com/go-nv/goenv/archive/refs/tags/2.2.25.tar.gz"
+
+[meta]
+description = "Go version management"
+homepage = "https://github.com/go-nv/goenv"
+license = "MIT"
+platforms = ["darwin"]

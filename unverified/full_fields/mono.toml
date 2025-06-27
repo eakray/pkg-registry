@@ -1,0 +1,14 @@
+name = "mono"
+schema_version = "1"
+version = "6.14.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "3024c97c0bc8cbcd611c401d5f994528704108ceb31f31b28dea4783004d0820"
+strip_prefix = 1
+url = "https://dl.winehq.org/mono/sources/mono/mono-6.14.1.tar.xz"
+
+[meta]
+description = "Cross platform, open source .NET development framework"
+homepage = "https://www.mono-project.com/"
+license = "Apache-2.0"
+platforms = ["darwin"]

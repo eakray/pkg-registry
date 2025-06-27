@@ -1,0 +1,14 @@
+name = "iproute2mac"
+schema_version = "1"
+version = "iproute21.5.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "9548ed9ead114a3a7095890c51e0e5b1d8ea1dd955692400e19fb97f1b6ad015"
+strip_prefix = 1
+url = "https://github.com/brona/iproute2mac/releases/download/v1.5.4/iproute2mac-1.5.4.tar.gz"
+
+[meta]
+description = "CLI wrapper for basic network utilities on macOS - ip command"
+homepage = "https://github.com/brona/iproute2mac"
+license = "MIT"
+platforms = ["darwin"]

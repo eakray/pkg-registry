@@ -1,0 +1,14 @@
+name = "yazi"
+schema_version = "1"
+version = "25.5.31"
+
+[binaries.darwin.x64.binary]
+sha256 = "4d005e7c3f32b5574d51ab105597f3da3a4be2f7b5cd1bcb284143ad38253ed4"
+strip_prefix = 1
+url = "https://github.com/sxyazi/yazi/archive/refs/tags/v25.5.31.tar.gz"
+
+[meta]
+description = "Blazing fast terminal file manager written in Rust, based on async I/O"
+homepage = "https://github.com/sxyazi/yazi"
+license = "MIT"
+platforms = ["darwin"]

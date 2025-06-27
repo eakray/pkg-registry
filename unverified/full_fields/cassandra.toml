@@ -1,0 +1,14 @@
+name = "cassandra"
+schema_version = "1"
+version = "5.0.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "d3056b75f35c2bd2abbdf7b0bf9f5f816a61328ca136c5580a8fb0c9f57c5e30"
+strip_prefix = 1
+url = "https://www.apache.org/dyn/closer.lua?path=cassandra/5.0.4/apache-cassandra-5.0.4-bin.tar.gz"
+
+[meta]
+description = "Eventually consistent, distributed key-value store"
+homepage = "https://cassandra.apache.org"
+license = "Apache-2.0"
+platforms = ["darwin"]

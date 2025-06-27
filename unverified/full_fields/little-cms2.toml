@@ -1,0 +1,14 @@
+name = "little-cms2"
+schema_version = "1"
+version = "lcms22.17"
+
+[binaries.darwin.x64.binary]
+sha256 = "d11af569e42a1baa1650d20ad61d12e41af4fead4aa7964a01f93b08b53ab074"
+strip_prefix = 1
+url = "https://downloads.sourceforge.net/project/lcms/lcms/2.17/lcms2-2.17.tar.gz"
+
+[meta]
+description = "Color management engine supporting ICC profiles"
+homepage = "https://www.littlecms.com/"
+license = "MIT"
+platforms = ["darwin"]

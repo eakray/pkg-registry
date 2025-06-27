@@ -1,0 +1,8 @@
+name = "flex"
+schema_version = "1"
+
+[meta]
+description = "Fast Lexical Analyzer, generates Scanners (tokenizers)"
+homepage = "https://github.com/westes/flex"
+license = "BSD-2-Clause"
+platforms = ["darwin"]

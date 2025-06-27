@@ -1,0 +1,14 @@
+name = "openconnect"
+schema_version = "1"
+version = "9.12"
+
+[binaries.darwin.x64.binary]
+sha256 = "a2bedce3aa4dfe75e36e407e48e8e8bc91d46def5335ac9564fbf91bd4b2413e"
+strip_prefix = 1
+url = "https://www.infradead.org/openconnect/download/openconnect-9.12.tar.gz"
+
+[meta]
+description = "Open client for Cisco AnyConnect VPN"
+homepage = "https://www.infradead.org/openconnect/"
+license = "LGPL-2.1-only"
+platforms = ["darwin"]

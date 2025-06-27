@@ -1,0 +1,8 @@
+name = "czmq"
+schema_version = "1"
+
+[meta]
+description = "High-level C binding for ZeroMQ"
+homepage = "http://czmq.zeromq.org/"
+license = "MPL-2.0"
+platforms = ["darwin"]

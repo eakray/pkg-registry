@@ -1,0 +1,8 @@
+name = "subversion"
+schema_version = "1"
+
+[meta]
+description = "Version control system designed to be a better CVS"
+homepage = "https://subversion.apache.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

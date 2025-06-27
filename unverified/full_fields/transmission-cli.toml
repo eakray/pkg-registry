@@ -1,0 +1,14 @@
+name = "transmission-cli"
+schema_version = "1"
+version = "4.0.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "2a38fe6d8a23991680b691c277a335f8875bdeca2b97c6b26b598bc9c7b0c45f"
+strip_prefix = 1
+url = "https://github.com/transmission/transmission/releases/download/4.0.6/transmission-4.0.6.tar.xz"
+
+[meta]
+description = "Lightweight BitTorrent client"
+homepage = "https://transmissionbt.com/"
+license = "  license any_of: ["GPL-2.0-only", "GPL-3.0-only"]"
+platforms = ["darwin"]

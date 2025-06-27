@@ -1,0 +1,14 @@
+name = "jenkins-lts"
+schema_version = "1"
+version = "jenkins.war"
+
+[binaries.darwin.x64.binary]
+sha256 = "ea8883431b8b5ef6b68fe0e5817c93dc0a11def380054e7de3136486796efeb0"
+strip_prefix = 1
+url = "https://get.jenkins.io/war-stable/2.504.3/jenkins.war"
+
+[meta]
+description = "Extendable open source continuous integration server"
+homepage = "https://www.jenkins.io/"
+license = "MIT"
+platforms = ["darwin"]

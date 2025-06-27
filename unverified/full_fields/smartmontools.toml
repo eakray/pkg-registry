@@ -1,0 +1,14 @@
+name = "smartmontools"
+schema_version = "1"
+version = "7.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "690b83ca331378da9ea0d9d61008c4b22dde391387b9bbad7f29387f2595f76e"
+strip_prefix = 1
+url = "https://downloads.sourceforge.net/project/smartmontools/smartmontools/7.5/smartmontools-7.5.tar.gz"
+
+[meta]
+description = "SMART hard drive monitoring"
+homepage = "https://www.smartmontools.org/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

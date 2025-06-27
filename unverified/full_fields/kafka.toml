@@ -1,0 +1,14 @@
+name = "kafka"
+schema_version = "1"
+version = "2.13"
+
+[binaries.darwin.x64.binary]
+sha256 = "7b852e938bc09de10cd96eca3755258c7d25fb89dbdd76305717607e1835e2aa"
+strip_prefix = 1
+url = "https://www.apache.org/dyn/closer.lua?path=kafka/4.0.0/kafka_2.13-4.0.0.tgz"
+
+[meta]
+description = "Open-source distributed event streaming platform"
+homepage = "https://kafka.apache.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

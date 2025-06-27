@@ -1,0 +1,14 @@
+name = "docker-machine"
+schema_version = "1"
+version = "0.16.2-gitlab.38"
+
+[binaries.darwin.x64.binary]
+sha256 = "852e9a1fa425156cdc5040381b0c7d0f2831f084191b4ea54d5c8eeb59b5b1a9"
+strip_prefix = 1
+url = "https://gitlab.com/gitlab-org/ci-cd/docker-machine/-/archive/v0.16.2-gitlab.38/docker-machine-v0.16.2-gitlab.38.tar.bz2"
+
+[meta]
+description = "Create Docker hosts locally and on cloud providers"
+homepage = "https://docs.gitlab.com/runner/executors/docker_machine.html"
+license = "Apache-2.0"
+platforms = ["darwin"]

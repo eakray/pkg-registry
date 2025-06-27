@@ -1,0 +1,14 @@
+name = "commitizen"
+schema_version = "1"
+version = "4.8.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "303ebdc271217aadbb6a73a015612121291d180c8cdd05b5251c7923d4a14195"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/ee/c0/fe5ba5555f2891bcb0b3e7dc1c57fcfd206ab7133a3094d70b81fd5a4a10/commitizen-4.8.3.tar.gz"
+
+[meta]
+description = "Defines a standard way of committing rules and communicating it"
+homepage = "https://commitizen-tools.github.io/commitizen/"
+license = "MIT"
+platforms = ["darwin"]

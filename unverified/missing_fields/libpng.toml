@@ -1,0 +1,5 @@
+name = "libpng"
+schema_version = "1"
+
+[meta]
+platforms = ["darwin"]

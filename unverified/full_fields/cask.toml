@@ -1,0 +1,14 @@
+name = "cask"
+schema_version = "1"
+version = "0.9.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "755e71b7291678787afd497e34724004459add3e438d367e83891080f6d545a3"
+strip_prefix = 1
+url = "https://github.com/cask/cask/archive/refs/tags/v0.9.1.tar.gz"
+
+[meta]
+description = "Emacs dependency management"
+homepage = "https://cask.readthedocs.io/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "googletest"
+schema_version = "1"
+version = "1.17.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "65fab701d9829d38cb77c14acdc431d2108bfdbf8979e40eb8ae567edf10b27c"
+strip_prefix = 1
+url = "https://github.com/google/googletest/archive/refs/tags/v1.17.0.tar.gz"
+
+[meta]
+description = "Google Testing and Mocking Framework"
+homepage = "https://google.github.io/googletest/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

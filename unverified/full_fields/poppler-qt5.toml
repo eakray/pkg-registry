@@ -1,0 +1,14 @@
+name = "poppler-qt5"
+schema_version = "1"
+version = "25.06.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "8199532d38984fab46dbd0020ec9c40f20e928e33e9b4cc6043572603a821d83"
+strip_prefix = 1
+url = "https://poppler.freedesktop.org/poppler-25.06.0.tar.xz"
+
+[meta]
+description = "PDF rendering library (based on the xpdf-3.0 code base)"
+homepage = "https://poppler.freedesktop.org/"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

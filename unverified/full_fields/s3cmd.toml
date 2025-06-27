@@ -1,0 +1,14 @@
+name = "s3cmd"
+schema_version = "1"
+version = "s32.4.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "6b567521be1c151323f2059c8feec85ded96b6f184ff80535837fea33798b40b"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/b3/9c/ad4cd51328bd7a058bfda6739bc061c63ee3531ad2fbc6e672518a1eed01/s3cmd-2.4.0.tar.gz"
+
+[meta]
+description = "Command-line tool for the Amazon S3 service"
+homepage = "https://s3tools.org/s3cmd"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

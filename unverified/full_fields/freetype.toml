@@ -1,0 +1,14 @@
+name = "freetype"
+schema_version = "1"
+version = "2.13.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "0550350666d427c74daeb85d5ac7bb353acba5f76956395995311a9c6f063289"
+strip_prefix = 1
+url = "https://downloads.sourceforge.net/project/freetype/freetype2/2.13.3/freetype-2.13.3.tar.xz"
+
+[meta]
+description = "Software library to render fonts"
+homepage = "https://www.freetype.org/"
+license = "FTL"
+platforms = ["darwin"]

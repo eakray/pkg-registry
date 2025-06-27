@@ -1,0 +1,14 @@
+name = "stow"
+schema_version = "1"
+version = "2.4.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "2a671e75fc207303bfe86a9a7223169c7669df0a8108ebdf1a7fe8cd2b88780b"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/stow/stow-2.4.1.tar.gz"
+
+[meta]
+description = "Organize software neatly under a single directory tree (e.g. /usr/local)"
+homepage = "https://www.gnu.org/software/stow/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

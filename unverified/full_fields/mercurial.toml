@@ -1,0 +1,14 @@
+name = "mercurial"
+schema_version = "1"
+version = "7.0.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "f7731f1b42acaeaacb8cf7e41c0a472a7aa31a8f47e518baea735f1cb2987e0c"
+strip_prefix = 1
+url = "https://www.mercurial-scm.org/release/mercurial-7.0.2.tar.gz"
+
+[meta]
+description = "Scalable distributed version control system"
+homepage = "https://mercurial-scm.org/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

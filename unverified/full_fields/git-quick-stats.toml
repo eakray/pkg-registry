@@ -1,0 +1,14 @@
+name = "git-quick-stats"
+schema_version = "1"
+version = "2.6.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "00d3989241de7efec1f5bcc4459467548e33f5c4a582b0e35c16ec14fb636bda"
+strip_prefix = 1
+url = "https://github.com/git-quick-stats/git-quick-stats/archive/refs/tags/2.6.2.tar.gz"
+
+[meta]
+description = "Simple and efficient way to access statistics in git"
+homepage = "https://git-quick-stats.sh/"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "virt-manager"
+schema_version = "1"
+version = "5.0.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "bc89ae46e0c997bd754ed62a419ca39c6aadec27e3d8b850cea5282f0083f84a"
+strip_prefix = 1
+url = "https://releases.pagure.org/virt-manager/virt-manager-5.0.0.tar.xz"
+
+[meta]
+description = "App for managing virtual machines"
+homepage = "https://virt-manager.org/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

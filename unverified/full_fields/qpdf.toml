@@ -1,0 +1,14 @@
+name = "qpdf"
+schema_version = "1"
+version = "12.2.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "b3d1575b2218badc3549d6977524bb0f8c468c6528eebc8967bbe3078cf2cace"
+strip_prefix = 1
+url = "https://github.com/qpdf/qpdf/releases/download/v12.2.0/qpdf-12.2.0.tar.gz"
+
+[meta]
+description = "Tools for and transforming and inspecting PDF files"
+homepage = "https://github.com/qpdf/qpdf"
+license = "Apache-2.0"
+platforms = ["darwin"]

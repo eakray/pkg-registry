@@ -1,0 +1,13 @@
+name = "sourcekitten"
+schema_version = "1"
+version = "SourceKitten.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/jpsim/SourceKitten.git,"
+
+[meta]
+description = "Framework and command-line tool for interacting with SourceKit"
+homepage = "https://github.com/jpsim/SourceKitten"
+license = "MIT"
+platforms = ["darwin"]

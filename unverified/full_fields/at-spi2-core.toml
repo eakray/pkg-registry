@@ -1,0 +1,14 @@
+name = "at-spi2-core"
+schema_version = "1"
+version = "at-spi22.56.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "e1b1c9836a8947852f7440c32e23179234c76bd98cd9cc4001f376405f8b783b"
+strip_prefix = 1
+url = "https://download.gnome.org/sources/at-spi2-core/2.56/at-spi2-core-2.56.2.tar.xz"
+
+[meta]
+description = "Protocol definitions and daemon for D-Bus at-spi"
+homepage = "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "ninja"
+schema_version = "1"
+version = "1.13.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "f08641d00099a9e40d44ec0146f841c472ae58b7e6dd517bee3945cfd923cedf"
+strip_prefix = 1
+url = "https://github.com/ninja-build/ninja/archive/refs/tags/v1.13.0.tar.gz"
+
+[meta]
+description = "Small build system for use with gyp or CMake"
+homepage = "https://ninja-build.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

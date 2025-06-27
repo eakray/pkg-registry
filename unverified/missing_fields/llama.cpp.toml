@@ -1,0 +1,13 @@
+name = "llama.cpp"
+schema_version = "1"
+version = "llama.cpp.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/ggml-org/llama.cpp.git,"
+
+[meta]
+description = "LLM inference in C/C++"
+homepage = "https://github.com/ggml-org/llama.cpp"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "typescript"
+schema_version = "1"
+version = "5.8.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "72e75dbeb92c2e6eb9a34cb59d74fab5c2ee6f32a0324a89405f6165d5a08374"
+strip_prefix = 1
+url = "https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz"
+
+[meta]
+description = "Language for application scale JavaScript development"
+homepage = "https://www.typescriptlang.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "zsh-completions"
+schema_version = "1"
+version = "0.35.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "811bb4213622720872e08d6e0857f1dd7bc12ff7aa2099a170b76301a53f4fbe"
+strip_prefix = 1
+url = "https://github.com/zsh-users/zsh-completions/archive/refs/tags/0.35.0.tar.gz"
+
+[meta]
+description = "Additional completion definitions for zsh"
+homepage = "https://github.com/zsh-users/zsh-completions"
+license = "  license all_of: ["
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "biome"
+schema_version = "1"
+version = "2.0.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "bb6e8c9692e7efd7e36f78d2f4f9d48c2cbc3f876ece716400eed024f42a2f15"
+strip_prefix = 1
+url = "https://github.com/biomejs/biome/archive/refs/tags/@biomejs/biome@2.0.5.tar.gz"
+
+[meta]
+description = "Toolchain of the web"
+homepage = "https://biomejs.dev/"
+license = "  license any_of: ["Apache-2.0", "MIT"]"
+platforms = ["darwin"]

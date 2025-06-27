@@ -1,0 +1,14 @@
+name = "gdbm"
+schema_version = "1"
+version = "1.25"
+
+[binaries.darwin.x64.binary]
+sha256 = "d02db3c5926ed877f8817b81cd1f92f53ef74ca8c6db543fbba0271b34f393ec"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/gdbm/gdbm-1.25.tar.gz"
+
+[meta]
+description = "GNU database manager"
+homepage = "https://www.gnu.org.ua/software/gdbm/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "esptool"
+schema_version = "1"
+version = "4.9.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "f636b4552f3873cdf94cfaf2d5c37f5407f1f33df73643efee513867310b6a8e"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/ae/7f/6eff54ced5fba62ec99fc78b10211977aec841c2a63cbae75b6a9de36f77/esptool-4.9.0.tar.gz"
+
+[meta]
+description = "ESP8266 and ESP32 serial bootloader utility"
+homepage = "https://docs.espressif.com/projects/esptool/en/latest/esp32/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

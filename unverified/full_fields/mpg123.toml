@@ -1,0 +1,14 @@
+name = "mpg123"
+schema_version = "1"
+version = "mpg1231.33.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "2290e3aede6f4d163e1a17452165af33caad4b5f0948f99429cfa2d8385faa9d"
+strip_prefix = 1
+url = "https://www.mpg123.de/download/mpg123-1.33.0.tar.bz2"
+
+[meta]
+description = "MP3 player for Linux and UNIX"
+homepage = "https://www.mpg123.de/"
+license = "LGPL-2.1-only"
+platforms = ["darwin"]

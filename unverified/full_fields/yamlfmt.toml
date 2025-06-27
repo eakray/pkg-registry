@@ -1,0 +1,14 @@
+name = "yamlfmt"
+schema_version = "1"
+version = "0.17.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "bc186eddc322c9a12b0d22e15e1feb54f85ab2ecc9db2cb4837ab770d51a70ea"
+strip_prefix = 1
+url = "https://github.com/google/yamlfmt/archive/refs/tags/v0.17.2.tar.gz"
+
+[meta]
+description = "Extensible command-line tool to format YAML files"
+homepage = "https://github.com/google/yamlfmt"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "postgis"
+schema_version = "1"
+version = "3.5.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "650e44de788d38175e3719df1d2ca4356bd987f54fe3d2030808de76464a2a06"
+strip_prefix = 1
+url = "https://download.osgeo.org/postgis/source/postgis-3.5.3.tar.gz"
+
+[meta]
+description = "Adds support for geographic objects to PostgreSQL"
+homepage = "https://postgis.net/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

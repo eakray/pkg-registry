@@ -1,0 +1,14 @@
+name = "yara"
+schema_version = "1"
+version = "4.5.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "586c9c21878f8b4d1b9423b89ac937f21f8057b03e3e9706f310549d453966fa"
+strip_prefix = 1
+url = "https://github.com/VirusTotal/yara/archive/refs/tags/v4.5.4.tar.gz"
+
+[meta]
+description = "Malware identification and classification tool"
+homepage = "https://github.com/VirusTotal/yara/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

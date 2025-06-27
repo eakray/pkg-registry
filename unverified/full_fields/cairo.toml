@@ -1,0 +1,14 @@
+name = "cairo"
+schema_version = "1"
+version = "1.18.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "445ed8208a6e4823de1226a74ca319d3600e83f6369f99b14265006599c32ccb"
+strip_prefix = 1
+url = "https://cairographics.org/releases/cairo-1.18.4.tar.xz"
+
+[meta]
+description = "Vector graphics library with cross-device output support"
+homepage = "https://cairographics.org/"
+license = "  license any_of: ["LGPL-2.1-only", "MPL-1.1"]"
+platforms = ["darwin"]

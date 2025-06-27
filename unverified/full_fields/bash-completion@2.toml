@@ -1,0 +1,14 @@
+name = "bash-completion@2"
+schema_version = "1"
+version = "2.16.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "3369bd5e418a75fb990863925aed5b420398acebb320ec4c0306b3eae23f107a"
+strip_prefix = 1
+url = "https://github.com/scop/bash-completion/releases/download/2.16.0/bash-completion-2.16.0.tar.xz"
+
+[meta]
+description = "Programmable completion for Bash 4.2+"
+homepage = "https://github.com/scop/bash-completion"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

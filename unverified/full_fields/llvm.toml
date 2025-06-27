@@ -1,0 +1,14 @@
+name = "llvm"
+schema_version = "1"
+version = "20.1.7"
+
+[binaries.darwin.x64.binary]
+sha256 = "cd8fd55d97ad3e360b1d5aaf98388d1f70dfffb7df36beee478be3b839ff9008"
+strip_prefix = 1
+url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.7/llvm-project-20.1.7.src.tar.xz"
+
+[meta]
+description = "Next-gen compiler infrastructure"
+homepage = "https://llvm.org/"
+license = "Apache-2.0" => { with: "LLVM-exception }"
+platforms = ["darwin"]

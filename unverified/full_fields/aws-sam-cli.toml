@@ -1,0 +1,14 @@
+name = "aws-sam-cli"
+schema_version = "1"
+version = "1.141.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "57e102ba5b184d350b89f41dcbe28d7e1fea3acf2f66266106fc1291836c2247"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/54/21/ff88a982c782b2065f7828edb36378d316cbe9531370bf6b3ac92225346c/aws_sam_cli-1.141.0.tar.gz"
+
+[meta]
+description = "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+homepage = "https://aws.amazon.com/serverless/sam/"
+license = "Apache-2.0"
+platforms = ["darwin"]

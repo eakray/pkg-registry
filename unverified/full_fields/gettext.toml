@@ -1,0 +1,14 @@
+name = "gettext"
+schema_version = "1"
+version = "0.25"
+
+[binaries.darwin.x64.binary]
+sha256 = "aee02dab79d9138fdcc7226b67ec985121bce6007edebe30d0e39d42f69a340e"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/gettext/gettext-0.25.tar.gz"
+
+[meta]
+description = "GNU internationalization (i18n) and localization (l10n) library"
+homepage = "https://www.gnu.org/software/gettext/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

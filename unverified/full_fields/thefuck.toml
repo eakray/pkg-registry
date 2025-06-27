@@ -1,0 +1,14 @@
+name = "thefuck"
+schema_version = "1"
+version = "3.32"
+
+[binaries.darwin.x64.binary]
+sha256 = "976740b9aa536726fa23cadc9a10bf457e92e335901c61fcff9152c84485ac3d"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/ac/d0/0c256afd3ba1d05882154d16aa0685018f21c60a6769a496558da7d9d8f1/thefuck-3.32.tar.gz"
+
+[meta]
+description = "Programmatically correct mistyped console commands"
+homepage = "https://github.com/nvbn/thefuck"
+license = "MIT"
+platforms = ["darwin"]

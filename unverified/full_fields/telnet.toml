@@ -1,0 +1,14 @@
+name = "telnet"
+schema_version = "1"
+version = "remote_cmds-306.tar.gz"
+
+[binaries.darwin.x64.binary]
+sha256 = "7f014f7eebb115460ea782e6bcade6d16effa56da17ee30f00012af07bc96c36"
+strip_prefix = 1
+url = "https://github.com/apple-oss-distributions/remote_cmds/archive/refs/tags/remote_cmds-306.tar.gz"
+
+[meta]
+description = "User interface to the TELNET protocol"
+homepage = "https://opensource.apple.com/"
+license = "  license all_of: ["BSD-4-Clause-UC", "APSL-1.0"]"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "tmux"
+schema_version = "1"
+version = "3.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "16216bd0877170dfcc64157085ba9013610b12b082548c7c9542cc0103198951"
+strip_prefix = 1
+url = "https://github.com/tmux/tmux/releases/download/3.5a/tmux-3.5a.tar.gz"
+
+[meta]
+description = "Terminal multiplexer"
+homepage = "https://tmux.github.io/"
+license = "ISC"
+platforms = ["darwin"]

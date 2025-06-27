@@ -1,0 +1,14 @@
+name = "autoconf-archive"
+schema_version = "1"
+version = "2024.10.16"
+
+[binaries.darwin.x64.binary]
+sha256 = "7bcd5d001916f3a50ed7436f4f700e3d2b1bade3ed803219c592d62502a57363"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/autoconf-archive/autoconf-archive-2024.10.16.tar.xz"
+
+[meta]
+description = "Collection of over 500 reusable autoconf macros"
+homepage = "https://savannah.gnu.org/projects/autoconf-archive/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

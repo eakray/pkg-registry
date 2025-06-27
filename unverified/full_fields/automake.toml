@@ -1,0 +1,14 @@
+name = "automake"
+schema_version = "1"
+version = "1.18.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "168aa363278351b89af56684448f525a5bce5079d0b6842bd910fdd3f1646887"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/automake/automake-1.18.1.tar.xz"
+
+[meta]
+description = "Tool for generating GNU Standards-compliant Makefiles"
+homepage = "https://www.gnu.org/software/automake/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "sk"
+schema_version = "1"
+version = "0.20.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "cf3d5e11e972e3ca77869876a0900c1eeade7df594f70f4853ca9a0520caea3b"
+strip_prefix = 1
+url = "https://github.com/skim-rs/skim/archive/refs/tags/v0.20.1.tar.gz"
+
+[meta]
+description = "Fuzzy Finder in rust!"
+homepage = "https://github.com/skim-rs/skim"
+license = "MIT"
+platforms = ["darwin"]

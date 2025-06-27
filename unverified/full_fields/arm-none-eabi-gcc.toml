@@ -1,0 +1,14 @@
+name = "arm-none-eabi-gcc"
+schema_version = "1"
+version = "15.1.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "e2b09ec21660f01fecffb715e0120265216943f038d0e48a9868713e54f06cea"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/gcc/gcc-15.1.0/gcc-15.1.0.tar.xz"
+
+[meta]
+description = "GNU compiler collection for arm-none-eabi"
+homepage = "https://gcc.gnu.org"
+license = "GPL-3.0-or-later" => { with: "GCC-exception-3.1 }"
+platforms = ["darwin"]

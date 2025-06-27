@@ -1,0 +1,8 @@
+name = "clang-format"
+schema_version = "1"
+
+[meta]
+description = "Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript"
+homepage = "https://clang.llvm.org/docs/ClangFormat.html"
+license = "Apache-2.0" => { with: "LLVM-exception }"
+platforms = ["darwin"]

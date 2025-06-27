@@ -1,0 +1,14 @@
+name = "pdal"
+schema_version = "1"
+version = "2.9.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "f0be2f6575021d0c4751d5babd4c1096d4e5934f86f8461914e9f9c6dc63567d"
+strip_prefix = 1
+url = "https://github.com/PDAL/PDAL/releases/download/2.9.0/PDAL-2.9.0-src.tar.bz2"
+
+[meta]
+description = "Point data abstraction library"
+homepage = "https://www.pdal.io/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "caddy"
+schema_version = "1"
+version = "2.10.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "e07e2747c394a6549751950ec8f7457ed346496f131ee38538ae39cf89ebcc68"
+strip_prefix = 1
+url = "https://github.com/caddyserver/caddy/archive/refs/tags/v2.10.0.tar.gz"
+
+[meta]
+description = "Powerful, enterprise-ready, open source web server with automatic HTTPS"
+homepage = "https://caddyserver.com/"
+license = "Apache-2.0"
+platforms = ["darwin"]

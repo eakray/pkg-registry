@@ -1,0 +1,14 @@
+name = "aider"
+schema_version = "1"
+version = "0.84.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "b5001eaae8741816c28fa7a06adb616f2ba5293553de94ee123b99038c98fae0"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/76/94/8cbf0e10a01bd24c68a0b14e256b75abaa4bae662f955669e14fc5902b0e/aider_chat-0.84.0.tar.gz"
+
+[meta]
+description = "AI pair programming in your terminal"
+homepage = "https://aider.chat/"
+license = "Apache-2.0"
+platforms = ["darwin"]

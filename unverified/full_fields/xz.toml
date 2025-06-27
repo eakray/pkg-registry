@@ -1,0 +1,14 @@
+name = "xz"
+schema_version = "1"
+version = "5.8.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "507825b599356c10dca1cd720c9d0d0c9d5400b9de300af00e4d1ea150795543"
+strip_prefix = 1
+url = "https://github.com/tukaani-project/xz/releases/download/v5.8.1/xz-5.8.1.tar.gz"
+
+[meta]
+description = "General-purpose data compression with high compression ratio"
+homepage = "https://tukaani.org/xz/"
+license = "  license all_of: ["
+platforms = ["darwin"]

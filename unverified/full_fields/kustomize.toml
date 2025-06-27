@@ -1,0 +1,14 @@
+name = "kustomize"
+schema_version = "1"
+version = "5.6.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "80822d3227c0dbbd38bff19c4630f4fa7eccbacd0ff269a1795a63aa3a45714f"
+strip_prefix = 1
+url = "https://github.com/kubernetes-sigs/kustomize/archive/refs/tags/kustomize/v5.6.0.tar.gz"
+
+[meta]
+description = "Template-free customization of Kubernetes YAML manifests"
+homepage = "https://github.com/kubernetes-sigs/kustomize"
+license = "Apache-2.0"
+platforms = ["darwin"]

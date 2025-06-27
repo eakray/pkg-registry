@@ -1,0 +1,14 @@
+name = "uutils-coreutils"
+schema_version = "1"
+version = "0.1.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "55c528f2b53c1b30cb704550131a806e84721c87b3707b588a961a6c97f110d8"
+strip_prefix = 1
+url = "https://github.com/uutils/coreutils/archive/refs/tags/0.1.0.tar.gz"
+
+[meta]
+description = "Cross-platform Rust rewrite of the GNU coreutils"
+homepage = "https://uutils.github.io/coreutils/"
+license = "MIT"
+platforms = ["darwin"]

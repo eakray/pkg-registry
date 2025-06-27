@@ -1,0 +1,14 @@
+name = "yt-dlp"
+schema_version = "1"
+version = "2025.6.25"
+
+[binaries.darwin.x64.binary]
+sha256 = "242b648e1a18ab04bdd4cc175a317fe8ec3ad7d0175eee9f981912624b3d6c8b"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/88/77/5e86a5345fe1cf5bad022a1b7323c9934c6a867e886fdc0cae44de8a0589/yt_dlp-2025.6.25.tar.gz"
+
+[meta]
+description = "Feature-rich command-line audio/video downloader"
+homepage = "https://github.com/yt-dlp/yt-dlp"
+license = "Unlicense"
+platforms = ["darwin"]

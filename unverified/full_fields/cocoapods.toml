@@ -1,0 +1,14 @@
+name = "cocoapods"
+schema_version = "1"
+version = "1.16.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "3067f21a0025aedb5869c7080b6c4b3fa55d397b94fadc8c3037a28a6cee274c"
+strip_prefix = 1
+url = "https://github.com/CocoaPods/CocoaPods/archive/refs/tags/1.16.2.tar.gz"
+
+[meta]
+description = "Dependency manager for Cocoa projects"
+homepage = "https://cocoapods.org/"
+license = "MIT"
+platforms = ["darwin"]

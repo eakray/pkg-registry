@@ -1,0 +1,14 @@
+name = "tree-sitter"
+schema_version = "1"
+version = "0.25.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "ac6ed919c6d849e8553e246d5cd3fa22661f6c7b6497299264af433f3629957c"
+strip_prefix = 1
+url = "https://github.com/tree-sitter/tree-sitter/archive/refs/tags/v0.25.6.tar.gz"
+
+[meta]
+description = "Parser generator tool and incremental parsing library"
+homepage = "https://tree-sitter.github.io/"
+license = "MIT"
+platforms = ["darwin"]

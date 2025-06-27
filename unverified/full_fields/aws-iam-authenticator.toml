@@ -1,0 +1,14 @@
+name = "aws-iam-authenticator"
+schema_version = "1"
+version = "0.7.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "834f0b38eec0aac72d78aa07d4f970519f898c7a18a97f94ab0bb9b740730436"
+strip_prefix = 1
+url = "https://github.com/kubernetes-sigs/aws-iam-authenticator/archive/refs/tags/v0.7.3.tar.gz"
+
+[meta]
+description = "Use AWS IAM credentials to authenticate to Kubernetes"
+homepage = "https://github.com/kubernetes-sigs/aws-iam-authenticator"
+license = "Apache-2.0"
+platforms = ["darwin"]

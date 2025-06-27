@@ -1,0 +1,14 @@
+name = "lazydocker"
+schema_version = "1"
+version = "0.24.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "f54197d333a28e658d2eb4d9b22461ae73721ec9e4106ba23ed177fc530c21f4"
+strip_prefix = 1
+url = "https://github.com/jesseduffield/lazydocker/archive/refs/tags/v0.24.1.tar.gz"
+
+[meta]
+description = "Lazier way to manage everything docker"
+homepage = "https://github.com/jesseduffield/lazydocker"
+license = "MIT"
+platforms = ["darwin"]

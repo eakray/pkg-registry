@@ -1,0 +1,14 @@
+name = "tealdeer"
+schema_version = "1"
+version = "1.7.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "d0675b9aa48c00e78abafc318b9bfbcb7ea3cce63e58a42c1f9e2395abcfe0e8"
+strip_prefix = 1
+url = "https://github.com/tealdeer-rs/tealdeer/archive/refs/tags/v1.7.2.tar.gz"
+
+[meta]
+description = "Very fast implementation of tldr in Rust"
+homepage = "https://tealdeer-rs.github.io/tealdeer/"
+license = "  license any_of: ["Apache-2.0", "MIT"]"
+platforms = ["darwin"]

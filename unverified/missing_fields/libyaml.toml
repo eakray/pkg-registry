@@ -1,0 +1,5 @@
+name = "libyaml"
+schema_version = "1"
+
+[meta]
+platforms = ["darwin"]

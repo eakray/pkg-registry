@@ -1,0 +1,14 @@
+name = "bash-preexec"
+schema_version = "1"
+version = "0.5.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "23c589cd1da209c0598f92fac8d81bb11632ba1b2e68ccaf4ad2c4f3204b877c"
+strip_prefix = 1
+url = "https://github.com/rcaloras/bash-preexec/archive/refs/tags/0.5.0.tar.gz"
+
+[meta]
+description = "Preexec and precmd functions for Bash (like Zsh)"
+homepage = "https://github.com/rcaloras/bash-preexec"
+license = "MIT"
+platforms = ["darwin"]

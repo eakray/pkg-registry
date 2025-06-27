@@ -1,0 +1,14 @@
+name = "actionlint"
+schema_version = "1"
+version = "1.7.7"
+
+[binaries.darwin.x64.binary]
+sha256 = "237aec651a903bf4e9f9c8eb638da6aa4d89d07c484f45f11cfb89c2dbf277a5"
+strip_prefix = 1
+url = "https://github.com/rhysd/actionlint/archive/refs/tags/v1.7.7.tar.gz"
+
+[meta]
+description = "Static checker for GitHub Actions workflow files"
+homepage = "https://rhysd.github.io/actionlint/"
+license = "MIT"
+platforms = ["darwin"]

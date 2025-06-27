@@ -1,0 +1,14 @@
+name = "ansible"
+schema_version = "1"
+version = "11.7.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "f9df37c71d407f65bcb9c5c06c9918e297d9ea74b5cdaf5926c4c9aa9e44db5f"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/83/31/1fe54cfce344fff6ef17933705c2a5ecf2af29301e8d1af13dd1b3f14e3f/ansible-11.7.0.tar.gz"
+
+[meta]
+description = "Automate deployment, configuration, and upgrading"
+homepage = "https://www.ansible.com/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "lazygit"
+schema_version = "1"
+version = "0.52.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "2d6b045105cca36fb4a9ea9fa8834bab70f99a71dcb6f7a1aea11184ac1f66f8"
+strip_prefix = 1
+url = "https://github.com/jesseduffield/lazygit/archive/refs/tags/v0.52.0.tar.gz"
+
+[meta]
+description = "Simple terminal UI for git commands"
+homepage = "https://github.com/jesseduffield/lazygit/"
+license = "MIT"
+platforms = ["darwin"]

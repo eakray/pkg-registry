@@ -1,0 +1,14 @@
+name = "rich-cli"
+schema_version = "1"
+version = "1.8.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "7f99ed213fb18c25999b644335f74d2be621a3a68593359e7fc62e95fe7e9a8a"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/ca/55/e35962573948a148a4f63416d95d25fe75feb06d9ae2f9bb35adc416f894/rich-cli-1.8.0.tar.gz"
+
+[meta]
+description = "Command-line toolbox for fancy output in the terminal"
+homepage = "https://github.com/textualize/rich-cli"
+license = "MIT"
+platforms = ["darwin"]

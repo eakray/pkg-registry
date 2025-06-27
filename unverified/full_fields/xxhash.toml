@@ -1,0 +1,14 @@
+name = "xxhash"
+schema_version = "1"
+version = "0.8.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "aae608dfe8213dfd05d909a57718ef82f30722c392344583d3f39050c7f29a80"
+strip_prefix = 1
+url = "https://github.com/Cyan4973/xxHash/archive/refs/tags/v0.8.3.tar.gz"
+
+[meta]
+description = "Extremely fast non-cryptographic hash algorithm"
+homepage = "https://xxhash.com"
+license = "  license all_of: ["
+platforms = ["darwin"]

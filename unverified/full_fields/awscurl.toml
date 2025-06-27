@@ -1,0 +1,14 @@
+name = "awscurl"
+schema_version = "1"
+version = "0.36"
+
+[binaries.darwin.x64.binary]
+sha256 = "9eb9d4949616d90dd7bf0d12a67eb3e1d3487bf08d75a7555d979811e5da1cb4"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/f0/53/68500d2e61aff7549f878a9227eea5c80eaf6ffcad7c134c576360b1bae7/awscurl-0.36.tar.gz"
+
+[meta]
+description = "Curl like simplicity to access AWS resources"
+homepage = "https://github.com/okigan/awscurl"
+license = "MIT"
+platforms = ["darwin"]

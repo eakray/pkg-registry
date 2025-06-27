@@ -1,0 +1,14 @@
+name = "oh-my-posh"
+schema_version = "1"
+version = "26.11.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "cae4df0ef9a4530ec4625215d20fae74ba867ac6c81e6d1e04a6e89db2e4ac15"
+strip_prefix = 1
+url = "https://github.com/JanDeDobbeleer/oh-my-posh/archive/refs/tags/v26.11.0.tar.gz"
+
+[meta]
+description = "Prompt theme engine for any shell"
+homepage = "https://ohmyposh.dev"
+license = "MIT"
+platforms = ["darwin"]

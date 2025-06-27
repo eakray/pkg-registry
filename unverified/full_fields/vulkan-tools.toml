@@ -1,0 +1,14 @@
+name = "vulkan-tools"
+schema_version = "1"
+version = "1.4.319"
+
+[binaries.darwin.x64.binary]
+sha256 = "2237d15179237bf932bf715c21179520c4d54d41bc859e59802888ade452298a"
+strip_prefix = 1
+url = "https://github.com/KhronosGroup/Vulkan-Tools/archive/refs/tags/v1.4.319.tar.gz"
+
+[meta]
+description = "Vulkan utilities and tools"
+homepage = "https://github.com/KhronosGroup/Vulkan-Tools"
+license = "Apache-2.0"
+platforms = ["darwin"]

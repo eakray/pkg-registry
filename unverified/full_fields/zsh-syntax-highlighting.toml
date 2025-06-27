@@ -1,0 +1,14 @@
+name = "zsh-syntax-highlighting"
+schema_version = "1"
+version = "0.8.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "5981c19ebaab027e356fe1ee5284f7a021b89d4405cc53dc84b476c3aee9cc32"
+strip_prefix = 1
+url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/refs/tags/0.8.0.tar.gz"
+
+[meta]
+description = "Fish shell like syntax highlighting for zsh"
+homepage = "https://github.com/zsh-users/zsh-syntax-highlighting"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

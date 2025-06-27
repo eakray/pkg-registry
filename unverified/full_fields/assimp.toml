@@ -1,0 +1,14 @@
+name = "assimp"
+schema_version = "1"
+version = "6.0.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "d1822d9a19c9205d6e8bc533bf897174ddb360ce504680f294170cc1d6319751"
+strip_prefix = 1
+url = "https://github.com/assimp/assimp/archive/refs/tags/v6.0.2.tar.gz"
+
+[meta]
+description = "Portable library for importing many well-known 3D model formats"
+homepage = "https://www.assimp.org/"
+license = "  license all_of: ["
+platforms = ["darwin"]

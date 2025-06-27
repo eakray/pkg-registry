@@ -1,0 +1,14 @@
+name = "swift-sh"
+schema_version = "1"
+version = "2.5.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "07f3c2d1215b82eb56ebfeb676b5e3860c23a828c14fd482c7c1935817f3220f"
+strip_prefix = 1
+url = "https://github.com/mxcl/swift-sh/archive/refs/tags/2.5.0.tar.gz"
+
+[meta]
+description = "Scripting with easy zero-conf dependency imports"
+homepage = "https://github.com/mxcl/swift-sh"
+license = "Unlicense"
+platforms = ["darwin"]

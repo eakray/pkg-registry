@@ -1,0 +1,14 @@
+name = "rustup"
+schema_version = "1"
+version = "1.28.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "5987dcb828068a4a5e29ba99ab26f2983ac0c6e2e4dc3e5b3a3c0fafb69abbc0"
+strip_prefix = 1
+url = "https://github.com/rust-lang/rustup/archive/refs/tags/1.28.2.tar.gz"
+
+[meta]
+description = "Rust toolchain installer"
+homepage = "https://rust-lang.github.io/rustup/"
+license = "  license any_of: ["Apache-2.0", "MIT"]"
+platforms = ["darwin"]

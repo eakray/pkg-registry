@@ -1,0 +1,14 @@
+name = "overmind"
+schema_version = "1"
+version = "2.5.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "d616b89465d488878ed2e1f79e66f8af5b5c2f1d3cf75c2b08e04fb04752d187"
+strip_prefix = 1
+url = "https://github.com/DarthSim/overmind/archive/refs/tags/v2.5.1.tar.gz"
+
+[meta]
+description = "Process manager for Procfile-based applications and tmux"
+homepage = "https://github.com/DarthSim/overmind"
+license = "MIT"
+platforms = ["darwin"]

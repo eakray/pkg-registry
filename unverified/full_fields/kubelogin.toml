@@ -1,0 +1,14 @@
+name = "kubelogin"
+schema_version = "1"
+version = "1.33.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "41016c118281fe7e8686c2bcf034f879d1b5dc49bc9eb0900ddce1d2d259290d"
+strip_prefix = 1
+url = "https://github.com/int128/kubelogin/archive/refs/tags/v1.33.0.tar.gz"
+
+[meta]
+description = "OpenID Connect authentication plugin for kubectl"
+homepage = "https://github.com/int128/kubelogin"
+license = "Apache-2.0"
+platforms = ["darwin"]

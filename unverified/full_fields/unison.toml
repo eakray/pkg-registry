@@ -1,0 +1,14 @@
+name = "unison"
+schema_version = "1"
+version = "2.53.7"
+
+[binaries.darwin.x64.binary]
+sha256 = "a259537cef465c4806d6c1638c382620db2dd395ae42a0dd2efa3ba92712bed5"
+strip_prefix = 1
+url = "https://github.com/bcpierce00/unison/archive/refs/tags/v2.53.7.tar.gz"
+
+[meta]
+description = "File synchronization tool"
+homepage = "https://www.cis.upenn.edu/~bcpierce/unison/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

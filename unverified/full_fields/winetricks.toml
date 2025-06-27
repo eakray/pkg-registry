@@ -1,0 +1,14 @@
+name = "winetricks"
+schema_version = "1"
+version = "20250102.tar.gz"
+
+[binaries.darwin.x64.binary]
+sha256 = "24d339806e3309274ee70743d76ff7b965fef5a534c001916d387c924eebe42e"
+strip_prefix = 1
+url = "https://github.com/Winetricks/winetricks/archive/refs/tags/20250102.tar.gz"
+
+[meta]
+description = "Automatic workarounds for problems in Wine"
+homepage = "https://github.com/Winetricks/winetricks"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

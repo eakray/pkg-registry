@@ -1,0 +1,14 @@
+name = "grafana"
+schema_version = "1"
+version = "12.0.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "8524498289e7d1900626ea7c0763fd923cf7bd1effa48cda476e63b299acfe2d"
+strip_prefix = 1
+url = "https://github.com/grafana/grafana/archive/refs/tags/v12.0.2.tar.gz"
+
+[meta]
+description = "Gorgeous metric visualizations and dashboards for timeseries databases"
+homepage = "https://grafana.com"
+license = "AGPL-3.0-only"
+platforms = ["darwin"]

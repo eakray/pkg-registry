@@ -1,0 +1,14 @@
+name = "openstackclient"
+schema_version = "1"
+version = "8.1.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "9b9c42b3f6bc4b4b480a6254fc560acb019787831e094396dbf9ac9ae571ae4b"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/5d/30/a214551b710258ee6c878d9b77bcc43d300a6dacecb6e6662220c623e147/python_openstackclient-8.1.0.tar.gz"
+
+[meta]
+description = "Command-line client for OpenStack"
+homepage = "https://openstack.org"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "golang-migrate"
+schema_version = "1"
+version = "4.18.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "473342da619ce55bdb15e5ebcbcb6c798286b5dbd3f84f2884696b5cbe5d3d87"
+strip_prefix = 1
+url = "https://github.com/golang-migrate/migrate/archive/refs/tags/v4.18.3.tar.gz"
+
+[meta]
+description = "Database migrations CLI tool"
+homepage = "https://github.com/golang-migrate/migrate"
+license = "MIT"
+platforms = ["darwin"]

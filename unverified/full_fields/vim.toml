@@ -1,0 +1,14 @@
+name = "vim"
+schema_version = "1"
+version = "9.1.1450"
+
+[binaries.darwin.x64.binary]
+sha256 = "9d7da37891a07b089ecd0193883ca78898c41832036c10b83695071800e3a15f"
+strip_prefix = 1
+url = "https://github.com/vim/vim/archive/refs/tags/v9.1.1450.tar.gz"
+
+[meta]
+description = "Vi 'workalike' with many additional features"
+homepage = "https://www.vim.org/"
+license = "Vim"
+platforms = ["darwin"]

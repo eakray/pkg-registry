@@ -1,0 +1,14 @@
+name = "osv-scanner"
+schema_version = "1"
+version = "2.0.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "83864df449bdd335190e5dd7db8d5e1180991796204a0783cdc756834e937576"
+strip_prefix = 1
+url = "https://github.com/google/osv-scanner/archive/refs/tags/v2.0.3.tar.gz"
+
+[meta]
+description = "Vulnerability scanner which uses the OSV database"
+homepage = "https://github.com/google/osv-scanner"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "putty"
+schema_version = "1"
+version = "0.83"
+
+[binaries.darwin.x64.binary]
+sha256 = "718777c13d63d0dff91fe03162bc2a05b4dfc8b0827634cd60b51cefdff631c6"
+strip_prefix = 1
+url = "https://the.earth.li/~sgtatham/putty/0.83/putty-0.83.tar.gz"
+
+[meta]
+description = "Implementation of Telnet and SSH"
+homepage = "https://www.chiark.greenend.org.uk/~sgtatham/putty/"
+license = "MIT"
+platforms = ["darwin"]

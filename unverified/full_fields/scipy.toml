@@ -1,0 +1,14 @@
+name = "scipy"
+schema_version = "1"
+version = "1.16.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "b5ef54021e832869c8cfb03bc3bf20366cbcd426e02a58e8a58d7584dfbb8f62"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/81/18/b06a83f0c5ee8cddbde5e3f3d0bb9b702abfa5136ef6d4620ff67df7eee5/scipy-1.16.0.tar.gz"
+
+[meta]
+description = "Software for mathematics, science, and engineering"
+homepage = "https://www.scipy.org"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

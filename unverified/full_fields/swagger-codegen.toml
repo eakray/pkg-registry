@@ -1,0 +1,14 @@
+name = "swagger-codegen"
+schema_version = "1"
+version = "3.0.69"
+
+[binaries.darwin.x64.binary]
+sha256 = "65a9c70119afaf3d780f9f50c75cf178c4f9a294adc0183749a36e2e9aa3d580"
+strip_prefix = 1
+url = "https://github.com/swagger-api/swagger-codegen/archive/refs/tags/v3.0.69.tar.gz"
+
+[meta]
+description = "Generate clients, server stubs, and docs from an OpenAPI spec"
+homepage = "https://swagger.io/tools/swagger-codegen/"
+license = "Apache-2.0"
+platforms = ["darwin"]

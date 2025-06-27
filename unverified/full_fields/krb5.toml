@@ -1,0 +1,14 @@
+name = "krb5"
+schema_version = "1"
+version = "krb51.21.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "b7a4cd5ead67fb08b980b21abd150ff7217e85ea320c9ed0c6dadd304840ad35"
+strip_prefix = 1
+url = "https://kerberos.org/dist/krb5/1.21/krb5-1.21.3.tar.gz"
+
+[meta]
+description = "Network authentication protocol"
+homepage = "https://web.mit.edu/kerberos/"
+license = "  license :cannot_represent"
+platforms = ["darwin"]

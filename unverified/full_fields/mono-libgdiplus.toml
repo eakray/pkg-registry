@@ -1,0 +1,14 @@
+name = "mono-libgdiplus"
+schema_version = "1"
+version = "6.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "683adb7d99d03f6ee7985173a206a2243f76632682334ced4cae2fcd20c83bc9"
+strip_prefix = 1
+url = "https://dl.winehq.org/mono/sources/libgdiplus/libgdiplus-6.2.tar.gz"
+
+[meta]
+description = "GDI+-compatible API on non-Windows operating systems"
+homepage = "https://www.mono-project.com/docs/gui/libgdiplus/"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "luarocks"
+schema_version = "1"
+version = "3.12.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "f56b85a2a7a481f0321845807b79a05237860b04e4a9d186da632770029b3290"
+strip_prefix = 1
+url = "https://luarocks.org/releases/luarocks-3.12.1.tar.gz"
+
+[meta]
+description = "Package manager for the Lua programming language"
+homepage = "https://luarocks.org/"
+license = "MIT"
+platforms = ["darwin"]

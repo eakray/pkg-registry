@@ -1,0 +1,14 @@
+name = "kind"
+schema_version = "1"
+version = "0.29.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "32fcd55671f241b7a782400e1bf1c762f9729526850e7eda08f56451f12268ea"
+strip_prefix = 1
+url = "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.29.0.tar.gz"
+
+[meta]
+description = "Run local Kubernetes cluster in Docker"
+homepage = "https://kind.sigs.k8s.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

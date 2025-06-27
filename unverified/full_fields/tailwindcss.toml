@@ -1,0 +1,14 @@
+name = "tailwindcss"
+schema_version = "1"
+version = "4.1.11"
+
+[binaries.darwin.x64.binary]
+sha256 = "d26ab44103a28804e1d1f4c280d8abaf6db7234c8d9eb940ec7dc435c5ad80df"
+strip_prefix = 1
+url = "https://registry.npmjs.org/@tailwindcss/cli/-/cli-4.1.11.tgz"
+
+[meta]
+description = "Utility-first CSS framework"
+homepage = "https://tailwindcss.com"
+license = "MIT"
+platforms = ["darwin"]

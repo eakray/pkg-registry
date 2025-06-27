@@ -1,0 +1,14 @@
+name = "jo"
+schema_version = "1"
+version = "1.9"
+
+[binaries.darwin.x64.binary]
+sha256 = "0195cd6f2a41103c21544e99cd9517b0bce2d2dc8cde31a34867977f8a19c79f"
+strip_prefix = 1
+url = "https://github.com/jpmens/jo/releases/download/1.9/jo-1.9.tar.gz"
+
+[meta]
+description = "JSON output from a shell"
+homepage = "https://github.com/jpmens/jo"
+license = "  license all_of: ["GPL-2.0-or-later", "MIT"]"
+platforms = ["darwin"]

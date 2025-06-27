@@ -1,0 +1,14 @@
+name = "chibi-scheme"
+schema_version = "1"
+version = "0.11"
+
+[binaries.darwin.x64.binary]
+sha256 = "74d4edd9a904e30da7b4defe4c0d7aac63c5254e64869935f5de86acf59db6b2"
+strip_prefix = 1
+url = "https://github.com/ashinn/chibi-scheme/releases/download/0.11/chibi-scheme-0.11.0.tgz"
+
+[meta]
+description = "Small footprint Scheme for use as a C Extension Language"
+homepage = "https://github.com/ashinn/chibi-scheme"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

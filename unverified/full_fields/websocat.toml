@@ -1,0 +1,14 @@
+name = "websocat"
+schema_version = "1"
+version = "1.14.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "919ee83c961074c176a129874a77c02889401f3548c2536a84c4427f97cfeb26"
+strip_prefix = 1
+url = "https://github.com/vi/websocat/archive/refs/tags/v1.14.0.tar.gz"
+
+[meta]
+description = "Command-line client for WebSockets"
+homepage = "https://github.com/vi/websocat"
+license = "MIT"
+platforms = ["darwin"]

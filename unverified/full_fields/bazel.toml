@@ -1,0 +1,14 @@
+name = "bazel"
+schema_version = "1"
+version = "8.3.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "c81cbf1a4d26cfb283c26c3544d47828679e42476e32e807151b9f647207530c"
+strip_prefix = 1
+url = "https://github.com/bazelbuild/bazel/releases/download/8.3.0/bazel-8.3.0-dist.zip"
+
+[meta]
+description = "Google's own build tool"
+homepage = "https://bazel.build/"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "chafa"
+schema_version = "1"
+version = "1.16.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "4a25debb71530baf0a748b15cfee6b8da6b513f696d9484987eaf410ecce1129"
+strip_prefix = 1
+url = "https://hpjansson.org/chafa/releases/chafa-1.16.1.tar.xz"
+
+[meta]
+description = "Versatile and fast Unicode/ASCII/ANSI graphics renderer"
+homepage = "https://hpjansson.org/chafa/"
+license = "LGPL-3.0-or-later"
+platforms = ["darwin"]

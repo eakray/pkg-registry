@@ -1,0 +1,14 @@
+name = "esphome"
+schema_version = "1"
+version = "2025.6.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "4dd4a6126f4c54f0bcf1face7a7851db0eae3f4f292c64311185aa5f9617ad6c"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/e0/13/e4fbc5c54e2228fe40447f0109e0394cb76c779bf188cc93066739c4b348/esphome-2025.6.1.tar.gz"
+
+[meta]
+description = "Make creating custom firmwares for ESP32/ESP8266 super easy"
+homepage = "https://github.com/esphome/esphome"
+license = "MIT"
+platforms = ["darwin"]

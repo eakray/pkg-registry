@@ -1,0 +1,14 @@
+name = "talhelper"
+schema_version = "1"
+version = "3.0.29"
+
+[binaries.darwin.x64.binary]
+sha256 = "e04b6740245a749f78f8927006e5e0ed389fec4f306e105127f3f0982ca09d33"
+strip_prefix = 1
+url = "https://github.com/budimanjojo/talhelper/archive/refs/tags/v3.0.29.tar.gz"
+
+[meta]
+description = "Configuration helper for talos clusters"
+homepage = "https://budimanjojo.github.io/talhelper/latest/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

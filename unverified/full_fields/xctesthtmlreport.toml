@@ -1,0 +1,14 @@
+name = "xctesthtmlreport"
+schema_version = "1"
+version = "2.5.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "8d5a35bb8eccd8eb49f923c8169e46dc3a669aa274bbdb75cc92d97ae1e76b36"
+strip_prefix = 1
+url = "https://github.com/XCTestHTMLReport/XCTestHTMLReport/archive/refs/tags/2.5.1.tar.gz"
+
+[meta]
+description = "Xcode-like HTML report for Unit and UI Tests"
+homepage = "https://github.com/XCTestHTMLReport/XCTestHTMLReport"
+license = "MIT"
+platforms = ["darwin"]

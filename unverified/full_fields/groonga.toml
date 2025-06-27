@@ -1,0 +1,14 @@
+name = "groonga"
+schema_version = "1"
+version = "15.1.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "2b15132948ea7cd7e9c8e726d2e2d390f9927efbc14536e0bea992e05db8f070"
+strip_prefix = 1
+url = "https://github.com/groonga/groonga/releases/download/v15.1.1/groonga-15.1.1.tar.gz"
+
+[meta]
+description = "Fulltext search engine and column store"
+homepage = "https://groonga.org/"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

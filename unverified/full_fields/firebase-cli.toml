@@ -1,0 +1,14 @@
+name = "firebase-cli"
+schema_version = "1"
+version = "14.9.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "c225eca48435580d0c4b0551f05df8790c44653fa32c9ad635b73f46ee3b7b46"
+strip_prefix = 1
+url = "https://registry.npmjs.org/firebase-tools/-/firebase-tools-14.9.0.tgz"
+
+[meta]
+description = "Firebase command-line tools"
+homepage = "https://firebase.google.com/docs/cli/"
+license = "MIT"
+platforms = ["darwin"]

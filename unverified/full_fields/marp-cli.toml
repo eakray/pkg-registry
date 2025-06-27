@@ -1,0 +1,14 @@
+name = "marp-cli"
+schema_version = "1"
+version = "4.2.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "cc6ad9252588c05bd0dd8e74ab81a791df7e4cca7e33198237fd575005e68e27"
+strip_prefix = 1
+url = "https://registry.npmjs.org/@marp-team/marp-cli/-/marp-cli-4.2.0.tgz"
+
+[meta]
+description = "Easily convert Marp Markdown files into static HTML/CSS, PDF, PPT and images"
+homepage = "https://github.com/marp-team/marp-cli"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "pgcli"
+schema_version = "1"
+version = "4.3.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "765ae1550c5508a481f19f16a99716c253fe91afb255797add2d635da20b6aef"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/ab/9a/c86de44b7a663f0a15cb835d317f22f2ef8438154f6b646ffe32baa3799d/pgcli-4.3.0.tar.gz"
+
+[meta]
+description = "CLI for Postgres with auto-completion and syntax highlighting"
+homepage = "https://pgcli.com/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

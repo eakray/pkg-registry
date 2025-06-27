@@ -1,0 +1,14 @@
+name = "hasura-cli"
+schema_version = "1"
+version = "2.47.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "77302d2040a4b751ab4cd380a3e1ae076c766f5831f50e9c1b129daf4f29182b"
+strip_prefix = 1
+url = "https://github.com/hasura/graphql-engine/archive/refs/tags/v2.47.0.tar.gz"
+
+[meta]
+description = "Command-Line Interface for Hasura GraphQL Engine"
+homepage = "https://hasura.io"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,13 @@
+name = "etcd"
+schema_version = "1"
+version = "etcd.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/etcd-io/etcd.git,"
+
+[meta]
+description = "Key value store for shared configuration and service discovery"
+homepage = "https://github.com/etcd-io/etcd"
+license = "Apache-2.0"
+platforms = ["darwin"]

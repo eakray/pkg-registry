@@ -1,0 +1,13 @@
+name = "micro"
+schema_version = "1"
+version = "micro.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/zyedidia/micro.git,"
+
+[meta]
+description = "Modern and intuitive terminal-based text editor"
+homepage = "https://github.com/zyedidia/micro"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "exercism"
+schema_version = "1"
+version = "3.5.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "7e01a838877d6fc9faea5a6ad3834351b8e485acc9053bbdf59ce3ab3ce0d3b8"
+strip_prefix = 1
+url = "https://github.com/exercism/cli/archive/refs/tags/v3.5.5.tar.gz"
+
+[meta]
+description = "Command-line tool to interact with exercism.io"
+homepage = "https://exercism.io/cli/"
+license = "MIT"
+platforms = ["darwin"]

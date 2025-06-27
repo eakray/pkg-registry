@@ -1,0 +1,14 @@
+name = "giflib"
+schema_version = "1"
+version = "5.2.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "be7ffbd057cadebe2aa144542fd90c6838c6a083b5e8a9048b8ee3b66b29d5fb"
+strip_prefix = 1
+url = "https://downloads.sourceforge.net/project/giflib/giflib-5.2.2.tar.gz"
+
+[meta]
+description = "Library and utilities for processing GIFs"
+homepage = "https://giflib.sourceforge.net/"
+license = "MIT"
+platforms = ["darwin"]

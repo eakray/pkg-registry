@@ -1,0 +1,14 @@
+name = "xcodes"
+schema_version = "1"
+version = "1.6.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "0c38a39ecd527d15c3343da9b9bc57c9f0d5217f4c9d36fc3879c3ae423b1295"
+strip_prefix = 1
+url = "https://github.com/XcodesOrg/xcodes/archive/refs/tags/1.6.2.tar.gz"
+
+[meta]
+description = "Best command-line tool to install and switch between multiple versions of Xcode"
+homepage = "https://github.com/XcodesOrg/xcodes"
+license = "MIT"
+platforms = ["darwin"]

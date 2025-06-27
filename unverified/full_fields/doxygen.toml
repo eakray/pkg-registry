@@ -1,0 +1,14 @@
+name = "doxygen"
+schema_version = "1"
+version = "1.14.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "d4536d11ab13037327d8d026b75f5a86b7ccb2093e2f546235faf61fd86e6b5d"
+strip_prefix = 1
+url = "https://doxygen.nl/files/doxygen-1.14.0.src.tar.gz"
+
+[meta]
+description = "Generate documentation for several programming languages"
+homepage = "https://www.doxygen.nl/"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

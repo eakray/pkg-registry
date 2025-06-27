@@ -1,0 +1,14 @@
+name = "media-info"
+schema_version = "1"
+version = "25.04"
+
+[binaries.darwin.x64.binary]
+sha256 = "ecd286de77cb13ea4b6ce0ebdbbff3f3da89c67ec2d5c330d47f385a4329c5d2"
+strip_prefix = 1
+url = "https://mediaarea.net/download/binary/mediainfo/25.04/MediaInfo_CLI_25.04_GNU_FromSource.tar.xz"
+
+[meta]
+description = "Unified display of technical and tag data for audio/video"
+homepage = "https://mediaarea.net/"
+license = "BSD-2-Clause"
+platforms = ["darwin"]

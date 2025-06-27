@@ -1,0 +1,14 @@
+name = "mongosh"
+schema_version = "1"
+version = "2.5.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "c10bb9ec0fdc8f2c3fae1a2b550f94625db85b0c9e106f812798e5a655d55caa"
+strip_prefix = 1
+url = "https://registry.npmjs.org/@mongosh/cli-repl/-/cli-repl-2.5.3.tgz"
+
+[meta]
+description = "MongoDB Shell to connect, configure, query, and work with your MongoDB database"
+homepage = "https://github.com/mongodb-js/mongosh"
+license = "Apache-2.0"
+platforms = ["darwin"]

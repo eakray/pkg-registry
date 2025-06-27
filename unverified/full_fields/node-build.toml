@@ -1,0 +1,14 @@
+name = "node-build"
+schema_version = "1"
+version = "5.4.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "186cfc8f18ea061364fc36b1eb754c73bd76564886390e6d2502ecf84a92d1da"
+strip_prefix = 1
+url = "https://github.com/nodenv/node-build/archive/refs/tags/v5.4.5.tar.gz"
+
+[meta]
+description = "Install NodeJS versions"
+homepage = "https://github.com/nodenv/node-build"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "minicom"
+schema_version = "1"
+version = "2.10"
+
+[binaries.darwin.x64.binary]
+sha256 = "90e7ce2856b3eaaa3f452354d17981c49d32c426a255b6f0d3063a227c101538"
+strip_prefix = 1
+url = "https://deb.debian.org/debian/pool/main/m/minicom/minicom_2.10.orig.tar.bz2"
+
+[meta]
+description = "Menu-driven communications program"
+homepage = "https://packages.debian.org/sid/minicom"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

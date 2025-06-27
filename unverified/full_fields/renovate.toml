@@ -1,0 +1,14 @@
+name = "renovate"
+schema_version = "1"
+version = "41.13.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "c5dc23e72235ecf1add19bc7cd6a5d38a349c9334bda81312acfd8a8e8baba2e"
+strip_prefix = 1
+url = "https://registry.npmjs.org/renovate/-/renovate-41.13.0.tgz"
+
+[meta]
+description = "Automated dependency updates. Flexible so you don't need to be"
+homepage = "https://github.com/renovatebot/renovate"
+license = "AGPL-3.0-only"
+platforms = ["darwin"]

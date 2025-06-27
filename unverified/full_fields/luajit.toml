@@ -1,0 +1,14 @@
+name = "luajit"
+schema_version = "1"
+version = "2.1.1748459687"
+
+[binaries.darwin.x64.binary]
+sha256 = "2d3f26c3261f46ae59d3e9489c632e3910f2033c657a24a90666ee0acf032463"
+strip_prefix = 1
+url = "https://github.com/LuaJIT/LuaJIT/archive/f9140a622a0c44a99efb391cc1c2358bc8098ab7.tar.gz"
+
+[meta]
+description = "Just-In-Time Compiler (JIT) for the Lua programming language"
+homepage = "https://luajit.org/luajit.html"
+license = "MIT"
+platforms = ["darwin"]

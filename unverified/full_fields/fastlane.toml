@@ -1,0 +1,14 @@
+name = "fastlane"
+schema_version = "1"
+version = "2.228.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "c481eb8fda99ec15fdae7c1092b9bfb0ab974fcc48fe814b790704cd2d890e45"
+strip_prefix = 1
+url = "https://github.com/fastlane/fastlane/archive/refs/tags/2.228.0.tar.gz"
+
+[meta]
+description = "Easiest way to build and release mobile apps"
+homepage = "https://fastlane.tools"
+license = "MIT"
+platforms = ["darwin"]

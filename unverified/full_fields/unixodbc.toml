@@ -1,0 +1,14 @@
+name = "unixodbc"
+schema_version = "1"
+version = "2.3.12"
+
+[binaries.darwin.x64.binary]
+sha256 = "f210501445ce21bf607ba51ef8c125e10e22dffdffec377646462df5f01915ec"
+strip_prefix = 1
+url = "https://www.unixodbc.org/unixODBC-2.3.12.tar.gz"
+
+[meta]
+description = "ODBC 3 connectivity for UNIX"
+homepage = "https://www.unixodbc.org/"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

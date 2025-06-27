@@ -1,0 +1,13 @@
+name = "buildkit"
+schema_version = "1"
+version = "buildkit.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/moby/buildkit.git,"
+
+[meta]
+description = "Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+homepage = "https://github.com/moby/buildkit"
+license = "Apache-2.0"
+platforms = ["darwin"]

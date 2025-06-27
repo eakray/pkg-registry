@@ -1,0 +1,14 @@
+name = "aws-nuke"
+schema_version = "1"
+version = "3.56.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "d43ab2e77994e5c9ec19651d998624cb9e68408dc0fa31aab2e6e830910f6fde"
+strip_prefix = 1
+url = "https://github.com/ekristen/aws-nuke/archive/refs/tags/v3.56.2.tar.gz"
+
+[meta]
+description = "Nuke a whole AWS account and delete all its resources"
+homepage = "https://github.com/ekristen/aws-nuke"
+license = "MIT"
+platforms = ["darwin"]

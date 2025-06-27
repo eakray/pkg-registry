@@ -1,0 +1,14 @@
+name = "apache-arrow"
+schema_version = "1"
+version = "20.0.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "89efbbf852f5a1f79e9c99ab4c217e2eb7f991837c005cba2d4a2fbd35fad212"
+strip_prefix = 1
+url = "https://www.apache.org/dyn/closer.lua?path=arrow/arrow-20.0.0/apache-arrow-20.0.0.tar.gz"
+
+[meta]
+description = "Columnar in-memory analytics layer designed to accelerate big data"
+homepage = "https://arrow.apache.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

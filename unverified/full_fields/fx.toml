@@ -1,0 +1,14 @@
+name = "fx"
+schema_version = "1"
+version = "37.0.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "75c8c360bac4bccbab85b4873b7030a4ed88d8d4a6e718a935851be6454fe56b"
+strip_prefix = 1
+url = "https://github.com/antonmedv/fx/archive/refs/tags/37.0.0.tar.gz"
+
+[meta]
+description = "Terminal JSON viewer"
+homepage = "https://fx.wtf"
+license = "MIT"
+platforms = ["darwin"]

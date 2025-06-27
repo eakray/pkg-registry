@@ -1,0 +1,14 @@
+name = "grpcui"
+schema_version = "1"
+version = "1.4.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "7fa3039bfa6c06a688c1094177445f759c592be2f04574a234da7a88ab2d0efd"
+strip_prefix = 1
+url = "https://github.com/fullstorydev/grpcui/archive/refs/tags/v1.4.3.tar.gz"
+
+[meta]
+description = "Interactive web UI for gRPC, along the lines of postman"
+homepage = "https://github.com/fullstorydev/grpcui"
+license = "MIT"
+platforms = ["darwin"]

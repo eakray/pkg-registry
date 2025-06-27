@@ -1,0 +1,14 @@
+name = "rocksdb"
+schema_version = "1"
+version = "10.2.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "d1ddfd3551e649f7e2d180d5a6a006d90cfde56dcfe1e548c58d95b7f1c87049"
+strip_prefix = 1
+url = "https://github.com/facebook/rocksdb/archive/refs/tags/v10.2.1.tar.gz"
+
+[meta]
+description = "Embeddable, persistent key-value store for fast storage"
+homepage = "https://rocksdb.org/"
+license = "  license any_of: ["GPL-2.0-only", "Apache-2.0"]"
+platforms = ["darwin"]

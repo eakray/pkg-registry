@@ -1,0 +1,14 @@
+name = "git-lfs"
+schema_version = "1"
+version = "3.7.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "d078b8393514c65c485d1628e610449ba048af746749912bd082d818b2454348"
+strip_prefix = 1
+url = "https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-v3.7.0.tar.gz"
+
+[meta]
+description = "Git extension for versioning large files"
+homepage = "https://git-lfs.com/"
+license = "MIT"
+platforms = ["darwin"]

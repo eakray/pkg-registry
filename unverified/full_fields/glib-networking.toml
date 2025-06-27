@@ -1,0 +1,14 @@
+name = "glib-networking"
+schema_version = "1"
+version = "2.80.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "b80e2874157cd55071f1b6710fa0b911d5ac5de106a9ee2a4c9c7bee61782f8e"
+strip_prefix = 1
+url = "https://download.gnome.org/sources/glib-networking/2.80/glib-networking-2.80.1.tar.xz"
+
+[meta]
+description = "Network related modules for glib"
+homepage = "https://gitlab.gnome.org/GNOME/glib-networking"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

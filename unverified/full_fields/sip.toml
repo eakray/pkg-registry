@@ -1,0 +1,14 @@
+name = "sip"
+schema_version = "1"
+version = "6.12.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "083ced94f85315493231119a63970b2ba42b1d38b38e730a70e02a99191a89c6"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/25/fb/67c5ebb38defec74da7a3e2e0fa994809d152e3d4097f260bc7862a7af30/sip-6.12.0.tar.gz"
+
+[meta]
+description = "Tool to create Python bindings for C and C++ libraries"
+homepage = "https://python-sip.readthedocs.io/en/latest/"
+license = "BSD-2-Clause"
+platforms = ["darwin"]

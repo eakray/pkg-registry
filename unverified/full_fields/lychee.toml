@@ -1,0 +1,14 @@
+name = "lychee"
+schema_version = "1"
+version = "0.19.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "20870738b8a1ccd4658327351682382a177234014ea5e24e9f932f905b2f7d35"
+strip_prefix = 1
+url = "https://github.com/lycheeverse/lychee/archive/refs/tags/lychee-v0.19.1.tar.gz"
+
+[meta]
+description = "Fast, async, resource-friendly link checker"
+homepage = "https://lychee.cli.rs/"
+license = "  license any_of: ["Apache-2.0", "MIT"]"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "tor"
+schema_version = "1"
+version = "0.4.8"
+
+[binaries.darwin.x64.binary]
+sha256 = "6540dd377a120fb8e7d27530aa3b7ff72a0fa5b4f670fe1d64c987c1cfd390cb"
+strip_prefix = 1
+url = "https://www.torproject.org/dist/tor-0.4.8.16.tar.gz"
+
+[meta]
+description = "Anonymizing overlay network for TCP"
+homepage = "https://www.torproject.org/"
+license = "  license all_of: ["
+platforms = ["darwin"]

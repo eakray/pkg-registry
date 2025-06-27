@@ -1,0 +1,14 @@
+name = "util-linux"
+schema_version = "1"
+version = "2.41.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "be9ad9a276f4305ab7dd2f5225c8be1ff54352f565ff4dede9628c1aaa7dec57"
+strip_prefix = 1
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.41/util-linux-2.41.1.tar.xz"
+
+[meta]
+description = "Collection of Linux utilities"
+homepage = "https://github.com/util-linux/util-linux"
+license = "  license all_of: ["
+platforms = ["darwin"]

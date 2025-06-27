@@ -1,0 +1,14 @@
+name = "vite"
+schema_version = "1"
+version = "7.0.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "510a787115279bd2fb53ab4d52c60ba90aac99c06bc06e4a9183a3483aec4ded"
+strip_prefix = 1
+url = "https://registry.npmjs.org/vite/-/vite-7.0.0.tgz"
+
+[meta]
+description = "Next generation frontend tooling. It's fast!"
+homepage = "https://vitejs.dev/"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "postgresql@17"
+schema_version = "1"
+version = "17.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "fcb7ab38e23b264d1902cb25e6adafb4525a6ebcbd015434aeef9eda80f528d8"
+strip_prefix = 1
+url = "https://ftp.postgresql.org/pub/source/v17.5/postgresql-17.5.tar.bz2"
+
+[meta]
+description = "Object-relational database system"
+homepage = "https://www.postgresql.org/"
+license = "PostgreSQL"
+platforms = ["darwin"]

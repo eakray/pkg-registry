@@ -1,0 +1,14 @@
+name = "gnu-tar"
+schema_version = "1"
+version = "1.35"
+
+[binaries.darwin.x64.binary]
+sha256 = "14d55e32063ea9526e057fbf35fcabd53378e769787eff7919c3755b02d2b57e"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/tar/tar-1.35.tar.gz"
+
+[meta]
+description = "GNU version of the tar archiving utility"
+homepage = "https://www.gnu.org/software/tar/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

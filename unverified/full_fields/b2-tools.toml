@@ -1,0 +1,14 @@
+name = "b2-tools"
+schema_version = "1"
+version = "b24.3.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "a66f78e91f8ac36721093b751d09d3d228957473ee3df50b5138e72290e32646"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/1d/b7/0af30c4a6c0344e897a153f4f0022b041bf803562d047d6f0140940c2e8e/b2-4.3.3.tar.gz"
+
+[meta]
+description = "B2 Cloud Storage Command-Line Tools"
+homepage = "https://github.com/Backblaze/B2_Command_Line_Tool"
+license = "MIT"
+platforms = ["darwin"]

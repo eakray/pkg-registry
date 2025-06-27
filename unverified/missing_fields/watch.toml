@@ -1,0 +1,13 @@
+name = "watch"
+schema_version = "1"
+version = "procps.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://gitlab.com/procps-ng/procps.git,"
+
+[meta]
+description = "Executes a program periodically, showing output fullscreen"
+homepage = "https://gitlab.com/procps-ng/procps"
+license = "  license all_of: ["GPL-2.0-or-later", "LGPL-2.1-or-later"]"
+platforms = ["darwin"]

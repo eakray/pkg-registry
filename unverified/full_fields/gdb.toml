@@ -1,0 +1,14 @@
+name = "gdb"
+schema_version = "1"
+version = "16.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "bcfcd095528a987917acf9fff3f1672181694926cc18d609c99d0042c00224c5"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/gdb/gdb-16.3.tar.xz"
+
+[meta]
+description = "GNU debugger"
+homepage = "https://www.gnu.org/software/gdb/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "expat"
+schema_version = "1"
+version = "2.7.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "baacdd8d98d5d3b753f2a2780d84b0bc7731be11cacdc1b98cb8ad73f0504e68"
+strip_prefix = 1
+url = "https://github.com/libexpat/libexpat/releases/download/R_2_7_1/expat-2.7.1.tar.lz"
+
+[meta]
+description = "XML 1.0 parser"
+homepage = "https://libexpat.github.io/"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "gh"
+schema_version = "1"
+version = "2.74.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "58d383e75e1a6f3eb5e5694f232d1ed6f7f53681fda9c6a997e6e1be344edd94"
+strip_prefix = 1
+url = "https://github.com/cli/cli/archive/refs/tags/v2.74.2.tar.gz"
+
+[meta]
+description = "GitHub command-line tool"
+homepage = "https://cli.github.com/"
+license = "MIT"
+platforms = ["darwin"]

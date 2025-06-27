@@ -1,0 +1,14 @@
+name = "clamav"
+schema_version = "1"
+version = "1.4.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "d874cabf3d4765b35b518ef535658a1e6ec74802006a1d613f9f124aa1343210"
+strip_prefix = 1
+url = "https://github.com/Cisco-Talos/clamav/releases/download/clamav-1.4.3/clamav-1.4.3.tar.gz"
+
+[meta]
+description = "Anti-virus software"
+homepage = "https://www.clamav.net/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

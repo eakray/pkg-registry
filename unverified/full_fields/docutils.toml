@@ -1,0 +1,14 @@
+name = "docutils"
+schema_version = "1"
+version = "0.21.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "3a6b18732edf182daa3cd12775bbb338cf5691468f91eeeb109deff6ebfa986f"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/ae/ed/aefcc8cd0ba62a0560c3c18c33925362d46c6075480bfa4df87b28e169a9/docutils-0.21.2.tar.gz"
+
+[meta]
+description = "Text processing system for reStructuredText"
+homepage = "https://docutils.sourceforge.io"
+license = "  license all_of: [:public_domain, "BSD-2-Clause", "GPL-3.0-or-later", "Python-2.0"]"
+platforms = ["darwin"]

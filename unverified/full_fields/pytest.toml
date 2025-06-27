@@ -1,0 +1,14 @@
+name = "pytest"
+schema_version = "1"
+version = "8.4.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "7c67fd69174877359ed9371ec3af8a3d2b04741818c51e5e99cc1742251fa93c"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/08/ba/45911d754e8eba3d5a841a5ce61a65a685ff1798421ac054f85aa8747dfb/pytest-8.4.1.tar.gz"
+
+[meta]
+description = "Simple powerful testing with Python"
+homepage = "https://docs.pytest.org/en/latest/"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "rbenv"
+schema_version = "1"
+version = "1.3.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "e2104f6472d7a8477409c46d4de39562b4d01899148a3dbed73c1d99a0b4bb2a"
+strip_prefix = 1
+url = "https://github.com/rbenv/rbenv/archive/refs/tags/v1.3.2.tar.gz"
+
+[meta]
+description = "Ruby version manager"
+homepage = "https://rbenv.org"
+license = "MIT"
+platforms = ["darwin"]

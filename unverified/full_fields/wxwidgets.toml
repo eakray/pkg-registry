@@ -1,0 +1,14 @@
+name = "wxwidgets"
+schema_version = "1"
+version = "3.2.8"
+
+[binaries.darwin.x64.binary]
+sha256 = "c74784904109d7229e6894c85cfa068f1106a4a07c144afd78af41f373ee0fe6"
+strip_prefix = 1
+url = "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.8/wxWidgets-3.2.8.tar.bz2"
+
+[meta]
+description = "Cross-platform C++ GUI toolkit"
+homepage = "https://www.wxwidgets.org"
+license = "LGPL-2.0-or-later" => { with: "WxWindows-exception-3.1 }"
+platforms = ["darwin"]

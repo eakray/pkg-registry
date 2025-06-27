@@ -1,0 +1,14 @@
+name = "python-tk@3.13"
+schema_version = "1"
+version = "3.13.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "e6190f52699b534ee203d9f417bdbca05a92f23e35c19c691a50ed2942835385"
+strip_prefix = 1
+url = "https://www.python.org/ftp/python/3.13.5/Python-3.13.5.tgz"
+
+[meta]
+description = "Python interface to Tcl/Tk"
+homepage = "https://www.python.org/"
+license = "Python-2.0"
+platforms = ["darwin"]

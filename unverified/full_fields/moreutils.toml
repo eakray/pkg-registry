@@ -1,0 +1,14 @@
+name = "moreutils"
+schema_version = "1"
+version = "0.70"
+
+[binaries.darwin.x64.binary]
+sha256 = "f2bf46d410ba567cc8d01507e94916994e48742722e690dc498fab59f5250132"
+strip_prefix = 1
+url = "https://git.joeyh.name/index.cgi/moreutils.git/snapshot/moreutils-0.70.tar.gz"
+
+[meta]
+description = "Collection of tools that nobody wrote when UNIX was young"
+homepage = "https://joeyh.name/code/moreutils/"
+license = "  license all_of: ["
+platforms = ["darwin"]

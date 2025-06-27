@@ -1,0 +1,14 @@
+name = "helmfile"
+schema_version = "1"
+version = "1.1.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "990e30ec57cc1701a6c1265d3e6b7d820ddf93444aea5daf568fe0c220cd46da"
+strip_prefix = 1
+url = "https://github.com/helmfile/helmfile/archive/refs/tags/v1.1.2.tar.gz"
+
+[meta]
+description = "Deploy Kubernetes Helm Charts"
+homepage = "https://github.com/helmfile/helmfile"
+license = "MIT"
+platforms = ["darwin"]

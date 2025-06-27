@@ -1,0 +1,14 @@
+name = "scons"
+schema_version = "1"
+version = "4.9.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "bacac880ba2e86d6a156c116e2f8f2bfa82b257046f3ac2666c85c53c615c338"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/c8/c1/30176c76c1ef723fab62e5cdb15d3c972427a146cb6f868748613d7b25af/scons-4.9.1.tar.gz"
+
+[meta]
+description = "Substitute for classic 'make' tool with autoconf/automake functionality"
+homepage = "https://www.scons.org/"
+license = "MIT"
+platforms = ["darwin"]

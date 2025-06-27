@@ -1,0 +1,14 @@
+name = "xcbeautify"
+schema_version = "1"
+version = "2.28.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "bf59b8c5fc41f4bb98d603b4915e1ac92e5c1c3ff6eab0369ab18c8819800cc6"
+strip_prefix = 1
+url = "https://github.com/cpisciotta/xcbeautify/archive/refs/tags/2.28.0.tar.gz"
+
+[meta]
+description = "Little beautifier tool for xcodebuild"
+homepage = "https://github.com/cpisciotta/xcbeautify"
+license = "MIT"
+platforms = ["darwin"]

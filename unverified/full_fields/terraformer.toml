@@ -1,0 +1,14 @@
+name = "terraformer"
+schema_version = "1"
+version = "0.8.30"
+
+[binaries.darwin.x64.binary]
+sha256 = "9e4738fadae011e458fa6fee168f47166cd3a9f5d7a9378018116345b0d6b4e6"
+strip_prefix = 1
+url = "https://github.com/GoogleCloudPlatform/terraformer/archive/refs/tags/0.8.30.tar.gz"
+
+[meta]
+description = "CLI tool to generate terraform files from existing infrastructure"
+homepage = "https://github.com/GoogleCloudPlatform/terraformer"
+license = "Apache-2.0"
+platforms = ["darwin"]

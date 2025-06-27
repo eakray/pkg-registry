@@ -1,0 +1,14 @@
+name = "ios-webkit-debug-proxy"
+schema_version = "1"
+version = "1.9.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "6b7781294cc84d383c7e7ecd05af08ca8d9b2af7a49ba648178ae4d84837c52b"
+strip_prefix = 1
+url = "https://github.com/google/ios-webkit-debug-proxy/archive/refs/tags/v1.9.1.tar.gz"
+
+[meta]
+description = "DevTools proxy for iOS devices"
+homepage = "https://github.com/google/ios-webkit-debug-proxy"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

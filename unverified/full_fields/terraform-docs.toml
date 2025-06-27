@@ -1,0 +1,14 @@
+name = "terraform-docs"
+schema_version = "1"
+version = "0.20.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "793ad60be207292b9f27664d5c73bd75512e7a5e458b0fe2daa872b5ad46d6a9"
+strip_prefix = 1
+url = "https://github.com/terraform-docs/terraform-docs/archive/refs/tags/v0.20.0.tar.gz"
+
+[meta]
+description = "Tool to generate documentation from Terraform modules"
+homepage = "https://terraform-docs.io/"
+license = "MIT"
+platforms = ["darwin"]

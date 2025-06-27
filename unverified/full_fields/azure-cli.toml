@@ -1,0 +1,14 @@
+name = "azure-cli"
+schema_version = "1"
+version = "2.74.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "e82e0772d5c89e1f404ad925f87d45fe2490b3f8671bc72814f978f5f4b2a951"
+strip_prefix = 1
+url = "https://github.com/Azure/azure-cli/archive/refs/tags/azure-cli-2.74.0.tar.gz"
+
+[meta]
+description = "Microsoft Azure CLI 2.0"
+homepage = "https://docs.microsoft.com/cli/azure/overview"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "deno"
+schema_version = "1"
+version = "deno_src.tar.gz"
+
+[binaries.darwin.x64.binary]
+sha256 = "6ca9f626931aa88c57d0f124fffac1d5682885e3b8ad34b8b90924757fffb0cf"
+strip_prefix = 1
+url = "https://github.com/denoland/deno/releases/download/v2.3.7/deno_src.tar.gz"
+
+[meta]
+description = "Secure runtime for JavaScript and TypeScript"
+homepage = "https://deno.com/"
+license = "MIT"
+platforms = ["darwin"]

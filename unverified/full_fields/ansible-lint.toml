@@ -1,0 +1,14 @@
+name = "ansible-lint"
+schema_version = "1"
+version = "25.6.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "6a1dd2b7a9f3f202c9e92a6c80296ff33ca863348c3acf978f80fb0d4536dce4"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/5c/27/f04e69b710efbfde20cfdcdb8eec3b3b1d4b6d480a80afa803386304e829/ansible_lint-25.6.1.tar.gz"
+
+[meta]
+description = "Checks ansible playbooks for practices and behaviour"
+homepage = "https://ansible-lint.readthedocs.io/"
+license = "  license all_of: ["MIT", "GPL-3.0-or-later"]"
+platforms = ["darwin"]

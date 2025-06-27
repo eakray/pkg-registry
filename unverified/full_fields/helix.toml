@@ -1,0 +1,14 @@
+name = "helix"
+schema_version = "1"
+version = "25.01.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "12508c4f5b9ae6342299bd40d281cd9582d3b51487bffe798f3889cb8f931609"
+strip_prefix = 1
+url = "https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-source.tar.xz"
+
+[meta]
+description = "Post-modern modal text editor"
+homepage = "https://helix-editor.com"
+license = "MPL-2.0"
+platforms = ["darwin"]

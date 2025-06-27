@@ -1,0 +1,8 @@
+name = "molten-vk"
+schema_version = "1"
+
+[meta]
+description = "Implementation of the Vulkan graphics and compute API on top of Metal"
+homepage = "https://github.com/KhronosGroup/MoltenVK"
+license = "Apache-2.0"
+platforms = ["darwin"]

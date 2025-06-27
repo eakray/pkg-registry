@@ -1,0 +1,14 @@
+name = "fonttools"
+schema_version = "1"
+version = "4.58.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "928a8009b9884ed3aae17724b960987575155ca23c6f0b8146e400cc9e0d44ba"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/2e/5a/1124b2c8cb3a8015faf552e92714040bcdbc145dfa29928891b02d147a18/fonttools-4.58.4.tar.gz"
+
+[meta]
+description = "Library for manipulating fonts"
+homepage = "https://github.com/fonttools/fonttools"
+license = "MIT"
+platforms = ["darwin"]

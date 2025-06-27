@@ -1,0 +1,13 @@
+name = "skaffold"
+schema_version = "1"
+version = "skaffold.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/GoogleContainerTools/skaffold.git,"
+
+[meta]
+description = "Easy and Repeatable Kubernetes Development"
+homepage = "https://skaffold.dev/"
+license = "Apache-2.0"
+platforms = ["darwin"]

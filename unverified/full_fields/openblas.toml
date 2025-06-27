@@ -1,0 +1,14 @@
+name = "openblas"
+schema_version = "1"
+version = "0.3.30"
+
+[binaries.darwin.x64.binary]
+sha256 = "27342cff518646afb4c2b976d809102e368957974c250a25ccc965e53063c95d"
+strip_prefix = 1
+url = "https://github.com/OpenMathLib/OpenBLAS/archive/refs/tags/v0.3.30.tar.gz"
+
+[meta]
+description = "Optimized BLAS library"
+homepage = "https://www.openblas.net/"
+license = "  license all_of: ["BSD-3-Clause", "BSD-2-Clause-Views", "BSD-3-Clause-Open-MPI", "BSD-2-Clause"]"
+platforms = ["darwin"]

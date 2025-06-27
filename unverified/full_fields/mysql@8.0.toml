@@ -1,0 +1,14 @@
+name = "mysql@8.0"
+schema_version = "1"
+version = "8.0.42"
+
+[binaries.darwin.x64.binary]
+sha256 = "c2aa67c618edfa1bc379107fe819ca8e94cba5d85f156d1053b8fedc88cc5f8f"
+strip_prefix = 1
+url = "https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-boost-8.0.42.tar.gz"
+
+[meta]
+description = "Open source relational database management system"
+homepage = "https://github.com/mysql/mysql-server"
+license = "GPL-2.0-only" => { with: "Universal-FOSS-exception-1.0 }"
+platforms = ["darwin"]

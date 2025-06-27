@@ -1,0 +1,14 @@
+name = "bpython"
+schema_version = "1"
+version = "0.25"
+
+[binaries.darwin.x64.binary]
+sha256 = "c246fc909ef6dcc26e9d8cb4615b0e6b1613f3543d12269b19ffd0782166c65b"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/ba/dd/cc02bf66f342a4673867fdf6c1f9fce90ec1e91e651b21bc4af4890101da/bpython-0.25.tar.gz"
+
+[meta]
+description = "Fancy interface to the Python interpreter"
+homepage = "https://bpython-interpreter.org"
+license = "MIT"
+platforms = ["darwin"]

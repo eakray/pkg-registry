@@ -1,0 +1,14 @@
+name = "openexr"
+schema_version = "1"
+version = "3.3.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "63abac7c52f280e3e16fc868ac40e06449733bb19179008248ae7e34e4f19824"
+strip_prefix = 1
+url = "https://github.com/AcademySoftwareFoundation/openexr/archive/refs/tags/v3.3.4.tar.gz"
+
+[meta]
+description = "High dynamic-range image file format"
+homepage = "https://www.openexr.com/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

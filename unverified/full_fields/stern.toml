@@ -1,0 +1,14 @@
+name = "stern"
+schema_version = "1"
+version = "1.32.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "a597449d4a4443a45206eb5054676545f74a5cc279a6c48e298e01429e471017"
+strip_prefix = 1
+url = "https://github.com/stern/stern/archive/refs/tags/v1.32.0.tar.gz"
+
+[meta]
+description = "Tail multiple Kubernetes pods & their containers"
+homepage = "https://github.com/stern/stern"
+license = "Apache-2.0"
+platforms = ["darwin"]

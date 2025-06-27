@@ -1,0 +1,14 @@
+name = "openjdk@17"
+schema_version = "1"
+version = "17.0.15"
+
+[binaries.darwin.x64.binary]
+sha256 = "ae623441d95d0563690f85edad765a12fc89bbb89ed1877ec5cf677a5ae4fbd7"
+strip_prefix = 1
+url = "https://github.com/openjdk/jdk17u/archive/refs/tags/jdk-17.0.15-ga.tar.gz"
+
+[meta]
+description = "Development kit for the Java programming language"
+homepage = "https://openjdk.java.net/"
+license = "GPL-2.0-only" => { with: "Classpath-exception-2.0 }"
+platforms = ["darwin"]

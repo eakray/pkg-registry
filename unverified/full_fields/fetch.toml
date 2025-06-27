@@ -1,0 +1,14 @@
+name = "fetch"
+schema_version = "1"
+version = "0.4.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "81086290cc82a990a7369c710179869e3d1a5b3fea60df5997138a96688e9899"
+strip_prefix = 1
+url = "https://github.com/gruntwork-io/fetch/archive/refs/tags/v0.4.6.tar.gz"
+
+[meta]
+description = "Download assets from a commit, branch, or tag of GitHub repositories"
+homepage = "https://www.gruntwork.io/"
+license = "MIT"
+platforms = ["darwin"]

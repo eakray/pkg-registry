@@ -1,0 +1,14 @@
+name = "rename"
+schema_version = "1"
+version = "1.601"
+
+[binaries.darwin.x64.binary]
+sha256 = "e8fd67b662b9deddfb6a19853652306f8694d7959dfac15538a9b67339c87af4"
+strip_prefix = 1
+url = "https://github.com/ap/rename/archive/refs/tags/v1.601.tar.gz"
+
+[meta]
+description = "Perl-powered file rename script with many helpful built-ins"
+homepage = "http://plasmasturm.org/code/rename"
+license = "  license any_of: ["Artistic-1.0-Perl", "GPL-1.0-or-later"]"
+platforms = ["darwin"]

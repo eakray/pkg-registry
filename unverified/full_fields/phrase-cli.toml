@@ -1,0 +1,14 @@
+name = "phrase-cli"
+schema_version = "1"
+version = "2.42.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "42dd084ef2b622e33c524dabfcf6d7e1f74f52d3a1930e942cc91e25720e7779"
+strip_prefix = 1
+url = "https://github.com/phrase/phrase-cli/archive/refs/tags/2.42.0.tar.gz"
+
+[meta]
+description = "Tool to interact with the Phrase API"
+homepage = "https://phrase.com/"
+license = "MIT"
+platforms = ["darwin"]

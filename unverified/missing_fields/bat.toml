@@ -1,0 +1,8 @@
+name = "bat"
+schema_version = "1"
+
+[meta]
+description = "Clone of cat(1) with syntax highlighting and Git integration"
+homepage = "https://github.com/sharkdp/bat"
+license = "  license any_of: ["Apache-2.0", "MIT"]"
+platforms = ["darwin"]

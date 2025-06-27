@@ -1,0 +1,14 @@
+name = "create-dmg"
+schema_version = "1"
+version = "1.2.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "18e8dd7db06c9d6fb590c7877e1714b79b709f17d1d138bd65e4910cc82391bc"
+strip_prefix = 1
+url = "https://github.com/create-dmg/create-dmg/archive/refs/tags/v1.2.2.tar.gz"
+
+[meta]
+description = "Shell script to build fancy DMGs"
+homepage = "https://github.com/create-dmg/create-dmg"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "gradle@7"
+schema_version = "1"
+version = "7.6.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "1141950aa278680458c6115d252231b96dc3ecc014ec123d01351d44ca016e8b"
+strip_prefix = 1
+url = "https://services.gradle.org/distributions/gradle-7.6.5-all.zip"
+
+[meta]
+description = "Open-source build automation tool based on the Groovy and Kotlin DSL"
+homepage = "https://www.gradle.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

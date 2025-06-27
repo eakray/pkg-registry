@@ -1,0 +1,14 @@
+name = "swiftformat"
+schema_version = "1"
+version = "0.56.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "4daab67739631bb69bca5fc513769e629d37239ec8a199a659d4d48807286592"
+strip_prefix = 1
+url = "https://github.com/nicklockwood/SwiftFormat/archive/refs/tags/0.56.4.tar.gz"
+
+[meta]
+description = "Formatting tool for reformatting Swift code"
+homepage = "https://github.com/nicklockwood/SwiftFormat"
+license = "MIT"
+platforms = ["darwin"]

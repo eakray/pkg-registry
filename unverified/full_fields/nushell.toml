@@ -1,0 +1,14 @@
+name = "nushell"
+schema_version = "1"
+version = "0.105.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "2c52ef5aef2ba1a3ae873e84bf72b52220f47c8fe47b99950b791e678a43d597"
+strip_prefix = 1
+url = "https://github.com/nushell/nushell/archive/refs/tags/0.105.1.tar.gz"
+
+[meta]
+description = "Modern shell for the GitHub era"
+homepage = "https://www.nushell.sh"
+license = "MIT"
+platforms = ["darwin"]

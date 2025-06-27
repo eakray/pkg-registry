@@ -1,0 +1,14 @@
+name = "gd"
+schema_version = "1"
+version = "2.3.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "3fe822ece20796060af63b7c60acb151e5844204d289da0ce08f8fdf131e5a61"
+strip_prefix = 1
+url = "https://github.com/libgd/libgd/releases/download/gd-2.3.3/libgd-2.3.3.tar.xz"
+
+[meta]
+description = "Graphics library to dynamically manipulate images"
+homepage = "https://libgd.github.io/"
+license = "GD"
+platforms = ["darwin"]

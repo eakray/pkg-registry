@@ -1,0 +1,14 @@
+name = "ykman"
+schema_version = "1"
+version = "5.7.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "9aeb4035dcff8f6cb792e83f36e6a9152a9b5b65ac2c2e25e5f20d53c6064e62"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/08/56/66cfa3149a54ee55a27de742a0a46944df76acf0b9d2fc8377e43e92167a/yubikey_manager-5.7.2.tar.gz"
+
+[meta]
+description = "Tool for managing your YubiKey configuration"
+homepage = "https://developers.yubico.com/yubikey-manager/"
+license = "BSD-2-Clause"
+platforms = ["darwin"]

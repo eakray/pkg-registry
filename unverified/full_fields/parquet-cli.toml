@@ -1,0 +1,14 @@
+name = "parquet-cli"
+schema_version = "1"
+version = "1.15.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "2880d7f532bd53d6780ec82e9df8f34edc9acfd95eb725747bd8205909517641"
+strip_prefix = 1
+url = "https://github.com/apache/parquet-java/archive/refs/tags/apache-parquet-1.15.2.tar.gz"
+
+[meta]
+description = "Apache Parquet command-line tools and utilities"
+homepage = "https://parquet.apache.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

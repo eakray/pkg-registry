@@ -1,0 +1,14 @@
+name = "cowsay"
+schema_version = "1"
+version = "3.8.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "c15bc10712835d3a9bcda780dc9453362567bf48d1185905dc7ef2334d79aadd"
+strip_prefix = 1
+url = "https://github.com/cowsay-org/cowsay/archive/refs/tags/v3.8.4.tar.gz"
+
+[meta]
+description = "Apjanke's fork of the classic cowsay project"
+homepage = "https://cowsay.diamonds"
+license = "GPL-3.0-only"
+platforms = ["darwin"]

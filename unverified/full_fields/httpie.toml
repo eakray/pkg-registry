@@ -1,0 +1,14 @@
+name = "httpie"
+schema_version = "1"
+version = "3.2.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "b185cd8d81325f97c773582e50f1c5e047c2d8575b53d676469c9daf2a52f341"
+strip_prefix = 1
+url = "https://github.com/httpie/cli/archive/refs/tags/3.2.4.tar.gz"
+
+[meta]
+description = "User-friendly cURL replacement (command-line HTTP client)"
+homepage = "https://httpie.io/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

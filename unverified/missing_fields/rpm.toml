@@ -1,0 +1,8 @@
+name = "rpm"
+schema_version = "1"
+
+[meta]
+description = "Standard unix software packaging tool"
+homepage = "https://rpm.org/"
+license = "  license all_of: ["
+platforms = ["darwin"]

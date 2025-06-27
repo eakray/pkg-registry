@@ -1,0 +1,14 @@
+name = "binwalk"
+schema_version = "1"
+version = "3.1.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "06f595719417b70a592580258ed980237892eadc198e02363201abe6ca59e49a"
+strip_prefix = 1
+url = "https://github.com/ReFirmLabs/binwalk/archive/refs/tags/v3.1.0.tar.gz"
+
+[meta]
+description = "Searches a binary image for embedded files and executable code"
+homepage = "https://github.com/ReFirmLabs/binwalk"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "dfu-util"
+schema_version = "1"
+version = "0.11"
+
+[binaries.darwin.x64.binary]
+sha256 = "b4b53ba21a82ef7e3d4c47df2952adf5fa494f499b6b0b57c58c5d04ae8ff19e"
+strip_prefix = 1
+url = "https://downloads.sourceforge.net/project/dfu-util/dfu-util-0.11.tar.gz"
+
+[meta]
+description = "USB programmer"
+homepage = "https://dfu-util.sourceforge.net/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

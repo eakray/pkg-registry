@@ -1,0 +1,13 @@
+name = "krew"
+schema_version = "1"
+version = "krew.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/kubernetes-sigs/krew.git,"
+
+[meta]
+description = "Package manager for kubectl plugins"
+homepage = "https://sigs.k8s.io/krew/"
+license = "Apache-2.0"
+platforms = ["darwin"]

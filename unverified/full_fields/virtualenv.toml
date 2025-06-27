@@ -1,0 +1,14 @@
+name = "virtualenv"
+schema_version = "1"
+version = "20.31.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "e10c0a9d02835e592521be48b332b6caee6887f332c111aa79a09b9e79efc2af"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/56/2c/444f465fb2c65f40c3a104fd0c495184c4f2336d65baf398e3c75d72ea94/virtualenv-20.31.2.tar.gz"
+
+[meta]
+description = "Tool for creating isolated virtual python environments"
+homepage = "https://virtualenv.pypa.io/"
+license = "MIT"
+platforms = ["darwin"]

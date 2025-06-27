@@ -1,0 +1,8 @@
+name = "edencommon"
+schema_version = "1"
+
+[meta]
+description = "Shared library for Watchman and Eden projects"
+homepage = "https://github.com/facebookexperimental/edencommon"
+license = "MIT"
+platforms = ["darwin"]

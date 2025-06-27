@@ -1,0 +1,14 @@
+name = "ocrmypdf"
+schema_version = "1"
+version = "16.10.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "9b65730ba03c9dede6c6d8c61b6e99b93ea2d0192ed4482111174e151540f7fd"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/d5/b6/2e8d04b1e6b7e932beac5dfd61e3bf04166b3ca1202d58709fb18f7089b4/ocrmypdf-16.10.2.tar.gz"
+
+[meta]
+description = "Adds an OCR text layer to scanned PDF files"
+homepage = "https://ocrmypdf.readthedocs.io/en/latest/"
+license = "MPL-2.0"
+platforms = ["darwin"]

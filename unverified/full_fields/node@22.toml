@@ -1,0 +1,14 @@
+name = "node@22"
+schema_version = "1"
+version = "22.17.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "7a3ef2aedb905ea7926e5209157266e2376a5db619d9ac0cba3c967f6f5db4f9"
+strip_prefix = 1
+url = "https://nodejs.org/dist/v22.17.0/node-v22.17.0.tar.xz"
+
+[meta]
+description = "Platform built on V8 to build network applications"
+homepage = "https://nodejs.org/"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "z3"
+schema_version = "1"
+version = "z34.15.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "3486bf5b35b185981cab0b0a81f870547648a1ca433085aa79afd17c44959751"
+strip_prefix = 1
+url = "https://github.com/Z3Prover/z3/archive/refs/tags/z3-4.15.2.tar.gz"
+
+[meta]
+description = "High-performance theorem prover"
+homepage = "https://github.com/Z3Prover/z3"
+license = "MIT"
+platforms = ["darwin"]

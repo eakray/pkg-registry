@@ -1,0 +1,14 @@
+name = "tenv"
+schema_version = "1"
+version = "4.7.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "006233f57c84f10d33716ffb192326c45460475de9bde6ea81acae1d42e8654b"
+strip_prefix = 1
+url = "https://github.com/tofuutils/tenv/archive/refs/tags/v4.7.6.tar.gz"
+
+[meta]
+description = "OpenTofu / Terraform / Terragrunt / Terramate / Atmos version manager"
+homepage = "https://tofuutils.github.io/tenv/"
+license = "Apache-2.0"
+platforms = ["darwin"]

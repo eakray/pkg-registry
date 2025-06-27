@@ -1,0 +1,14 @@
+name = "s2n"
+schema_version = "1"
+version = "1.5.21"
+
+[binaries.darwin.x64.binary]
+sha256 = "203d69d6f557f6ab303438ad186fca13fd2c60581b2cca6348a9fbee10d79995"
+strip_prefix = 1
+url = "https://github.com/aws/s2n-tls/archive/refs/tags/v1.5.21.tar.gz"
+
+[meta]
+description = "Implementation of the TLS/SSL protocols"
+homepage = "https://github.com/aws/s2n-tls"
+license = "Apache-2.0"
+platforms = ["darwin"]

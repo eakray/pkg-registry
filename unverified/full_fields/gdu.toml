@@ -1,0 +1,14 @@
+name = "gdu"
+schema_version = "1"
+version = "5.31.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "e3727680ea346ce86e63d4c97841cbc5e17c6d8e58fac8b8e9886e3339214e9d"
+strip_prefix = 1
+url = "https://github.com/dundee/gdu/archive/refs/tags/v5.31.0.tar.gz"
+
+[meta]
+description = "Disk usage analyzer with console interface written in Go"
+homepage = "https://github.com/dundee/gdu"
+license = "MIT"
+platforms = ["darwin"]

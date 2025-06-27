@@ -1,0 +1,14 @@
+name = "macvim"
+schema_version = "1"
+version = "9.1.1128"
+
+[binaries.darwin.x64.binary]
+sha256 = "ee4127ff18f55f04b69e401fc444c94b9e4d2bf60580ed18e85b78f2e34efbd3"
+strip_prefix = 1
+url = "https://github.com/macvim-dev/macvim/archive/refs/tags/release-181.tar.gz"
+
+[meta]
+description = "GUI for vim, made for macOS"
+homepage = "https://github.com/macvim-dev/macvim"
+license = "Vim"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "hugo"
+schema_version = "1"
+version = "0.147.9"
+
+[binaries.darwin.x64.binary]
+sha256 = "66c05149b3d3e2979d440fc937b78df85246823aa1f15053d88b42fa514291a1"
+strip_prefix = 1
+url = "https://github.com/gohugoio/hugo/archive/refs/tags/v0.147.9.tar.gz"
+
+[meta]
+description = "Configurable static site generator"
+homepage = "https://gohugo.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

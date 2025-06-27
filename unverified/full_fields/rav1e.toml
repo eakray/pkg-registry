@@ -1,0 +1,14 @@
+name = "rav1e"
+schema_version = "1"
+version = "0.8.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "06d1523955fb6ed9cf9992eace772121067cca7e8926988a1ee16492febbe01e"
+strip_prefix = 1
+url = "https://github.com/xiph/rav1e/archive/refs/tags/v0.8.1.tar.gz"
+
+[meta]
+description = "Fastest and safest AV1 video encoder"
+homepage = "https://github.com/xiph/rav1e"
+license = "BSD-2-Clause"
+platforms = ["darwin"]

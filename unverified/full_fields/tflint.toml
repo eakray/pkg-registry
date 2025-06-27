@@ -1,0 +1,14 @@
+name = "tflint"
+schema_version = "1"
+version = "0.58.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "c65176cfc5d9c7291b1f240e469670bf222baf8fdf2b9b3555bf0b6fce74a4c7"
+strip_prefix = 1
+url = "https://github.com/terraform-linters/tflint/archive/refs/tags/v0.58.0.tar.gz"
+
+[meta]
+description = "Linter for Terraform files"
+homepage = "https://github.com/terraform-linters/tflint"
+license = "MPL-2.0"
+platforms = ["darwin"]

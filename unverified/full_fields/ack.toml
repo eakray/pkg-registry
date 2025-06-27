@@ -1,0 +1,14 @@
+name = "ack"
+schema_version = "1"
+version = "3.9.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "b8916abc9d42ebe8cc82264e047ccff5cbc976401e32a3dc6fc01c551c0cb5f8"
+strip_prefix = 1
+url = "https://beyondgrep.com/ack-v3.9.0"
+
+[meta]
+description = "Search tool like grep, but optimized for programmers"
+homepage = "https://beyondgrep.com/"
+license = "Artistic-2.0"
+platforms = ["darwin"]

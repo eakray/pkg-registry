@@ -1,0 +1,14 @@
+name = "prettier"
+schema_version = "1"
+version = "3.6.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "0047d03b48293cc1c71f09c0e1043d198c75da4093c3aa4759b04ecde5728224"
+strip_prefix = 1
+url = "https://registry.npmjs.org/prettier/-/prettier-3.6.1.tgz"
+
+[meta]
+description = "Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML"
+homepage = "https://prettier.io/"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "python-yq"
+schema_version = "1"
+version = "3.4.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "ba586a1a6f30cf705b2f92206712df2281cd320280210e7b7b80adcb8f256e3b"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/38/6a/eb9721ed0929d0f55d167c2222d288b529723afbef0a07ed7aa6cca72380/yq-3.4.3.tar.gz"
+
+[meta]
+description = "Command-line YAML and XML processor that wraps jq"
+homepage = "https://kislyuk.github.io/yq/"
+license = "Apache-2.0"
+platforms = ["darwin"]

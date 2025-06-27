@@ -1,0 +1,8 @@
+name = "ffmpeg"
+schema_version = "1"
+
+[meta]
+description = "Play, record, convert, and stream audio and video"
+homepage = "https://ffmpeg.org/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "bundletool"
+schema_version = "1"
+version = "1.18.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "675786493983787ffa11550bdb7c0715679a44e1643f3ff980a529e9c822595c"
+strip_prefix = 1
+url = "https://github.com/google/bundletool/releases/download/1.18.1/bundletool-all-1.18.1.jar"
+
+[meta]
+description = "Command-line tool to manipulate Android App Bundles"
+homepage = "https://github.com/google/bundletool"
+license = "Apache-2.0"
+platforms = ["darwin"]

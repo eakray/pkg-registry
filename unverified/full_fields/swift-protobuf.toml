@@ -1,0 +1,14 @@
+name = "swift-protobuf"
+schema_version = "1"
+version = "1.30.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "fbcdcca3aae7ca11756d4d183cb7b886c0e95bea4f516352f3a6aad77270b091"
+strip_prefix = 1
+url = "https://github.com/apple/swift-protobuf/archive/refs/tags/1.30.0.tar.gz"
+
+[meta]
+description = "Plugin and runtime library for using protobuf with Swift"
+homepage = "https://github.com/apple/swift-protobuf"
+license = "Apache-2.0"
+platforms = ["darwin"]

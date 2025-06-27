@@ -1,0 +1,14 @@
+name = "sevenzip"
+schema_version = "1"
+version = "24.09"
+
+[binaries.darwin.x64.binary]
+sha256 = "49c05169f49572c1128453579af1632a952409ced028259381dac30726b6133a"
+strip_prefix = 1
+url = "https://7-zip.org/a/7z2409-src.tar.xz"
+
+[meta]
+description = "7-Zip is a file archiver with a high compression ratio"
+homepage = "https://7-zip.org"
+license = "  license all_of: ["LGPL-2.1-or-later", "BSD-3-Clause"]"
+platforms = ["darwin"]

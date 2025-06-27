@@ -1,0 +1,14 @@
+name = "go"
+schema_version = "1"
+version = "1.24.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "5a86a83a31f9fa81490b8c5420ac384fd3d95a3e71fba665c7b3f95d1dfef2b4"
+strip_prefix = 1
+url = "https://go.dev/dl/go1.24.4.src.tar.gz"
+
+[meta]
+description = "Open source programming language to build simple/reliable/efficient software"
+homepage = "https://go.dev/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "ruby-build"
+schema_version = "1"
+version = "v20250610.tar.gz"
+
+[binaries.darwin.x64.binary]
+sha256 = "4f826176027d30c8ddb35b73970f92caa14ea1e4ea7352dc573f3c372e1e5c13"
+strip_prefix = 1
+url = "https://github.com/rbenv/ruby-build/archive/refs/tags/v20250610.tar.gz"
+
+[meta]
+description = "Install various Ruby versions and implementations"
+homepage = "https://rbenv.org/man/ruby-build.1"
+license = "MIT"
+platforms = ["darwin"]

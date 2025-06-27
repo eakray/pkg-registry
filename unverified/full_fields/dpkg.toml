@@ -1,0 +1,14 @@
+name = "dpkg"
+schema_version = "1"
+version = "1.22.20"
+
+[binaries.darwin.x64.binary]
+sha256 = "f21bd89cca601500a7ecc446160be72413d822fe09b4ea155c9593b46321d5e4"
+strip_prefix = 1
+url = "https://deb.debian.org/debian/pool/main/d/dpkg/dpkg_1.22.20.tar.xz"
+
+[meta]
+description = "Debian package management system"
+homepage = "https://wiki.debian.org/Teams/Dpkg"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "gradle"
+schema_version = "1"
+version = "8.14.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "443c9c8ee2ac1ee0e11881a40f2376d79c66386264a44b24a9f8ca67e633375f"
+strip_prefix = 1
+url = "https://services.gradle.org/distributions/gradle-8.14.2-all.zip"
+
+[meta]
+description = "Open-source build automation tool based on the Groovy and Kotlin DSL"
+homepage = "https://www.gradle.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

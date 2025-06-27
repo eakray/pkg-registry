@@ -1,0 +1,14 @@
+name = "yamllint"
+schema_version = "1"
+version = "1.37.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "81f7c0c5559becc8049470d86046b36e96113637bcbe4753ecef06977c00245d"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/46/f2/cd8b7584a48ee83f0bc94f8a32fea38734cefcdc6f7324c4d3bfc699457b/yamllint-1.37.1.tar.gz"
+
+[meta]
+description = "Linter for YAML files"
+homepage = "https://github.com/adrienverge/yamllint"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

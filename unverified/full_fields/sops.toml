@@ -1,0 +1,14 @@
+name = "sops"
+schema_version = "1"
+version = "3.10.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "2f7cfa67f23ccc553538450a1c3e3f7666ec934d94034457b3890dbcd49b0469"
+strip_prefix = 1
+url = "https://github.com/getsops/sops/archive/refs/tags/v3.10.2.tar.gz"
+
+[meta]
+description = "Editor of encrypted files"
+homepage = "https://getsops.io/"
+license = "MPL-2.0"
+platforms = ["darwin"]

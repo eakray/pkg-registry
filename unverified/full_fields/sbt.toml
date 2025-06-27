@@ -1,0 +1,14 @@
+name = "sbt"
+schema_version = "1"
+version = "1.11.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "84c7b9d8e20c5dc8356154a5b7146c0a8b86aba97268ce9fe1a585d2c8908f4f"
+strip_prefix = 1
+url = "https://github.com/sbt/sbt/releases/download/v1.11.2/sbt-1.11.2.tgz"
+
+[meta]
+description = "Build tool for Scala projects"
+homepage = "https://www.scala-sbt.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

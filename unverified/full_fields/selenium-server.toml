@@ -1,0 +1,14 @@
+name = "selenium-server"
+schema_version = "1"
+version = "4.33.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "40049aec23f0142ccf866942245d58cf3aa48f9c0fba0a5b9b92875f7e133383"
+strip_prefix = 1
+url = "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.33.0/selenium-server-4.33.0.jar"
+
+[meta]
+description = "Browser automation for testing purposes"
+homepage = "https://www.selenium.dev/"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "akamai"
+schema_version = "1"
+version = "2.0.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "c9fad288ac1c45946f9ebe8de28c0bd47646d0033ae15d4cafc5f9bb472d6b94"
+strip_prefix = 1
+url = "https://github.com/akamai/cli/archive/refs/tags/v2.0.1.tar.gz"
+
+[meta]
+description = "CLI toolkit for working with Akamai's APIs"
+homepage = "https://github.com/akamai/cli"
+license = "Apache-2.0"
+platforms = ["darwin"]

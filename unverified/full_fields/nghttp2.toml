@@ -1,0 +1,14 @@
+name = "nghttp2"
+schema_version = "1"
+version = "nghttp21.66.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "e178687730c207f3a659730096df192b52d3752786c068b8e5ee7aeb8edae05a"
+strip_prefix = 1
+url = "https://github.com/nghttp2/nghttp2/releases/download/v1.66.0/nghttp2-1.66.0.tar.gz"
+
+[meta]
+description = "HTTP/2 C Library"
+homepage = "https://nghttp2.org/"
+license = "MIT"
+platforms = ["darwin"]

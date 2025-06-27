@@ -1,0 +1,14 @@
+name = "openjdk"
+schema_version = "1"
+version = "24.0.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "2ccaaf7c5f03b6f689347df99e6e34cd6d3b30bc56af815c8c152a6eeb6a6c25"
+strip_prefix = 1
+url = "https://github.com/openjdk/jdk24u/archive/refs/tags/jdk-24.0.1-ga.tar.gz"
+
+[meta]
+description = "Development kit for the Java programming language"
+homepage = "https://openjdk.java.net/"
+license = "GPL-2.0-only" => { with: "Classpath-exception-2.0 }"
+platforms = ["darwin"]

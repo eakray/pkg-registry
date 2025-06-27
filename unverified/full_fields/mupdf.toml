@@ -1,0 +1,14 @@
+name = "mupdf"
+schema_version = "1"
+version = "1.26.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "2a5e1fc84f67bc593ba1d4d9d49f8782e8b12241e2eec904a65a25e4322c72a9"
+strip_prefix = 1
+url = "https://mupdf.com/downloads/archive/mupdf-1.26.2-source.tar.gz"
+
+[meta]
+description = "Lightweight PDF and XPS viewer"
+homepage = "https://mupdf.com/"
+license = "AGPL-3.0-or-later"
+platforms = ["darwin"]

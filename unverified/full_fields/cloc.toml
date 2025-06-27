@@ -1,0 +1,14 @@
+name = "cloc"
+schema_version = "1"
+version = "2.06"
+
+[binaries.darwin.x64.binary]
+sha256 = "10d78427fda66aaa10ec733adb03d910c49376fe9068aacebb17aa657a7a3a05"
+strip_prefix = 1
+url = "https://github.com/AlDanial/cloc/archive/refs/tags/v2.06.tar.gz"
+
+[meta]
+description = "Statistics utility to count lines of code"
+homepage = "https://github.com/AlDanial/cloc/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

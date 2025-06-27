@@ -1,0 +1,14 @@
+name = "neo4j"
+schema_version = "1"
+version = "artifact.php?name=neo42025.05.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "561f985e6355e98cf6f2b4f106599bfceb27a5adeffdc0856c71a2c5bb008f68"
+strip_prefix = 1
+url = "https://neo4j.com/artifact.php?name=neo4j-community-2025.05.0-unix.tar.gz"
+
+[meta]
+description = "Robust (fully ACID) transactional property graph database"
+homepage = "https://neo4j.com/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

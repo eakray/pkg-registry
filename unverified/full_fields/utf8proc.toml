@@ -1,0 +1,14 @@
+name = "utf8proc"
+schema_version = "1"
+version = "2.10.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "6f4f1b639daa6dca9f80bc5db1233e9cbaa31a67790887106160b33ef743f136"
+strip_prefix = 1
+url = "https://github.com/JuliaStrings/utf8proc/archive/refs/tags/v2.10.0.tar.gz"
+
+[meta]
+description = "Clean C library for processing UTF-8 Unicode data"
+homepage = "https://juliastrings.github.io/utf8proc/"
+license = "  license all_of: ["MIT", "Unicode-DFS-2015"]"
+platforms = ["darwin"]

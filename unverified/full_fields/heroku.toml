@@ -1,0 +1,14 @@
+name = "heroku"
+schema_version = "1"
+version = "10.11.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "bfff484804011b77c4e7b3733298034d16b0d8cfd70b5ae7d2e46e6a0fa80e92"
+strip_prefix = 1
+url = "https://registry.npmjs.org/heroku/-/heroku-10.11.0.tgz"
+
+[meta]
+description = "CLI for Heroku"
+homepage = "https://www.npmjs.com/package/heroku/"
+license = "ISC"
+platforms = ["darwin"]

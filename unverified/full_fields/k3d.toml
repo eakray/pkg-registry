@@ -1,0 +1,14 @@
+name = "k3d"
+schema_version = "1"
+version = "5.8.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "2ef51e029f43e70dcda616de98980017ca7de18848265525bf7882d2bd66f9f2"
+strip_prefix = 1
+url = "https://github.com/k3d-io/k3d/archive/refs/tags/v5.8.3.tar.gz"
+
+[meta]
+description = "Little helper to run CNCF's k3s in Docker"
+homepage = "https://k3d.io"
+license = "MIT"
+platforms = ["darwin"]

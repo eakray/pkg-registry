@@ -1,0 +1,14 @@
+name = "ios-deploy"
+schema_version = "1"
+version = "1.12.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "2a1e9836192967f60194334261e7af4de2ba72e4047a3e54376e5caa57a1db70"
+strip_prefix = 1
+url = "https://github.com/ios-control/ios-deploy/archive/refs/tags/1.12.2.tar.gz"
+
+[meta]
+description = "Install and debug iPhone apps from the command-line"
+homepage = "https://github.com/ios-control/ios-deploy"
+license = "  license all_of: ["GPL-3.0-or-later", "BSD-3-Clause"]"
+platforms = ["darwin"]

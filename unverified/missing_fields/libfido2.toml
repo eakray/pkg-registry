@@ -1,0 +1,5 @@
+name = "libfido2"
+schema_version = "1"
+
+[meta]
+platforms = ["darwin"]

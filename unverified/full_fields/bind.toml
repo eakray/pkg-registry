@@ -1,0 +1,14 @@
+name = "bind"
+schema_version = "1"
+version = "9.20.10"
+
+[binaries.darwin.x64.binary]
+sha256 = "0fb3ba2c337bb488ca68f5df296c435cd255058fb63d0822e91db0235c905716"
+strip_prefix = 1
+url = "https://downloads.isc.org/isc/bind9/9.20.10/bind-9.20.10.tar.xz"
+
+[meta]
+description = "Implementation of the DNS protocols"
+homepage = "https://www.isc.org/bind/"
+license = "MPL-2.0"
+platforms = ["darwin"]

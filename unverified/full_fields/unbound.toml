@@ -1,0 +1,14 @@
+name = "unbound"
+schema_version = "1"
+version = "1.23.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "959bd5f3875316d7b3f67ee237a56de5565f5b35fc9b5fc3cea6cfe735a03bb8"
+strip_prefix = 1
+url = "https://nlnetlabs.nl/downloads/unbound/unbound-1.23.0.tar.gz"
+
+[meta]
+description = "Validating, recursive, caching DNS resolver"
+homepage = "https://www.unbound.net"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

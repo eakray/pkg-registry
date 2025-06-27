@@ -1,0 +1,14 @@
+name = "scrcpy"
+schema_version = "1"
+version = "3.3.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "9999d2ff3605e1c5d1efb0b737ed6e240a93a928091ab356ba07199c92f52ace"
+strip_prefix = 1
+url = "https://github.com/Genymobile/scrcpy/archive/refs/tags/v3.3.1.tar.gz"
+
+[meta]
+description = "Display and control your Android device"
+homepage = "https://github.com/Genymobile/scrcpy"
+license = "Apache-2.0"
+platforms = ["darwin"]

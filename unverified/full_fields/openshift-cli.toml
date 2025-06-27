@@ -1,0 +1,14 @@
+name = "openshift-cli"
+schema_version = "1"
+version = "openshift-client-src.tar.gz"
+
+[binaries.darwin.x64.binary]
+sha256 = "4819a705e344c9f908c10737d08bb639733690e6e15d35f49e5a37ef6baf4b80"
+strip_prefix = 1
+url = "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.19.0/openshift-client-src.tar.gz"
+
+[meta]
+description = "OpenShift command-line interface tools"
+homepage = "https://www.openshift.com/"
+license = "Apache-2.0"
+platforms = ["darwin"]

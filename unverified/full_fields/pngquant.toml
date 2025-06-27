@@ -1,0 +1,14 @@
+name = "pngquant"
+schema_version = "1"
+version = "3.0.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "68a12bdd8825f9989f4ee9a6ab0b42727dae57728b939ef63453366697a07232"
+strip_prefix = 1
+url = "https://static.crates.io/crates/pngquant/pngquant-3.0.3.crate"
+
+[meta]
+description = "PNG image optimizing utility"
+homepage = "https://pngquant.org/"
+license = "  license all_of: ["GPL-3.0-or-later", "HPND", "BSD-2-Clause"]"
+platforms = ["darwin"]

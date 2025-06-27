@@ -1,0 +1,14 @@
+name = "ta-lib"
+schema_version = "1"
+version = "0.6.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "aa04066d17d69c73b1baaef0883414d3d56ab3775872d82916d1cdb376a3ae86"
+strip_prefix = 1
+url = "https://github.com/ta-lib/ta-lib/releases/download/v0.6.4/ta-lib-0.6.4-src.tar.gz"
+
+[meta]
+description = "Tools for market analysis"
+homepage = "https://ta-lib.org/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "enchant"
+schema_version = "1"
+version = "2.8.10"
+
+[binaries.darwin.x64.binary]
+sha256 = "6db791265ace652c63a6d24f376f4c562b742284d70d3ccb9e1ce8be45b288c9"
+strip_prefix = 1
+url = "https://github.com/rrthomas/enchant/releases/download/v2.8.10/enchant-2.8.10.tar.gz"
+
+[meta]
+description = "Spellchecker wrapping library"
+homepage = "https://rrthomas.github.io/enchant/"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

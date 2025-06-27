@@ -1,0 +1,14 @@
+name = "sourcery"
+schema_version = "1"
+version = "2.2.7"
+
+[binaries.darwin.x64.binary]
+sha256 = "e543ba8c3f05d9c8ce6b9dc0460d2084893f345d4f5984aabe31a40849a5c0e0"
+strip_prefix = 1
+url = "https://github.com/krzysztofzablocki/Sourcery/archive/refs/tags/2.2.7.tar.gz"
+
+[meta]
+description = "Meta-programming for Swift, stop writing boilerplate code"
+homepage = "https://github.com/krzysztofzablocki/Sourcery"
+license = "MIT"
+platforms = ["darwin"]

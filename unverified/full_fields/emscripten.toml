@@ -1,0 +1,14 @@
+name = "emscripten"
+schema_version = "1"
+version = "4.0.10"
+
+[binaries.darwin.x64.binary]
+sha256 = "dc1493ccc207bf6743f9cc97163c4b7671fbd9e22bec9f79fdc000a0edc774fe"
+strip_prefix = 1
+url = "https://github.com/emscripten-core/emscripten/archive/refs/tags/4.0.10.tar.gz"
+
+[meta]
+description = "LLVM bytecode to JavaScript compiler"
+homepage = "https://emscripten.org/"
+license = "  license all_of: ["
+platforms = ["darwin"]

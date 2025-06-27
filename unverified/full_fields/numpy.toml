@@ -1,0 +1,14 @@
+name = "numpy"
+schema_version = "1"
+version = "2.3.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "1ec9ae20a4226da374362cca3c62cd753faf2f951440b0e3b98e93c235441d2b"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/2e/19/d7c972dfe90a353dbd3efbbe1d14a5951de80c99c9dc1b93cd998d51dc0f/numpy-2.3.1.tar.gz"
+
+[meta]
+description = "Package for scientific computing with Python"
+homepage = "https://www.numpy.org/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

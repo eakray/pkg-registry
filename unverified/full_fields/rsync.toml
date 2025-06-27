@@ -1,0 +1,14 @@
+name = "rsync"
+schema_version = "1"
+version = "3.4.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "2924bcb3a1ed8b551fc101f740b9f0fe0a202b115027647cf69850d65fd88c52"
+strip_prefix = 1
+url = "https://rsync.samba.org/ftp/rsync/rsync-3.4.1.tar.gz"
+
+[meta]
+description = "Utility that provides fast incremental file transfer"
+homepage = "https://rsync.samba.org/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

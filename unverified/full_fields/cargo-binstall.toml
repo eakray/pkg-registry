@@ -1,0 +1,14 @@
+name = "cargo-binstall"
+schema_version = "1"
+version = "1.14.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "c0b8a16f8e1efc3b52ea8fdf41061384311a329919120e0d4c6fe37de70fa427"
+strip_prefix = 1
+url = "https://github.com/cargo-bins/cargo-binstall/archive/refs/tags/v1.14.1.tar.gz"
+
+[meta]
+description = "Binary installation for rust projects"
+homepage = "https://github.com/cargo-bins/cargo-binstall"
+license = "GPL-3.0-only"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "age"
+schema_version = "1"
+version = "1.2.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "93bd89a16c74949ee7c69ef580d8e4cf5ce03e7d9c461b68cf1ace3e4017eef5"
+strip_prefix = 1
+url = "https://github.com/FiloSottile/age/archive/refs/tags/v1.2.1.tar.gz"
+
+[meta]
+description = "Simple, modern, secure file encryption"
+homepage = "https://github.com/FiloSottile/age"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

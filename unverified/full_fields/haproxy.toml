@@ -1,0 +1,14 @@
+name = "haproxy"
+schema_version = "1"
+version = "3.2.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "bb3f967a797c8851d08683ec43dfafe4ad7bf5ad86fa6b0721cad033ea9e5ae5"
+strip_prefix = 1
+url = "https://www.haproxy.org/download/3.2/src/haproxy-3.2.1.tar.gz"
+
+[meta]
+description = "Reliable, high performance TCP/HTTP load balancer"
+homepage = "https://www.haproxy.org/"
+license = "GPL-2.0-or-later" => { with: "openvpn-openssl-exception }"
+platforms = ["darwin"]

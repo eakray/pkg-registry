@@ -1,0 +1,14 @@
+name = "node@18"
+schema_version = "1"
+version = "18.20.8"
+
+[binaries.darwin.x64.binary]
+sha256 = "36a7bf1a76d62ce4badd881ee5974a323c70e1d8d19165732684e145632460d9"
+strip_prefix = 1
+url = "https://nodejs.org/dist/v18.20.8/node-v18.20.8.tar.xz"
+
+[meta]
+description = "Platform built on V8 to build network applications"
+homepage = "https://nodejs.org/"
+license = "MIT"
+platforms = ["darwin"]

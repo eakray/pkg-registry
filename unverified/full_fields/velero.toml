@@ -1,0 +1,14 @@
+name = "velero"
+schema_version = "1"
+version = "1.16.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "7ed017a714848371fbdf43c168218c58aaeb9afe90709d734483ec9825cbba6f"
+strip_prefix = 1
+url = "https://github.com/vmware-tanzu/velero/archive/refs/tags/v1.16.1.tar.gz"
+
+[meta]
+description = "Disaster recovery for Kubernetes resources and persistent volumes"
+homepage = "https://velero.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

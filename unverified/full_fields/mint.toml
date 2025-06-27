@@ -1,0 +1,14 @@
+name = "mint"
+schema_version = "1"
+version = "0.18.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "e99c0a351cf7452451d72180c8ccd18e1da710dc55d036502809a0db52779a99"
+strip_prefix = 1
+url = "https://github.com/yonaskolb/Mint/archive/refs/tags/0.18.0.tar.gz"
+
+[meta]
+description = "Dependency manager that installs and runs Swift command-line tool packages"
+homepage = "https://github.com/yonaskolb/Mint"
+license = "MIT"
+platforms = ["darwin"]

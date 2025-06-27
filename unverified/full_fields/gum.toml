@@ -1,0 +1,14 @@
+name = "gum"
+schema_version = "1"
+version = "0.16.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "a8f53901447b13613e3445538e2c4d42fd7afb9dad9535debff1b64656b66867"
+strip_prefix = 1
+url = "https://github.com/charmbracelet/gum/archive/refs/tags/v0.16.2.tar.gz"
+
+[meta]
+description = "Tool for glamorous shell scripts"
+homepage = "https://github.com/charmbracelet/gum"
+license = "MIT"
+platforms = ["darwin"]

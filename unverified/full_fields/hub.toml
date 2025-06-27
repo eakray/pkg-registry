@@ -1,0 +1,14 @@
+name = "hub"
+schema_version = "1"
+version = "2.14.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "e19e0fdfd1c69c401e1c24dd2d4ecf3fd9044aa4bd3f8d6fd942ed1b2b2ad21a"
+strip_prefix = 1
+url = "https://github.com/mislav/hub/archive/refs/tags/v2.14.2.tar.gz"
+
+[meta]
+description = "Add GitHub support to git on the command-line"
+homepage = "https://hub.github.com/"
+license = "MIT"
+platforms = ["darwin"]

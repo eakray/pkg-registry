@@ -1,0 +1,14 @@
+name = "autojump"
+schema_version = "1"
+version = "22.5.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "00daf3698e17ac3ac788d529877c03ee80c3790472a85d0ed063ac3a354c37b1"
+strip_prefix = 1
+url = "https://github.com/wting/autojump/archive/refs/tags/release-v22.5.3.tar.gz"
+
+[meta]
+description = "Shell extension to jump to frequently used directories"
+homepage = "https://github.com/wting/autojump"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

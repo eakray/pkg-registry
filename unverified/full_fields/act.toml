@@ -1,0 +1,14 @@
+name = "act"
+schema_version = "1"
+version = "0.2.78"
+
+[binaries.darwin.x64.binary]
+sha256 = "0376a119cd40a62deeb2f3a35f8d87a5fe054de0092d51448d147058c93ef69c"
+strip_prefix = 1
+url = "https://github.com/nektos/act/archive/refs/tags/v0.2.78.tar.gz"
+
+[meta]
+description = "Run your GitHub Actions locally"
+homepage = "https://github.com/nektos/act"
+license = "MIT"
+platforms = ["darwin"]

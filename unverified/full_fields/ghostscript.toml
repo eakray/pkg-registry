@@ -1,0 +1,14 @@
+name = "ghostscript"
+schema_version = "1"
+version = "10.05.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "320d97f46f2f1f0e770a97d2a9ed8699c8770e46987e3a3de127855856696eb9"
+strip_prefix = 1
+url = "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10051/ghostpdl-10.05.1.tar.xz"
+
+[meta]
+description = "Interpreter for PostScript and PDF"
+homepage = "https://www.ghostscript.com/"
+license = "AGPL-3.0-or-later"
+platforms = ["darwin"]

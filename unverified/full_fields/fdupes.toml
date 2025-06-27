@@ -1,0 +1,14 @@
+name = "fdupes"
+schema_version = "1"
+version = "2.4.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "527b27a39d031dcbe1d29a220b3423228c28366c2412887eb72c25473d7b1736"
+strip_prefix = 1
+url = "https://github.com/adrianlopezroche/fdupes/releases/download/v2.4.0/fdupes-2.4.0.tar.gz"
+
+[meta]
+description = "Identify or delete duplicate files"
+homepage = "https://github.com/adrianlopezroche/fdupes"
+license = "MIT"
+platforms = ["darwin"]

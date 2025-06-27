@@ -1,0 +1,14 @@
+name = "re2"
+schema_version = "1"
+version = "20240702"
+
+[binaries.darwin.x64.binary]
+sha256 = "eb2df807c781601c14a260a507a5bb4509be1ee626024cb45acbd57cb9d4032b"
+strip_prefix = 1
+url = "https://github.com/google/re2/archive/refs/tags/2024-07-02.tar.gz"
+
+[meta]
+description = "Alternative to backtracking PCRE-style regular expression engines"
+homepage = "https://github.com/google/re2"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

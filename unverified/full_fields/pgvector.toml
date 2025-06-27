@@ -1,0 +1,14 @@
+name = "pgvector"
+schema_version = "1"
+version = "0.8.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "867a2c328d4928a5a9d6f052cd3bc78c7d60228a9b914ad32aa3db88e9de27b0"
+strip_prefix = 1
+url = "https://github.com/pgvector/pgvector/archive/refs/tags/v0.8.0.tar.gz"
+
+[meta]
+description = "Open-source vector similarity search for Postgres"
+homepage = "https://github.com/pgvector/pgvector"
+license = "PostgreSQL"
+platforms = ["darwin"]

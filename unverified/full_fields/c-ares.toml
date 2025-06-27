@@ -1,0 +1,14 @@
+name = "c-ares"
+schema_version = "1"
+version = "1.34.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "7d935790e9af081c25c495fd13c2cfcda4792983418e96358ef6e7320ee06346"
+strip_prefix = 1
+url = "https://github.com/c-ares/c-ares/releases/download/v1.34.5/c-ares-1.34.5.tar.gz"
+
+[meta]
+description = "Asynchronous DNS library"
+homepage = "https://c-ares.org/"
+license = "MIT"
+platforms = ["darwin"]

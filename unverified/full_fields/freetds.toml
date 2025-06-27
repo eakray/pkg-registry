@@ -1,0 +1,14 @@
+name = "freetds"
+schema_version = "1"
+version = "1.5.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "1d024ef418d74a3a8f2cca82f10f1561f1dde28dc3d6f65c815f07764d4f7ea8"
+strip_prefix = 1
+url = "https://www.freetds.org/files/stable/freetds-1.5.4.tar.bz2"
+
+[meta]
+description = "Libraries to talk to Microsoft SQL Server and Sybase databases"
+homepage = "https://www.freetds.org/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

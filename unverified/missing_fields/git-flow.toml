@@ -1,0 +1,8 @@
+name = "git-flow"
+schema_version = "1"
+
+[meta]
+description = "Extensions to follow Vincent Driessen's branching model"
+homepage = "https://github.com/nvie/gitflow"
+license = "BSD-2-Clause"
+platforms = ["darwin"]

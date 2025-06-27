@@ -1,0 +1,14 @@
+name = "nss"
+schema_version = "1"
+version = "3.113"
+
+[binaries.darwin.x64.binary]
+sha256 = "acef06b512d3bd81c87a63b3c8653d258bb689d2191fc0e64decf5a1efa01c0f"
+strip_prefix = 1
+url = "https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_113_RTM/src/nss-3.113.tar.gz"
+
+[meta]
+description = "Libraries for security-enabled client and server applications"
+homepage = "https://firefox-source-docs.mozilla.org/security/nss/index.html"
+license = "MPL-2.0"
+platforms = ["darwin"]

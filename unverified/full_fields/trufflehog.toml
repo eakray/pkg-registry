@@ -1,0 +1,14 @@
+name = "trufflehog"
+schema_version = "1"
+version = "3.89.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "2971a31e08c28bbaf7eb4b511cd516a452a179f0eb356ff574dc2cc8d474fba8"
+strip_prefix = 1
+url = "https://github.com/trufflesecurity/trufflehog/archive/refs/tags/v3.89.2.tar.gz"
+
+[meta]
+description = "Find and verify credentials"
+homepage = "https://trufflesecurity.com/"
+license = "AGPL-3.0-only"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "vercel-cli"
+schema_version = "1"
+version = "44.2.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "fb9b21a03167574990d65d99ce9eaebedce986a37e2b371592009065fb8a0656"
+strip_prefix = 1
+url = "https://registry.npmjs.org/vercel/-/vercel-44.2.6.tgz"
+
+[meta]
+description = "Command-line interface for Vercel"
+homepage = "https://vercel.com/home"
+license = "Apache-2.0"
+platforms = ["darwin"]

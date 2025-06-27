@@ -1,0 +1,14 @@
+name = "tldr"
+schema_version = "1"
+version = "1.6.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "1a2aa8e764846fad1f41a0304e28416f5c38b6d3a3131ad1e85116749aec34ba"
+strip_prefix = 1
+url = "https://github.com/tldr-pages/tldr-c-client/archive/refs/tags/v1.6.1.tar.gz"
+
+[meta]
+description = "Simplified and community-driven man pages"
+homepage = "https://tldr.sh/"
+license = "MIT"
+platforms = ["darwin"]

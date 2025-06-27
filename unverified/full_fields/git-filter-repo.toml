@@ -1,0 +1,14 @@
+name = "git-filter-repo"
+schema_version = "1"
+version = "2.47.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "4662cbe5918196a9f1b5b3e1211a32e61cff1812419c21df4f47c5439f09e902"
+strip_prefix = 1
+url = "https://github.com/newren/git-filter-repo/releases/download/v2.47.0/git-filter-repo-2.47.0.tar.xz"
+
+[meta]
+description = "Quickly rewrite git repository history"
+homepage = "https://github.com/newren/git-filter-repo"
+license = "MIT"
+platforms = ["darwin"]

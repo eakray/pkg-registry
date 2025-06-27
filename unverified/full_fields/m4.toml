@@ -1,0 +1,14 @@
+name = "m4"
+schema_version = "1"
+version = "m41.4.20"
+
+[binaries.darwin.x64.binary]
+sha256 = "e236ea3a1ccf5f6c270b1c4bb60726f371fa49459a8eaaebc90b216b328daf2b"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/m4/m4-1.4.20.tar.xz"
+
+[meta]
+description = "Macro processing language"
+homepage = "https://www.gnu.org/software/m4/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

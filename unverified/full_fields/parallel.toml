@@ -1,0 +1,14 @@
+name = "parallel"
+schema_version = "1"
+version = "parallel-20250622.tar.bz2"
+
+[binaries.darwin.x64.binary]
+sha256 = "69f578cf11f1b124ba3c2b673a16641debe63aeb3d2ac4cec5ad65f8a53d489b"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/parallel/parallel-20250622.tar.bz2"
+
+[meta]
+description = "Shell command parallelization utility"
+homepage = "https://savannah.gnu.org/projects/parallel/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

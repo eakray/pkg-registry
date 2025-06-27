@@ -1,0 +1,14 @@
+name = "n"
+schema_version = "1"
+version = "10.2.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "5914f0d5e89aadaaaeb803baa89a7582747b0c57ad30201b3522cd76f504c7d9"
+strip_prefix = 1
+url = "https://github.com/tj/n/archive/refs/tags/v10.2.0.tar.gz"
+
+[meta]
+description = "Node version management"
+homepage = "https://github.com/tj/n"
+license = "MIT"
+platforms = ["darwin"]

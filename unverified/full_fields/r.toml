@@ -1,0 +1,14 @@
+name = "r"
+schema_version = "1"
+version = "4.5.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "b42a7921400386645b10105b91c68728787db5c4c83c9f6c30acdce632e1bb70"
+strip_prefix = 1
+url = "https://cran.r-project.org/src/base/R-4/R-4.5.1.tar.gz"
+
+[meta]
+description = "Software environment for statistical computing"
+homepage = "https://www.r-project.org/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

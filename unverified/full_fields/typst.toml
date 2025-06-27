@@ -1,0 +1,14 @@
+name = "typst"
+schema_version = "1"
+version = "0.13.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "2ffd8443668bc0adb59e9893f7904fd9f64dce8799a1930569f56a91305e8b71"
+strip_prefix = 1
+url = "https://github.com/typst/typst/archive/refs/tags/v0.13.1.tar.gz"
+
+[meta]
+description = "Markup-based typesetting system"
+homepage = "https://typst.app/"
+license = "Apache-2.0"
+platforms = ["darwin"]

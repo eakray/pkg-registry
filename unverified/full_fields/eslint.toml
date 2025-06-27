@@ -1,0 +1,14 @@
+name = "eslint"
+schema_version = "1"
+version = "9.29.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "71597d5fd0865e8d5d26317923f6243c0787165f6326871b69f4c330da03a580"
+strip_prefix = 1
+url = "https://registry.npmjs.org/eslint/-/eslint-9.29.0.tgz"
+
+[meta]
+description = "AST-based pattern checker for JavaScript"
+homepage = "https://eslint.org"
+license = "MIT"
+platforms = ["darwin"]

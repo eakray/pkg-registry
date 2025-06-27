@@ -1,0 +1,14 @@
+name = "mesa"
+schema_version = "1"
+version = "25.1.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "164872a5e792408aa72fecd52b7be6409724c4ad81700798675a7d801d976704"
+strip_prefix = 1
+url = "https://archive.mesa3d.org/mesa-25.1.4.tar.xz"
+
+[meta]
+description = "Graphics Library"
+homepage = "https://www.mesa3d.org/"
+license = "  license all_of: ["
+platforms = ["darwin"]

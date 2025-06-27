@@ -1,0 +1,14 @@
+name = "scala"
+schema_version = "1"
+version = "scala33.7.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "5c8786e13ed35cf54010cb5e0f40525ab02fed5d5fef1ae42e96dda4716e580c"
+strip_prefix = 1
+url = "https://github.com/scala/scala3/releases/download/3.7.1/scala3-3.7.1.tar.gz"
+
+[meta]
+description = "JVM-based programming language"
+homepage = "https://dotty.epfl.ch/"
+license = "Apache-2.0"
+platforms = ["darwin"]

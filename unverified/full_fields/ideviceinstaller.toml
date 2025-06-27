@@ -1,0 +1,14 @@
+name = "ideviceinstaller"
+schema_version = "1"
+version = "1.1.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "deb883ec97f2f88115aab39f701b83c843e9f2b67fe02f5e00a9a7d6196c3063"
+strip_prefix = 1
+url = "https://github.com/libimobiledevice/ideviceinstaller/releases/download/1.1.1/ideviceinstaller-1.1.1.tar.bz2"
+
+[meta]
+description = "Tool for managing apps on iOS devices"
+homepage = "https://libimobiledevice.org/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

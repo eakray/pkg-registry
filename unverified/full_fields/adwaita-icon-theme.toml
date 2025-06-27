@@ -1,0 +1,14 @@
+name = "adwaita-icon-theme"
+schema_version = "1"
+version = "48.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "cbfe9b86ebcd14b03ba838c49829f7e86a7b132873803b90ac10be7d318a6e12"
+strip_prefix = 1
+url = "https://download.gnome.org/sources/adwaita-icon-theme/48/adwaita-icon-theme-48.1.tar.xz"
+
+[meta]
+description = "Icons for the GNOME project"
+homepage = "https://developer.gnome.org"
+license = "  license any_of: ["LGPL-3.0-or-later", "CC-BY-SA-3.0"]"
+platforms = ["darwin"]

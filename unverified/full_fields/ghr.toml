@@ -1,0 +1,14 @@
+name = "ghr"
+schema_version = "1"
+version = "0.17.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "3880f783dc9bded96d67bd3138a283eea8da767559ca8ae904b316965315199a"
+strip_prefix = 1
+url = "https://github.com/tcnksm/ghr/archive/refs/tags/v0.17.0.tar.gz"
+
+[meta]
+description = "Upload multiple artifacts to GitHub Release in parallel"
+homepage = "https://deeeet.com/ghr/"
+license = "MIT"
+platforms = ["darwin"]

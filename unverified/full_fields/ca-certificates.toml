@@ -1,0 +1,14 @@
+name = "ca-certificates"
+schema_version = "1"
+version = "cacert-2025-05-20.pem"
+
+[binaries.darwin.x64.binary]
+sha256 = "ab3ee3651977a4178a702b0b828a4ee7b2bbb9127235b0ab740e2e15974bf5db"
+strip_prefix = 1
+url = "https://curl.se/ca/cacert-2025-05-20.pem"
+
+[meta]
+description = "Mozilla CA certificate store"
+homepage = "https://curl.se/docs/caextract.html"
+license = "MPL-2.0"
+platforms = ["darwin"]

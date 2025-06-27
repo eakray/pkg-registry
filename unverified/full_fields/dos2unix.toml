@@ -1,0 +1,14 @@
+name = "dos2unix"
+schema_version = "1"
+version = "dos27.5.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "264742446608442eb48f96c20af6da303cb3a92b364e72cb7e24f88239c4bf3a"
+strip_prefix = 1
+url = "https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.5.2.tar.gz"
+
+[meta]
+description = "Convert text between DOS, UNIX, and Mac formats"
+homepage = "https://waterlan.home.xs4all.nl/dos2unix.html"
+license = "BSD-2-Clause"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "ripgrep"
+schema_version = "1"
+version = "14.1.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "4dad02a2f9c8c3c8d89434e47337aa654cb0e2aa50e806589132f186bf5c2b66"
+strip_prefix = 1
+url = "https://github.com/BurntSushi/ripgrep/archive/refs/tags/14.1.1.tar.gz"
+
+[meta]
+description = "Search tool like grep and The Silver Searcher"
+homepage = "https://github.com/BurntSushi/ripgrep"
+license = "Unlicense"
+platforms = ["darwin"]

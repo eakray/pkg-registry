@@ -1,0 +1,14 @@
+name = "broot"
+schema_version = "1"
+version = "1.47.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "25aa9eaefe1ae7b2853325d726cd97d5eeca1a24df35b01b92ee462d88c6a0f1"
+strip_prefix = 1
+url = "https://github.com/Canop/broot/archive/refs/tags/v1.47.0.tar.gz"
+
+[meta]
+description = "New way to see and navigate directory trees"
+homepage = "https://dystroy.org/broot/"
+license = "MIT"
+platforms = ["darwin"]

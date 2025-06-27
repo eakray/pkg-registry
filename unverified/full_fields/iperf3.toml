@@ -1,0 +1,14 @@
+name = "iperf3"
+schema_version = "1"
+version = "3.19"
+
+[binaries.darwin.x64.binary]
+sha256 = "040161da1555ec7411a9d81191049830ef37717d429a94ee6cf0842618e0e29c"
+strip_prefix = 1
+url = "https://downloads.es.net/pub/iperf/iperf-3.19.tar.gz"
+
+[meta]
+description = "Update of iperf: measures TCP, UDP, and SCTP bandwidth"
+homepage = "https://github.com/esnet/iperf"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

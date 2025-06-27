@@ -1,0 +1,14 @@
+name = "gnu-time"
+schema_version = "1"
+version = "1.9"
+
+[binaries.darwin.x64.binary]
+sha256 = "fbacf0c81e62429df3e33bda4cee38756604f18e01d977338e23306a3e3b521e"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/time/time-1.9.tar.gz"
+
+[meta]
+description = "GNU implementation of time utility"
+homepage = "https://www.gnu.org/software/time/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

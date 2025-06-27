@@ -1,0 +1,14 @@
+name = "portaudio"
+schema_version = "1"
+version = "19.7.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "47efbf42c77c19a05d22e627d42873e991ec0c1357219c0d74ce6a2948cb2def"
+strip_prefix = 1
+url = "https://files.portaudio.com/archives/pa_stable_v190700_20210406.tgz"
+
+[meta]
+description = "Cross-platform library for audio I/O"
+homepage = "https://www.portaudio.com"
+license = "MIT"
+platforms = ["darwin"]

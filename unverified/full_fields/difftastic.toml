@@ -1,0 +1,14 @@
+name = "difftastic"
+schema_version = "1"
+version = "0.64.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "54c7c93309ff9a2cbe87153ac1d16e80bacac4042c80f6b7206e9b71a6f10d0b"
+strip_prefix = 1
+url = "https://github.com/Wilfred/difftastic/archive/refs/tags/0.64.0.tar.gz"
+
+[meta]
+description = "Diff that understands syntax"
+homepage = "https://github.com/Wilfred/difftastic"
+license = "MIT"
+platforms = ["darwin"]

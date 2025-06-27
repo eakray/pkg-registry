@@ -1,0 +1,14 @@
+name = "jj"
+schema_version = "1"
+version = "0.30.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "86f8df1e4e76c6a4bcdb728fa74876bacf931641157d16f6e93ebeb5bac0151c"
+strip_prefix = 1
+url = "https://github.com/jj-vcs/jj/archive/refs/tags/v0.30.0.tar.gz"
+
+[meta]
+description = "Git-compatible distributed version control system"
+homepage = "https://github.com/jj-vcs/jj"
+license = "Apache-2.0"
+platforms = ["darwin"]

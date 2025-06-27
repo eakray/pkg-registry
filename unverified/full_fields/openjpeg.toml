@@ -1,0 +1,14 @@
+name = "openjpeg"
+schema_version = "1"
+version = "2.5.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "368fe0468228e767433c9ebdea82ad9d801a3ad1e4234421f352c8b06e7aa707"
+strip_prefix = 1
+url = "https://github.com/uclouvain/openjpeg/archive/refs/tags/v2.5.3.tar.gz"
+
+[meta]
+description = "Library for JPEG-2000 image manipulation"
+homepage = "https://www.openjpeg.org/"
+license = "BSD-2-Clause"
+platforms = ["darwin"]

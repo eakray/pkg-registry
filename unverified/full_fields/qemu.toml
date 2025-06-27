@@ -1,0 +1,14 @@
+name = "qemu"
+schema_version = "1"
+version = "10.0.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "ef786f2398cb5184600f69aef4d5d691efd44576a3cff4126d38d4c6fec87759"
+strip_prefix = 1
+url = "https://download.qemu.org/qemu-10.0.2.tar.xz"
+
+[meta]
+description = "Generic machine emulator and virtualizer"
+homepage = "https://www.qemu.org/"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

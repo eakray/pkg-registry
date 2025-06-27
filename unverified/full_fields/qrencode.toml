@@ -1,0 +1,14 @@
+name = "qrencode"
+schema_version = "1"
+version = "4.1.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "5385bc1b8c2f20f3b91d258bf8ccc8cf62023935df2d2676b5b67049f31a049c"
+strip_prefix = 1
+url = "https://github.com/fukuchi/libqrencode/archive/refs/tags/v4.1.1.tar.gz"
+
+[meta]
+description = "QR Code generation"
+homepage = "https://fukuchi.org/works/qrencode/index.html.en"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "cdk8s"
+schema_version = "1"
+version = "cdk82.200.112"
+
+[binaries.darwin.x64.binary]
+sha256 = "a6ca22b456f66a4dad4584a382a2fefc8ca93134d1efe91ea2caa44cd17b4e45"
+strip_prefix = 1
+url = "https://registry.npmjs.org/cdk8s-cli/-/cdk8s-cli-2.200.112.tgz"
+
+[meta]
+description = "Define k8s native apps and abstractions using object-oriented programming"
+homepage = "https://cdk8s.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "angular-cli"
+schema_version = "1"
+version = "20.0.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "ba17cadf1e824b75309a31059aee89622c0fe9ef2dff612b7b522a2ebbc5fe07"
+strip_prefix = 1
+url = "https://registry.npmjs.org/@angular/cli/-/cli-20.0.4.tgz"
+
+[meta]
+description = "CLI tool for Angular"
+homepage = "https://angular.dev/cli/"
+license = "MIT"
+platforms = ["darwin"]

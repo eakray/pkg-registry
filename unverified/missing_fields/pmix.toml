@@ -1,0 +1,8 @@
+name = "pmix"
+schema_version = "1"
+
+[meta]
+description = "Process Management Interface for HPC environments"
+homepage = "https://openpmix.github.io/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "podman"
+schema_version = "1"
+version = "5.5.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "a2dbd8280cd92d4741f32f5a99d385d7fc6f0dd36bc9cc90a7273767e26d43d9"
+strip_prefix = 1
+url = "https://github.com/containers/podman/archive/refs/tags/v5.5.2.tar.gz"
+
+[meta]
+description = "Tool for managing OCI containers and pods"
+homepage = "https://podman.io/"
+license = "  license all_of: ["Apache-2.0", "GPL-3.0-or-later"]"
+platforms = ["darwin"]

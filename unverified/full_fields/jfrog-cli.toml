@@ -1,0 +1,14 @@
+name = "jfrog-cli"
+schema_version = "1"
+version = "2.77.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "a73b10409e95b7a3e769f3ebeed3e9b8c7db5a822d995cb7ea96700c9f579bdd"
+strip_prefix = 1
+url = "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.77.0.tar.gz"
+
+[meta]
+description = "Command-line interface for JFrog products"
+homepage = "https://www.jfrog.com/confluence/display/CLI/JFrog+CLI"
+license = "Apache-2.0"
+platforms = ["darwin"]

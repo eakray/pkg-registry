@@ -1,0 +1,13 @@
+name = "tilt"
+schema_version = "1"
+version = "tilt.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/tilt-dev/tilt.git,"
+
+[meta]
+description = "Define your dev environment as code. For microservice apps on Kubernetes"
+homepage = "https://tilt.dev/"
+license = "Apache-2.0"
+platforms = ["darwin"]

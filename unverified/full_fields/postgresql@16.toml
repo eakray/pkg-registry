@@ -1,0 +1,14 @@
+name = "postgresql@16"
+schema_version = "1"
+version = "16.9"
+
+[binaries.darwin.x64.binary]
+sha256 = "07c00fb824df0a0c295f249f44691b86e3266753b380c96f633c3311e10bd005"
+strip_prefix = 1
+url = "https://ftp.postgresql.org/pub/source/v16.9/postgresql-16.9.tar.bz2"
+
+[meta]
+description = "Object-relational database system"
+homepage = "https://www.postgresql.org/"
+license = "PostgreSQL"
+platforms = ["darwin"]

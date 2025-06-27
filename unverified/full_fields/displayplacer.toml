@@ -1,0 +1,14 @@
+name = "displayplacer"
+schema_version = "1"
+version = "1.4.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "54b239359dbf9dc9b3a25e41a372eafb1de6c3131fe7fed37da53da77189b600"
+strip_prefix = 1
+url = "https://github.com/jakehilborn/displayplacer/archive/refs/tags/v1.4.0.tar.gz"
+
+[meta]
+description = "Utility to configure multi-display resolutions and arrangements"
+homepage = "https://github.com/jakehilborn/displayplacer"
+license = "MIT"
+platforms = ["darwin"]

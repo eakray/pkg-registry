@@ -1,0 +1,5 @@
+name = "libsodium"
+schema_version = "1"
+
+[meta]
+platforms = ["darwin"]

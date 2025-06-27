@@ -1,0 +1,14 @@
+name = "television"
+schema_version = "1"
+version = "0.11.9"
+
+[binaries.darwin.x64.binary]
+sha256 = "be58e6011ce1228afa1c6ba15f33023484b1bc8673c466f186ac2a130bb25bdb"
+strip_prefix = 1
+url = "https://github.com/alexpasmantier/television/archive/refs/tags/0.11.9.tar.gz"
+
+[meta]
+description = "General purpose fuzzy finder TUI"
+homepage = "https://github.com/alexpasmantier/television"
+license = "MIT"
+platforms = ["darwin"]

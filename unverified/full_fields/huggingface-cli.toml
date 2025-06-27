@@ -1,0 +1,14 @@
+name = "huggingface-cli"
+schema_version = "1"
+version = "0.33.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "589b634f979da3ea4b8bdb3d79f97f547840dc83715918daf0b64209c0844c7b"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/a4/01/bfe0534a63ce7a2285e90dbb33e8a5b815ff096d8f7743b135c256916589/huggingface_hub-0.33.1.tar.gz"
+
+[meta]
+description = "Client library for huggingface.co hub"
+homepage = "https://huggingface.co/docs/huggingface_hub/index"
+license = "Apache-2.0"
+platforms = ["darwin"]

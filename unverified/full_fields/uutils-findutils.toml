@@ -1,0 +1,14 @@
+name = "uutils-findutils"
+schema_version = "1"
+version = "0.8.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "932f153d256f7a4cf40255a948689bf59a10f14c8804151817ab50fa1b46429a"
+strip_prefix = 1
+url = "https://github.com/uutils/findutils/archive/refs/tags/0.8.0.tar.gz"
+
+[meta]
+description = "Cross-platform Rust rewrite of the GNU findutils"
+homepage = "https://uutils.github.io/findutils/"
+license = "MIT"
+platforms = ["darwin"]

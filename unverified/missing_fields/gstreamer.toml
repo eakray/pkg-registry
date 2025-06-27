@@ -1,0 +1,8 @@
+name = "gstreamer"
+schema_version = "1"
+
+[meta]
+description = "Development framework for multimedia applications"
+homepage = "https://gstreamer.freedesktop.org/"
+license = "  license all_of: ["LGPL-2.0-or-later", "LGPL-2.1-or-later", "MIT"]"
+platforms = ["darwin"]

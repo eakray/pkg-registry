@@ -1,0 +1,14 @@
+name = "mockolo"
+schema_version = "1"
+version = "2.4.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "58174327732b53f9e6bb0c8c355270ae2df7be739f006680fd8eeb53599b6766"
+strip_prefix = 1
+url = "https://github.com/uber/mockolo/archive/refs/tags/2.4.0.tar.gz"
+
+[meta]
+description = "Efficient Mock Generator for Swift"
+homepage = "https://github.com/uber/mockolo"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "lua"
+schema_version = "1"
+version = "5.4.8"
+
+[binaries.darwin.x64.binary]
+sha256 = "4f18ddae154e793e46eeab727c59ef1c0c0c2b744e7b94219710d76f530629ae"
+strip_prefix = 1
+url = "https://www.lua.org/ftp/lua-5.4.8.tar.gz"
+
+[meta]
+description = "Powerful, lightweight programming language"
+homepage = "https://www.lua.org/"
+license = "MIT"
+platforms = ["darwin"]

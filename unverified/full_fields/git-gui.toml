@@ -1,0 +1,14 @@
+name = "git-gui"
+schema_version = "1"
+version = "2.50.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "dff3c000e400ace3a63b8a6f8b3b76b88ecfdffd4504a04aba4248372cdec045"
+strip_prefix = 1
+url = "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.50.0.tar.xz"
+
+[meta]
+description = "Tcl/Tk UI for the git revision control system"
+homepage = "https://git-scm.com"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

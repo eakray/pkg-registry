@@ -1,0 +1,14 @@
+name = "gcc@11"
+schema_version = "1"
+version = "11.5.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "a6e21868ead545cf87f0c01f84276e4b5281d672098591c1c896241f09363478"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/gcc/gcc-11.5.0/gcc-11.5.0.tar.xz"
+
+[meta]
+description = "GNU compiler collection"
+homepage = "https://gcc.gnu.org/"
+license = "GPL-3.0-or-later" => { with: "GCC-exception-3.1 }"
+platforms = ["darwin"]

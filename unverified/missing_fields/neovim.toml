@@ -1,0 +1,8 @@
+name = "neovim"
+schema_version = "1"
+
+[meta]
+description = "Ambitious Vim-fork focused on extensibility and agility"
+homepage = "https://neovim.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

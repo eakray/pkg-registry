@@ -1,0 +1,13 @@
+name = "duckdb"
+schema_version = "1"
+version = "duckdb.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/duckdb/duckdb.git,"
+
+[meta]
+description = "Embeddable SQL OLAP Database Management System"
+homepage = "https://www.duckdb.org"
+license = "MIT"
+platforms = ["darwin"]

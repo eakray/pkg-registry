@@ -1,0 +1,14 @@
+name = "talosctl"
+schema_version = "1"
+version = "1.10.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "8357eca251cab6f7820aa111ed55bb4a8c9fb2c17473e843a0ec5221af14f7ed"
+strip_prefix = 1
+url = "https://github.com/siderolabs/talos/archive/refs/tags/v1.10.4.tar.gz"
+
+[meta]
+description = "CLI for out-of-band management of Kubernetes nodes created by Talos"
+homepage = "https://www.talos.dev/"
+license = "MPL-2.0"
+platforms = ["darwin"]

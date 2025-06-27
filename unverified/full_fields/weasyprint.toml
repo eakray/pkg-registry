@@ -1,0 +1,14 @@
+name = "weasyprint"
+schema_version = "1"
+version = "65.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "120281bdbd42ffaa7d7e5cedbe3182a2cef36ea5ad97fe9f357e43be6a1e58ea"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/38/76/7f865f0019120be20276813097b5729b8487b93dd4aff339aa77ed8c7ad2/weasyprint-65.1.tar.gz"
+
+[meta]
+description = "Convert HTML to PDF"
+homepage = "https://www.courtbouillon.org/weasyprint"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

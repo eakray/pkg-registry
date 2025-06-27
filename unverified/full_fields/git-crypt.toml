@@ -1,0 +1,14 @@
+name = "git-crypt"
+schema_version = "1"
+version = "0.7.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "50f100816a636a682404703b6c23a459e4d30248b2886a5cf571b0d52527c7d8"
+strip_prefix = 1
+url = "https://www.agwa.name/projects/git-crypt/downloads/git-crypt-0.7.0.tar.gz"
+
+[meta]
+description = "Enable transparent encryption/decryption of files in a git repo"
+homepage = "https://www.agwa.name/projects/git-crypt/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "gitleaks"
+schema_version = "1"
+version = "8.27.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "6f1715cbd9f4fd0d96d6a7dfbc26c3a46d5e5627f13cb8ec18cedf966bdf653a"
+strip_prefix = 1
+url = "https://github.com/gitleaks/gitleaks/archive/refs/tags/v8.27.2.tar.gz"
+
+[meta]
+description = "Audit git repos for secrets"
+homepage = "https://gitleaks.io/"
+license = "MIT"
+platforms = ["darwin"]

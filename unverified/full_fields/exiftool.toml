@@ -1,0 +1,14 @@
+name = "exiftool"
+schema_version = "1"
+version = "13.30"
+
+[binaries.darwin.x64.binary]
+sha256 = "885afd06c4efcc60d1df703cc88ba7ddc3bb6fed854cfbaa9e6cd72adfbe8da9"
+strip_prefix = 1
+url = "https://exiftool.org/Image-ExifTool-13.30.tar.gz"
+
+[meta]
+description = "Perl lib for reading and writing EXIF metadata"
+homepage = "https://exiftool.org"
+license = "  license any_of: ["Artistic-1.0-Perl", "GPL-1.0-or-later"]"
+platforms = ["darwin"]

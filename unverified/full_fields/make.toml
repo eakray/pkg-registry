@@ -1,0 +1,14 @@
+name = "make"
+schema_version = "1"
+version = "4.4.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "8814ba072182b605d156d7589c19a43b89fc58ea479b9355146160946f8cf6e9"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/make/make-4.4.1.tar.lz"
+
+[meta]
+description = "Utility for directing compilation"
+homepage = "https://www.gnu.org/software/make/"
+license = "GPL-3.0-only"
+platforms = ["darwin"]

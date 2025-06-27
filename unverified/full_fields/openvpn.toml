@@ -1,0 +1,14 @@
+name = "openvpn"
+schema_version = "1"
+version = "2.6.14"
+
+[binaries.darwin.x64.binary]
+sha256 = "9eb6a6618352f9e7b771a9d38ae1631b5edfeed6d40233e243e602ddf2195e7a"
+strip_prefix = 1
+url = "https://swupdate.openvpn.org/community/releases/openvpn-2.6.14.tar.gz"
+
+[meta]
+description = "SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension"
+homepage = "https://openvpn.net/community/"
+license = "GPL-2.0-only" => { with: "openvpn-openssl-exception }"
+platforms = ["darwin"]

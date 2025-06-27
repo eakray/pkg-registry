@@ -1,0 +1,13 @@
+name = "swiftlint"
+schema_version = "1"
+version = "SwiftLint.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/realm/SwiftLint.git,"
+
+[meta]
+description = "Tool to enforce Swift style and conventions"
+homepage = "https://github.com/realm/SwiftLint"
+license = "MIT"
+platforms = ["darwin"]

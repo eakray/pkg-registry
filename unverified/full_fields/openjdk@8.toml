@@ -1,0 +1,14 @@
+name = "openjdk@8"
+schema_version = "1"
+version = "1.8.0-452"
+
+[binaries.darwin.x64.binary]
+sha256 = "cf1009e18b6332ef2b4a54257a6087611970bcdab5368907ac67ada1e9709676"
+strip_prefix = 1
+url = "https://github.com/openjdk/jdk8u/archive/refs/tags/jdk8u452-ga.tar.gz"
+
+[meta]
+description = "Development kit for the Java programming language"
+homepage = "https://openjdk.java.net/"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

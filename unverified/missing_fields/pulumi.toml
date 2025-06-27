@@ -1,0 +1,13 @@
+name = "pulumi"
+schema_version = "1"
+version = "pulumi.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/pulumi/pulumi.git,"
+
+[meta]
+description = "Cloud native development platform"
+homepage = "https://pulumi.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "powerlevel10k"
+schema_version = "1"
+version = "1.20.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "d8187d44b697b3a37a8c4896678b4380e717cbf2850179529358348780a2d3d7"
+strip_prefix = 1
+url = "https://github.com/romkatv/powerlevel10k/archive/refs/tags/v1.20.0.tar.gz"
+
+[meta]
+description = "Theme for zsh"
+homepage = "https://github.com/romkatv/powerlevel10k"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "localstack"
+schema_version = "1"
+version = "4.5.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "f8ebf3a9af1826c595cfe4196c6d52792152db374e437e1a574ac52aedc53a18"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/11/7a/6030f1bfebf4cbef70d01fec2b76653a363da10d5ae30ee60487fa81e040/localstack-4.5.0.tar.gz"
+
+[meta]
+description = "Fully functional local AWS cloud stack"
+homepage = "https://localstack.cloud/"
+license = "Apache-2.0"
+platforms = ["darwin"]

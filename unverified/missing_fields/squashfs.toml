@@ -1,0 +1,8 @@
+name = "squashfs"
+schema_version = "1"
+
+[meta]
+description = "Compressed read-only file system for Linux"
+homepage = "https://github.com/plougher/squashfs-tools"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

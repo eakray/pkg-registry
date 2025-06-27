@@ -1,0 +1,14 @@
+name = "folly"
+schema_version = "1"
+version = "2025.06.23"
+
+[binaries.darwin.x64.binary]
+sha256 = "fa4cbe9accbb4fc84b40f610a7a3c1617a2ddc55a11acf9353c8edf5fd0e5547"
+strip_prefix = 1
+url = "https://github.com/facebook/folly/archive/refs/tags/v2025.06.23.00.tar.gz"
+
+[meta]
+description = "Collection of reusable C++ library artifacts developed at Facebook"
+homepage = "https://github.com/facebook/folly"
+license = "Apache-2.0"
+platforms = ["darwin"]

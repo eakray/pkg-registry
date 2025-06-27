@@ -1,0 +1,14 @@
+name = "hashcat"
+schema_version = "1"
+version = "6.2.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "b25e1077bcf34908cc8f18c1a69a2ec98b047b2cbcf0f51144dcf3ba1e0b7b2a"
+strip_prefix = 1
+url = "https://hashcat.net/files/hashcat-6.2.6.tar.gz"
+
+[meta]
+description = "World's fastest and most advanced password recovery utility"
+homepage = "https://hashcat.net/hashcat/"
+license = "  license all_of: ["
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "certbot"
+schema_version = "1"
+version = "4.1.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "d1fdde3174bcf1d68f7a8dca070341acec28b78ef92ad2dd18b8d49959e96779"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/de/d7/6dbaabb3dd61a3a86cad455c65befa7512f1f8c60231f99ed1f2b576770f/certbot-4.1.1.tar.gz"
+
+[meta]
+description = "Tool to obtain certs from Let's Encrypt and autoenable HTTPS"
+homepage = "https://certbot.eff.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

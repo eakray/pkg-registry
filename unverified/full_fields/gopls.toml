@@ -1,0 +1,14 @@
+name = "gopls"
+schema_version = "1"
+version = "0.19.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "11fc066d0ad6627668ab4dc4d4a34e6e0b47de51bfcc86c3f58018a020e7a071"
+strip_prefix = 1
+url = "https://github.com/golang/tools/archive/refs/tags/gopls/v0.19.1.tar.gz"
+
+[meta]
+description = "Language server for the Go language"
+homepage = "https://github.com/golang/tools/tree/master/gopls"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

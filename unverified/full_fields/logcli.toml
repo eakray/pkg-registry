@@ -1,0 +1,14 @@
+name = "logcli"
+schema_version = "1"
+version = "3.5.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "d360561de7ac97d05a6fc1dc0ca73d93c11a86234783dfd9ae92033300caabd7"
+strip_prefix = 1
+url = "https://github.com/grafana/loki/archive/refs/tags/v3.5.1.tar.gz"
+
+[meta]
+description = "Run LogQL queries against a Loki server"
+homepage = "https://grafana.com/loki"
+license = "AGPL-3.0-only"
+platforms = ["darwin"]

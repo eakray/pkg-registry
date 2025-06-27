@@ -1,0 +1,14 @@
+name = "sdl2_ttf"
+schema_version = "1"
+version = "SDL22.24.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "0b2bf1e7b6568adbdbc9bb924643f79d9dedafe061fa1ed687d1d9ac4e453bfd"
+strip_prefix = 1
+url = "https://github.com/libsdl-org/SDL_ttf/releases/download/release-2.24.0/SDL2_ttf-2.24.0.tar.gz"
+
+[meta]
+description = "Library for using TrueType fonts in SDL applications"
+homepage = "https://github.com/libsdl-org/SDL_ttf"
+license = "Zlib"
+platforms = ["darwin"]

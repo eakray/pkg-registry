@@ -1,0 +1,14 @@
+name = "crane"
+schema_version = "1"
+version = "0.20.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "53f17964ade63f63b2c66231a6e1ea606345cfcc325e49a5267017bb475bdcb4"
+strip_prefix = 1
+url = "https://github.com/google/go-containerregistry/archive/refs/tags/v0.20.6.tar.gz"
+
+[meta]
+description = "Tool for interacting with remote images and registries"
+homepage = "https://github.com/google/go-containerregistry"
+license = "Apache-2.0"
+platforms = ["darwin"]

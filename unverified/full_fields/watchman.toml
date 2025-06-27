@@ -1,0 +1,14 @@
+name = "watchman"
+schema_version = "1"
+version = "2025.06.23"
+
+[binaries.darwin.x64.binary]
+sha256 = "ca8f92a19b6394b11af1c3655947d370cb9e7f5dd6bf4f298bd4e012f2f4f8b1"
+strip_prefix = 1
+url = "https://github.com/facebook/watchman/archive/refs/tags/v2025.06.23.00.tar.gz"
+
+[meta]
+description = "Watch files and take action when they change"
+homepage = "https://github.com/facebook/watchman"
+license = "MIT"
+platforms = ["darwin"]

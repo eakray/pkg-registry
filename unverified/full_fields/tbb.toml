@@ -1,0 +1,14 @@
+name = "tbb"
+schema_version = "1"
+version = "2022.1.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "ed067603ece0dc832d2881ba5c516625ac2522c665d95f767ef6304e34f961b5"
+strip_prefix = 1
+url = "https://github.com/uxlfoundation/oneTBB/archive/refs/tags/v2022.1.0.tar.gz"
+
+[meta]
+description = "Rich and complete approach to parallelism in C++"
+homepage = "https://uxlfoundation.github.io/oneTBB/"
+license = "Apache-2.0"
+platforms = ["darwin"]

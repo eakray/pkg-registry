@@ -1,0 +1,14 @@
+name = "oci-cli"
+schema_version = "1"
+version = "3.61.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "1a34151f1dd3f506889500c6502dd7e0ad7ee02b9faf878f8af5c3a1ea89445d"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/1c/ca/2b9c61070fe093d756a4e3cae64b44ba8c56f182e4addd64d6dc3d836c70/oci_cli-3.61.0.tar.gz"
+
+[meta]
+description = "Oracle Cloud Infrastructure CLI"
+homepage = "https://docs.cloud.oracle.com/iaas/Content/API/Concepts/cliconcepts.htm"
+license = "  license any_of: ["UPL-1.0", "Apache-2.0"]"
+platforms = ["darwin"]

@@ -1,0 +1,8 @@
+name = "shellcheck"
+schema_version = "1"
+
+[meta]
+description = "Static analysis and lint tool, for (ba)sh scripts"
+homepage = "https://www.shellcheck.net/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

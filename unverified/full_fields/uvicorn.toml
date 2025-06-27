@@ -1,0 +1,14 @@
+name = "uvicorn"
+schema_version = "1"
+version = "0.34.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "35919a9a979d7a59334b6b10e05d77c1d0d574c50e0fc98b8b1a0f165708b55a"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/de/ad/713be230bcda622eaa35c28f0d328c3675c371238470abdea52417f17a8e/uvicorn-0.34.3.tar.gz"
+
+[meta]
+description = "ASGI web server"
+homepage = "https://www.uvicorn.org/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "go-task"
+schema_version = "1"
+version = "3.44.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "9a4d91baf8fb3bfa018557f60f8516d8f8b9ee2012eaf5c1eb5d9484db429a06"
+strip_prefix = 1
+url = "https://github.com/go-task/task/archive/refs/tags/v3.44.0.tar.gz"
+
+[meta]
+description = "Task is a task runner/build tool that aims to be simpler and easier to use"
+homepage = "https://taskfile.dev/"
+license = "MIT"
+platforms = ["darwin"]

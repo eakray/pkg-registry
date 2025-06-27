@@ -1,0 +1,14 @@
+name = "sqlite"
+schema_version = "1"
+version = "3.50.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "00a65114d697cfaa8fe0630281d76fd1b77afcd95cd5e40ec6a02cbbadbfea71"
+strip_prefix = 1
+url = "https://www.sqlite.org/2025/sqlite-autoconf-3500100.tar.gz"
+
+[meta]
+description = "Command-line interface for SQLite"
+homepage = "https://sqlite.org/index.html"
+license = "blessing"
+platforms = ["darwin"]

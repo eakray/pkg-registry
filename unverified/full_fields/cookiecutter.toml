@@ -1,0 +1,14 @@
+name = "cookiecutter"
+schema_version = "1"
+version = "2.6.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "db21f8169ea4f4fdc2408d48ca44859349de2647fbe494a9d6c3edfc0542c21c"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/52/17/9f2cd228eb949a91915acd38d3eecdc9d8893dde353b603f0db7e9f6be55/cookiecutter-2.6.0.tar.gz"
+
+[meta]
+description = "Utility that creates projects from templates"
+homepage = "https://github.com/cookiecutter/cookiecutter"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

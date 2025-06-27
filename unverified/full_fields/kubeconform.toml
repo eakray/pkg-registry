@@ -1,0 +1,14 @@
+name = "kubeconform"
+schema_version = "1"
+version = "0.7.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "9cb00e6385346c9de21e8fe318a4ec9854a8c7165d08b10b20ed32e28faef9a8"
+strip_prefix = 1
+url = "https://github.com/yannh/kubeconform/archive/refs/tags/v0.7.0.tar.gz"
+
+[meta]
+description = "FAST Kubernetes manifests validator, with support for Custom Resources!"
+homepage = "https://github.com/yannh/kubeconform"
+license = "Apache-2.0"
+platforms = ["darwin"]

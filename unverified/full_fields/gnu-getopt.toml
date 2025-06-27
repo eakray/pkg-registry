@@ -1,0 +1,14 @@
+name = "gnu-getopt"
+schema_version = "1"
+version = "2.41"
+
+[binaries.darwin.x64.binary]
+sha256 = "81ee93b3cfdfeb7d7c4090cedeba1d7bbce9141fd0b501b686b3fe475ddca4c6"
+strip_prefix = 1
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.41/util-linux-2.41.tar.xz"
+
+[meta]
+description = "Command-line option parsing utility"
+homepage = "https://github.com/util-linux/util-linux"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

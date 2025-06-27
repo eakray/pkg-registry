@@ -1,0 +1,14 @@
+name = "bfg"
+schema_version = "1"
+version = "1.15.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "dfe2885adc2916379093f02a80181200536856c9a987bf21c492e452adefef7a"
+strip_prefix = 1
+url = "https://search.maven.org/remotecontent?filepath=com/madgag/bfg/1.15.0/bfg-1.15.0.jar"
+
+[meta]
+description = "Remove large files or passwords from Git history like git-filter-branch"
+homepage = "https://rtyley.github.io/bfg-repo-cleaner/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

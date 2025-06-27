@@ -1,0 +1,14 @@
+name = "dive"
+schema_version = "1"
+version = "0.13.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "2a9666e9c3fddd5e2e5bad81dccda520b8102e7cea34e2888f264b4eb0506852"
+strip_prefix = 1
+url = "https://github.com/wagoodman/dive/archive/refs/tags/v0.13.1.tar.gz"
+
+[meta]
+description = "Tool for exploring each layer in a docker image"
+homepage = "https://github.com/wagoodman/dive"
+license = "MIT"
+platforms = ["darwin"]

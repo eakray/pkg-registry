@@ -1,0 +1,14 @@
+name = "jpeg-turbo"
+schema_version = "1"
+version = "3.1.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "aadc97ea91f6ef078b0ae3a62bba69e008d9a7db19b34e4ac973b19b71b4217c"
+strip_prefix = 1
+url = "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.1.1/libjpeg-turbo-3.1.1.tar.gz"
+
+[meta]
+description = "JPEG image codec that aids compression and decompression"
+homepage = "https://www.libjpeg-turbo.org/"
+license = "  license all_of: ["
+platforms = ["darwin"]

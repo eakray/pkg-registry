@@ -1,0 +1,14 @@
+name = "micromamba"
+schema_version = "1"
+version = "2.3.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "671432a2b64719baba54c9efda3662d321a1cc9ff3eba49047b83ffda9acf661"
+strip_prefix = 1
+url = "https://github.com/mamba-org/mamba/archive/refs/tags/2.3.0.tar.gz"
+
+[meta]
+description = "Fast Cross-Platform Package Manager"
+homepage = "https://github.com/mamba-org/mamba"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

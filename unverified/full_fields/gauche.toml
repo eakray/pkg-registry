@@ -1,0 +1,14 @@
+name = "gauche"
+schema_version = "1"
+version = "0.9.15"
+
+[binaries.darwin.x64.binary]
+sha256 = "3643e27bc7c8822cfd6fb2892db185f658e8e364938bc2ccfcedb239e35af783"
+strip_prefix = 1
+url = "https://github.com/shirok/Gauche/releases/download/release0_9_15/Gauche-0.9.15.tgz"
+
+[meta]
+description = "R7RS Scheme implementation, developed to be a handy script interpreter"
+homepage = "https://practical-scheme.net/gauche/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

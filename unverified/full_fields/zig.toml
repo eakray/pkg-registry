@@ -1,0 +1,14 @@
+name = "zig"
+schema_version = "1"
+version = "0.14.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "237f8abcc8c3fd68c70c66cdbf63dce4fb5ad4a2e6225ac925e3d5b4c388f203"
+strip_prefix = 1
+url = "https://ziglang.org/download/0.14.1/zig-0.14.1.tar.xz"
+
+[meta]
+description = "Programming language designed for robustness, optimality, and clarity"
+homepage = "https://ziglang.org/"
+license = "MIT"
+platforms = ["darwin"]

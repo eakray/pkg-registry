@@ -1,0 +1,14 @@
+name = "nvm"
+schema_version = "1"
+version = "0.40.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "5f4d6aaa04a177dc93c985e31dbc411ab6b8c6e1e21d8015dbc1372625fcd1d0"
+strip_prefix = 1
+url = "https://github.com/nvm-sh/nvm/archive/refs/tags/v0.40.3.tar.gz"
+
+[meta]
+description = "Manage multiple Node.js versions"
+homepage = "https://github.com/nvm-sh/nvm"
+license = "MIT"
+platforms = ["darwin"]

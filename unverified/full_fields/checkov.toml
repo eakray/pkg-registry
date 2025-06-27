@@ -1,0 +1,14 @@
+name = "checkov"
+schema_version = "1"
+version = "3.2.440"
+
+[binaries.darwin.x64.binary]
+sha256 = "5f2cb8a69bc5fda0dd1043a5653be9a35deec772d7685dac5c7560772bea6aaa"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/15/e0/1f2ee70d38faee4b43c3af1359958b38fbab8a0a059da3a5c3dd53123a22/checkov-3.2.440.tar.gz"
+
+[meta]
+description = "Prevent cloud misconfigurations during build-time for IaC tools"
+homepage = "https://www.checkov.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

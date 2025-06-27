@@ -1,0 +1,14 @@
+name = "binaryen"
+schema_version = "1"
+version = "version_123.tar.gz"
+
+[binaries.darwin.x64.binary]
+sha256 = "a1e1caf250cab3a83938713594e55b6762591208e82087e3337f793e8c8eb7ab"
+strip_prefix = 1
+url = "https://github.com/WebAssembly/binaryen/archive/refs/tags/version_123.tar.gz"
+
+[meta]
+description = "Compiler infrastructure and toolchain library for WebAssembly"
+homepage = "https://webassembly.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

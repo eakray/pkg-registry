@@ -1,0 +1,14 @@
+name = "hydra"
+schema_version = "1"
+version = "9.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "9dd193b011fdb3c52a17b0da61a38a4148ffcad731557696819d4721d1bee76b"
+strip_prefix = 1
+url = "https://github.com/vanhauser-thc/thc-hydra/archive/refs/tags/v9.5.tar.gz"
+
+[meta]
+description = "Network logon cracker which supports many services"
+homepage = "https://github.com/vanhauser-thc/thc-hydra"
+license = "AGPL-3.0-only"
+platforms = ["darwin"]

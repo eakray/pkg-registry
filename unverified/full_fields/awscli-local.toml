@@ -1,0 +1,14 @@
+name = "awscli-local"
+schema_version = "1"
+version = "0.22.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "3807cf2ee4bbdd4df4dfc8bef027f25bde523dcaf8119720f677ed95ebba66a4"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/25/f9/023c80ea27d67b0930f116597fd55a93f84de9b05d18b38c7d2d5d75c1c9/awscli-local-0.22.0.tar.gz"
+
+[meta]
+description = "Thin wrapper around the `aws` command-line interface for use with LocalStack"
+homepage = "https://www.localstack.cloud/"
+license = "Apache-2.0"
+platforms = ["darwin"]

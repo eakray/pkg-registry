@@ -1,0 +1,14 @@
+name = "jq"
+schema_version = "1"
+version = "1.8.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "91811577f91d9a6195ff50c2bffec9b72c8429dc05ec3ea022fd95c06d2b319c"
+strip_prefix = 1
+url = "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-1.8.0.tar.gz"
+
+[meta]
+description = "Lightweight and flexible command-line JSON processor"
+homepage = "https://jqlang.github.io/jq/"
+license = "MIT"
+platforms = ["darwin"]

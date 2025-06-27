@@ -1,0 +1,14 @@
+name = "gnuplot"
+schema_version = "1"
+version = "6.0.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "2344e78bc78b296f66636a5d9e561b709b61d360185b718583c97a329f7ace5e"
+strip_prefix = 1
+url = "https://downloads.sourceforge.net/project/gnuplot/gnuplot/6.0.3/gnuplot-6.0.3.tar.gz"
+
+[meta]
+description = "Command-driven, interactive function plotting"
+homepage = "http://www.gnuplot.info/"
+license = "gnuplot"
+platforms = ["darwin"]

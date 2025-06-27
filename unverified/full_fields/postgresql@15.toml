@@ -1,0 +1,14 @@
+name = "postgresql@15"
+schema_version = "1"
+version = "15.13"
+
+[binaries.darwin.x64.binary]
+sha256 = "4f62e133d22ea08a0401b0840920e26698644d01a80c34341fb732dd0a90ca5d"
+strip_prefix = 1
+url = "https://ftp.postgresql.org/pub/source/v15.13/postgresql-15.13.tar.bz2"
+
+[meta]
+description = "Object-relational database system"
+homepage = "https://www.postgresql.org/"
+license = "PostgreSQL"
+platforms = ["darwin"]

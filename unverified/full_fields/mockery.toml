@@ -1,0 +1,14 @@
+name = "mockery"
+schema_version = "1"
+version = "3.5.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "02586a2dcd30de1ab48106224cfbba4306f7d16e9e552bb5202c57c24610e5c8"
+strip_prefix = 1
+url = "https://github.com/vektra/mockery/archive/refs/tags/v3.5.0.tar.gz"
+
+[meta]
+description = "Mock code autogenerator for Golang"
+homepage = "https://github.com/vektra/mockery"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

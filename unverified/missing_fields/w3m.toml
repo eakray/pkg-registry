@@ -1,0 +1,8 @@
+name = "w3m"
+schema_version = "1"
+
+[meta]
+description = "Pager/text based browser"
+homepage = "https://w3m.sourceforge.net/"
+license = "w3m"
+platforms = ["darwin"]

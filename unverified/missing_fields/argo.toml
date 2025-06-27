@@ -1,0 +1,13 @@
+name = "argo"
+schema_version = "1"
+version = "argo-workflows.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/argoproj/argo-workflows.git,"
+
+[meta]
+description = "Get stuff done with container-native workflows for Kubernetes"
+homepage = "https://argoproj.io"
+license = "Apache-2.0"
+platforms = ["darwin"]

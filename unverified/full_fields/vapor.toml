@@ -1,0 +1,14 @@
+name = "vapor"
+schema_version = "1"
+version = "19.2.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "c2970459166469afe8614ecdca33dae556a5e2fb386b92eeba2498af9014fc60"
+strip_prefix = 1
+url = "https://github.com/vapor/toolbox/archive/refs/tags/19.2.0.tar.gz"
+
+[meta]
+description = "Command-line tool for Vapor (Server-side Swift web framework)"
+homepage = "https://vapor.codes"
+license = "MIT"
+platforms = ["darwin"]

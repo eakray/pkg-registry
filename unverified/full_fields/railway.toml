@@ -1,0 +1,14 @@
+name = "railway"
+schema_version = "1"
+version = "4.5.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "520d767d7dc3010f0df45ae6dbe51b1d4cad7f91256c21b7af6a147a33c88f6f"
+strip_prefix = 1
+url = "https://github.com/railwayapp/cli/archive/refs/tags/v4.5.3.tar.gz"
+
+[meta]
+description = "Develop and deploy code with zero configuration"
+homepage = "https://railway.com/"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "hdf5"
+schema_version = "1"
+version = "hdf51.14.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "e4defbac30f50d64e1556374aa49e574417c9e72c6b1de7a4ff88c4b1bea6e9b"
+strip_prefix = 1
+url = "https://github.com/HDFGroup/hdf5/releases/download/hdf5_1.14.6/hdf5-1.14.6.tar.gz"
+
+[meta]
+description = "File format designed to store large amounts of data"
+homepage = "https://www.hdfgroup.org/solutions/hdf5/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "tree"
+schema_version = "1"
+version = "2.2.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "5caddcbca805131ff590b126d3218019882e4ca10bc9eb490bba51c05b9b3b75"
+strip_prefix = 1
+url = "https://github.com/Old-Man-Programmer/tree/archive/refs/tags/2.2.1.tar.gz"
+
+[meta]
+description = "Display directories as trees (with optional color/HTML output)"
+homepage = "https://oldmanprogrammer.net/source.php?dir=projects/tree"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

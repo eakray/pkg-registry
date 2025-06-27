@@ -1,0 +1,14 @@
+name = "testssl"
+schema_version = "1"
+version = "3.2.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "b10fcd6fc25ba3832858ac529bfe391d701b68f12b631482a19be98a9efb176e"
+strip_prefix = 1
+url = "https://github.com/testssl/testssl.sh/archive/refs/tags/v3.2.1.tar.gz"
+
+[meta]
+description = "Tool which checks for the support of TLS/SSL ciphers and flaws"
+homepage = "https://testssl.sh/"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

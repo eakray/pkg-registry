@@ -1,0 +1,14 @@
+name = "fmt"
+schema_version = "1"
+version = "11.2.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "203eb4e8aa0d746c62d8f903df58e0419e3751591bb53ff971096eaa0ebd4ec3"
+strip_prefix = 1
+url = "https://github.com/fmtlib/fmt/releases/download/11.2.0/fmt-11.2.0.zip"
+
+[meta]
+description = "Open-source formatting library for C++"
+homepage = "https://fmt.dev/"
+license = "MIT"
+platforms = ["darwin"]

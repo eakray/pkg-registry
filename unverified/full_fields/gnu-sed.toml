@@ -1,0 +1,14 @@
+name = "gnu-sed"
+schema_version = "1"
+version = "4.9"
+
+[binaries.darwin.x64.binary]
+sha256 = "6e226b732e1cd739464ad6862bd1a1aba42d7982922da7a53519631d24975181"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/sed/sed-4.9.tar.xz"
+
+[meta]
+description = "GNU implementation of the famous stream editor"
+homepage = "https://www.gnu.org/software/sed/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

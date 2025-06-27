@@ -1,0 +1,14 @@
+name = "supervisor"
+schema_version = "1"
+version = "4.2.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "34761bae1a23c58192281a5115fb07fbf22c9b0133c08166beffc70fed3ebc12"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/ce/37/517989b05849dd6eaa76c148f24517544704895830a50289cbbf53c7efb9/supervisor-4.2.5.tar.gz"
+
+[meta]
+description = "Process Control System"
+homepage = "http://supervisord.org/"
+license = "BSD-3-Clause-Modification"
+platforms = ["darwin"]

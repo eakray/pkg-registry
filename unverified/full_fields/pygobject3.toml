@@ -1,0 +1,14 @@
+name = "pygobject3"
+schema_version = "1"
+version = "3.52.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "00e427d291e957462a8fad659a9f9c8be776ff82a8b76bdf402f1eaeec086d82"
+strip_prefix = 1
+url = "https://download.gnome.org/sources/pygobject/3.52/pygobject-3.52.3.tar.gz"
+
+[meta]
+description = "GNOME Python bindings (based on GObject Introspection)"
+homepage = "https://pygobject.gnome.org"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,13 @@
+name = "operator-sdk"
+schema_version = "1"
+version = "operator-sdk.git,"
+
+[binaries.darwin.x64.binary]
+strip_prefix = 1
+url = "https://github.com/operator-framework/operator-sdk.git,"
+
+[meta]
+description = "SDK for building Kubernetes applications"
+homepage = "https://sdk.operatorframework.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

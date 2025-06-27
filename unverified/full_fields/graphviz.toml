@@ -1,0 +1,14 @@
+name = "graphviz"
+schema_version = "1"
+version = "13.0.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "eabb50ea256165a072e99c46a00cce9cb9063b6bf6b3bd8e088c9855212b664a"
+strip_prefix = 1
+url = "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/13.0.1/graphviz-13.0.1.tar.xz"
+
+[meta]
+description = "Graph visualization software from AT&T and Bell Labs"
+homepage = "https://graphviz.org/"
+license = "EPL-1.0"
+platforms = ["darwin"]

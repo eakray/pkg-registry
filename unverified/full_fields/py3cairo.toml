@@ -1,0 +1,14 @@
+name = "py3cairo"
+schema_version = "1"
+version = "1.28.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "26ec5c6126781eb167089a123919f87baa2740da2cca9098be8b3a6b91cc5fbc"
+strip_prefix = 1
+url = "https://github.com/pygobject/pycairo/releases/download/v1.28.0/pycairo-1.28.0.tar.gz"
+
+[meta]
+description = "Python 3 bindings for the Cairo graphics library"
+homepage = "https://cairographics.org/pycairo/"
+license = "  license any_of: ["LGPL-2.1-only", "MPL-1.1"]"
+platforms = ["darwin"]

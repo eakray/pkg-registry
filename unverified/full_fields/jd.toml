@@ -1,0 +1,14 @@
+name = "jd"
+schema_version = "1"
+version = "2.2.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "eb15f4eef5d418ef002c388f1c30b5802cea3f30609185ce4d12ef05e5148711"
+strip_prefix = 1
+url = "https://github.com/josephburnett/jd/archive/refs/tags/v2.2.3.tar.gz"
+
+[meta]
+description = "JSON diff and patch"
+homepage = "https://github.com/josephburnett/jd"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "locust"
+schema_version = "1"
+version = "2.37.11"
+
+[binaries.darwin.x64.binary]
+sha256 = "89c79bc599aa57160bd41dd3876e35d8b9dee5abded78e35008d01fd8f1640ed"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/4f/19/66cdab585f7d4385be615d3792402fc75a1bed7519e5283adbe7133dbc78/locust-2.37.11.tar.gz"
+
+[meta]
+description = "Scalable user load testing tool written in Python"
+homepage = "https://locust.io/"
+license = "MIT"
+platforms = ["darwin"]

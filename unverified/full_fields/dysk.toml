@@ -1,0 +1,14 @@
+name = "dysk"
+schema_version = "1"
+version = "2.10.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "3b7576b700b11052123a91780a6af26fbbd2560ad31fef917af8df8fcceffa04"
+strip_prefix = 1
+url = "https://github.com/Canop/dysk/archive/refs/tags/v2.10.1.tar.gz"
+
+[meta]
+description = "Linux utility to get information on filesystems, like df but better"
+homepage = "https://dystroy.org/dysk/"
+license = "MIT"
+platforms = ["darwin"]

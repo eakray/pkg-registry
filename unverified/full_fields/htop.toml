@@ -1,0 +1,14 @@
+name = "htop"
+schema_version = "1"
+version = "3.4.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "af9ec878f831b7c27d33e775c668ec79d569aa781861c995a0fbadc1bdb666cf"
+strip_prefix = 1
+url = "https://github.com/htop-dev/htop/archive/refs/tags/3.4.1.tar.gz"
+
+[meta]
+description = "Improved top (interactive process viewer)"
+homepage = "https://htop.dev/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

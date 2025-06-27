@@ -1,0 +1,14 @@
+name = "sshpass"
+schema_version = "1"
+version = "1.10"
+
+[binaries.darwin.x64.binary]
+sha256 = "ad1106c203cbb56185ca3bad8c6ccafca3b4064696194da879f81c8d7bdfeeda"
+strip_prefix = 1
+url = "https://master.dl.sourceforge.net/project/sshpass/sshpass/1.10/sshpass-1.10.tar.gz"
+
+[meta]
+description = "Non-interactive SSH password auth"
+homepage = "https://sourceforge.net/projects/sshpass/"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

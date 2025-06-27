@@ -1,0 +1,14 @@
+name = "tailspin"
+schema_version = "1"
+version = "5.4.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "8dec5333c8f3e9cb6f29b4823482634b3c10e317aae12d0844d73ccfb1307a13"
+strip_prefix = 1
+url = "https://github.com/bensadeh/tailspin/archive/refs/tags/5.4.5.tar.gz"
+
+[meta]
+description = "Log file highlighter"
+homepage = "https://github.com/bensadeh/tailspin"
+license = "MIT"
+platforms = ["darwin"]

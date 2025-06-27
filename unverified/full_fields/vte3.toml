@@ -1,0 +1,14 @@
+name = "vte3"
+schema_version = "1"
+version = "0.80.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "b225bebd043633bd491f2ea171374d0f3f9de62dfec07653053bc08c4face46f"
+strip_prefix = 1
+url = "https://download.gnome.org/sources/vte/0.80/vte-0.80.2.tar.xz"
+
+[meta]
+description = "Terminal emulator widget used by GNOME terminal"
+homepage = "https://wiki.gnome.org/Apps/Terminal/VTE"
+license = "LGPL-2.0-or-later"
+platforms = ["darwin"]

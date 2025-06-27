@@ -1,0 +1,14 @@
+name = "pyright"
+schema_version = "1"
+version = "1.1.402"
+
+[binaries.darwin.x64.binary]
+sha256 = "c0f45ed549c216f1aea353f8888a9a38744790be195a73541188853f5159453d"
+strip_prefix = 1
+url = "https://registry.npmjs.org/pyright/-/pyright-1.1.402.tgz"
+
+[meta]
+description = "Static type checker for Python"
+homepage = "https://github.com/microsoft/pyright"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "teleport"
+schema_version = "1"
+version = "17.5.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "ce873a2dce9b5a868fc0c92d64531905cb6c8b941acc19d6c1e39a8fe96b5e37"
+strip_prefix = 1
+url = "https://github.com/gravitational/teleport/archive/refs/tags/v17.5.1.tar.gz"
+
+[meta]
+description = "Modern SSH server for teams managing distributed infrastructure"
+homepage = "https://goteleport.com/"
+license = "  license all_of: ["AGPL-3.0-or-later", "Apache-2.0"]"
+platforms = ["darwin"]

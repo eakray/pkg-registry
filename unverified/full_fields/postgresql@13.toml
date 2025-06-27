@@ -1,0 +1,14 @@
+name = "postgresql@13"
+schema_version = "1"
+version = "13.21"
+
+[binaries.darwin.x64.binary]
+sha256 = "dcda1294df45f033b0656cf7a8e4afbbc624c25e1b144aec79530f74d7ef4ab4"
+strip_prefix = 1
+url = "https://ftp.postgresql.org/pub/source/v13.21/postgresql-13.21.tar.bz2"
+
+[meta]
+description = "Object-relational database system"
+homepage = "https://www.postgresql.org/"
+license = "PostgreSQL"
+platforms = ["darwin"]

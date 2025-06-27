@@ -1,0 +1,14 @@
+name = "buf"
+schema_version = "1"
+version = "1.55.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "01663475792aa851d4b3af16be9ec19d808cead673f986902343beed1a0063dd"
+strip_prefix = 1
+url = "https://github.com/bufbuild/buf/archive/refs/tags/v1.55.1.tar.gz"
+
+[meta]
+description = "New way of working with Protocol Buffers"
+homepage = "https://github.com/bufbuild/buf"
+license = "Apache-2.0"
+platforms = ["darwin"]

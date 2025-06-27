@@ -1,0 +1,14 @@
+name = "capnp"
+schema_version = "1"
+version = "1.2.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "ed00e44ecbbda5186bc78a41ba64a8dc4a861b5f8d4e822959b0144ae6fd42ef"
+strip_prefix = 1
+url = "https://capnproto.org/capnproto-c++-1.2.0.tar.gz"
+
+[meta]
+description = "Data interchange format and capability-based RPC system"
+homepage = "https://capnproto.org/"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "lsd"
+schema_version = "1"
+version = "1.1.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "120935c7e98f9b64488fde39987154a6a5b2236cb65ae847917012adf5e122d1"
+strip_prefix = 1
+url = "https://github.com/lsd-rs/lsd/archive/refs/tags/v1.1.5.tar.gz"
+
+[meta]
+description = "Clone of ls with colorful output, file type icons, and more"
+homepage = "https://github.com/lsd-rs/lsd"
+license = "Apache-2.0"
+platforms = ["darwin"]

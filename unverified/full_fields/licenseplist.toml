@@ -1,0 +1,14 @@
+name = "licenseplist"
+schema_version = "1"
+version = "3.27.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "6faabde2834f2d45f6467ed34d404a8ee73dcb505f00a8f1a84c55b369a7029b"
+strip_prefix = 1
+url = "https://github.com/mono0926/LicensePlist/archive/refs/tags/3.27.1.tar.gz"
+
+[meta]
+description = "License list generator of all your dependencies for iOS applications"
+homepage = "https://www.slideshare.net/mono0926/licenseplist-a-license-list-generator-of-all-your-dependencies-for-ios-applications"
+license = "MIT"
+platforms = ["darwin"]

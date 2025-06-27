@@ -1,0 +1,14 @@
+name = "netcat"
+schema_version = "1"
+version = "0.7.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "b55af0bbdf5acc02d1eb6ab18da2acd77a400bafd074489003f3df09676332bb"
+strip_prefix = 1
+url = "https://downloads.sourceforge.net/project/netcat/netcat/0.7.1/netcat-0.7.1.tar.bz2"
+
+[meta]
+description = "Utility for managing network connections"
+homepage = "https://netcat.sourceforge.net/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

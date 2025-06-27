@@ -1,0 +1,14 @@
+name = "mvfst"
+schema_version = "1"
+version = "2025.06.23"
+
+[binaries.darwin.x64.binary]
+sha256 = "22beec6c3d1d466bededa8dae7f8e4785bdd23d3f40b9cae2cc9df998479f481"
+strip_prefix = 1
+url = "https://github.com/facebook/mvfst/archive/refs/tags/v2025.06.23.00.tar.gz"
+
+[meta]
+description = "QUIC transport protocol implementation"
+homepage = "https://github.com/facebook/mvfst"
+license = "MIT"
+platforms = ["darwin"]

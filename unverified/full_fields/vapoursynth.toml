@@ -1,0 +1,14 @@
+name = "vapoursynth"
+schema_version = "1"
+version = "R72.tar.gz"
+
+[binaries.darwin.x64.binary]
+sha256 = "650f77feebfd08842b521273f59e0c88f7ba9d7cb5f151d89b79b8dfdd4ce633"
+strip_prefix = 1
+url = "https://github.com/vapoursynth/vapoursynth/archive/refs/tags/R72.tar.gz"
+
+[meta]
+description = "Video processing framework with simplicity in mind"
+homepage = "https://www.vapoursynth.com"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

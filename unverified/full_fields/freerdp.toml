@@ -1,0 +1,14 @@
+name = "freerdp"
+schema_version = "1"
+version = "3.16.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "385af54245560493698730b688b5e6e5d56d5c7ecf2fa7c1d7cedfde8a4ba456"
+strip_prefix = 1
+url = "https://github.com/FreeRDP/FreeRDP/releases/download/3.16.0/freerdp-3.16.0.tar.gz"
+
+[meta]
+description = "X11 implementation of the Remote Desktop Protocol (RDP)"
+homepage = "https://www.freerdp.com/"
+license = "Apache-2.0"
+platforms = ["darwin"]

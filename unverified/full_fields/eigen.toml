@@ -1,0 +1,14 @@
+name = "eigen"
+schema_version = "1"
+version = "3.4.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "8586084f71f9bde545ee7fa6d00288b264a2b7ac3607b974e54d13e7162c1c72"
+strip_prefix = 1
+url = "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz"
+
+[meta]
+description = "C++ template library for linear algebra"
+homepage = "https://eigen.tuxfamily.org/"
+license = "MPL-2.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "glances"
+schema_version = "1"
+version = "4.3.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "952c4985b9c1ff9d9ebd23760a2dd124fa2315cf02acfa68f3b7e1c51e087c8c"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/e0/df/96cd0ff650bd491a73815171131304d9c0d15d90ef44fed26324558aabf0/glances-4.3.1.tar.gz"
+
+[meta]
+description = "Alternative to top/htop"
+homepage = "https://nicolargo.github.io/glances/"
+license = "LGPL-3.0-or-later"
+platforms = ["darwin"]

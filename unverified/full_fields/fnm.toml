@@ -1,0 +1,14 @@
+name = "fnm"
+schema_version = "1"
+version = "1.38.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "c24e4c26183a4d88a33e343902ed2d45da23e78c66b2a696a7420eb86deddda9"
+strip_prefix = 1
+url = "https://github.com/Schniz/fnm/archive/refs/tags/v1.38.1.tar.gz"
+
+[meta]
+description = "Fast and simple Node.js version manager"
+homepage = "https://github.com/Schniz/fnm"
+license = "GPL-3.0-only"
+platforms = ["darwin"]

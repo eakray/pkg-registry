@@ -1,0 +1,14 @@
+name = "ruby@3.2"
+schema_version = "1"
+version = "3.2.8"
+
+[binaries.darwin.x64.binary]
+sha256 = "77acdd8cfbbe1f8e573b5e6536e03c5103df989dc05fa68c70f011833c356075"
+strip_prefix = 1
+url = "https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.8.tar.gz"
+
+[meta]
+description = "Powerful, clean, object-oriented scripting language"
+homepage = "https://www.ruby-lang.org/"
+license = "Ruby"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "starship"
+schema_version = "1"
+version = "1.23.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "be3ba025a64bd808899dce256e1511145b55cc5eefc5fca82bf5537cd8e09c72"
+strip_prefix = 1
+url = "https://github.com/starship/starship/archive/refs/tags/v1.23.0.tar.gz"
+
+[meta]
+description = "Cross-shell prompt for astronauts"
+homepage = "https://starship.rs/"
+license = "ISC"
+platforms = ["darwin"]

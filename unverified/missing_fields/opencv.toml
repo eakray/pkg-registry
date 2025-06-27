@@ -1,0 +1,8 @@
+name = "opencv"
+schema_version = "1"
+
+[meta]
+description = "Open source computer vision library"
+homepage = "https://opencv.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

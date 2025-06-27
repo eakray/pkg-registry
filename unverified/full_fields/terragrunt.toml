@@ -1,0 +1,14 @@
+name = "terragrunt"
+schema_version = "1"
+version = "0.82.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "d953552ecff91be5f9fec86672a8eaf380820e884f11c6c97116727c8ee3fa5b"
+strip_prefix = 1
+url = "https://github.com/gruntwork-io/terragrunt/archive/refs/tags/v0.82.2.tar.gz"
+
+[meta]
+description = "Thin wrapper for Terraform e.g. for locking state"
+homepage = "https://terragrunt.gruntwork.io/"
+license = "MIT"
+platforms = ["darwin"]

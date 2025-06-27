@@ -1,0 +1,14 @@
+name = "clojure"
+schema_version = "1"
+version = "1.12.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "906c625679c72e7035875988a46392a1d83d16ee1df599a561a2fd33424b0d3f"
+strip_prefix = 1
+url = "https://github.com/clojure/brew-install/releases/download/1.12.1.1550/clojure-tools-1.12.1.1550.tar.gz"
+
+[meta]
+description = "Dynamic, general-purpose programming language"
+homepage = "https://clojure.org"
+license = "EPL-1.0"
+platforms = ["darwin"]

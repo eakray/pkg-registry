@@ -1,0 +1,14 @@
+name = "zellij"
+schema_version = "1"
+version = "0.42.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "f1cd4b36775dd367b839e394b54e91042b0cd0f2b9e0901b1dec8517ff3929c0"
+strip_prefix = 1
+url = "https://github.com/zellij-org/zellij/archive/refs/tags/v0.42.2.tar.gz"
+
+[meta]
+description = "Pluggable terminal workspace, with terminal multiplexer as the base feature"
+homepage = "https://zellij.dev"
+license = "MIT"
+platforms = ["darwin"]

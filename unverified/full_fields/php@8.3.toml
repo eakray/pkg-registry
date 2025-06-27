@@ -1,0 +1,14 @@
+name = "php@8.3"
+schema_version = "1"
+version = "8.3.22"
+
+[binaries.darwin.x64.binary]
+sha256 = "66c86889059bd27ccf460590ca48fcaf3261349cc9bdba2023ac6a265beabf36"
+strip_prefix = 1
+url = "https://www.php.net/distributions/php-8.3.22.tar.xz"
+
+[meta]
+description = "General-purpose scripting language"
+homepage = "https://www.php.net/"
+license = "PHP-3.01"
+platforms = ["darwin"]

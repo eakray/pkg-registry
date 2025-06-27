@@ -1,0 +1,14 @@
+name = "groovy"
+schema_version = "1"
+version = "4.0.27"
+
+[binaries.darwin.x64.binary]
+sha256 = "bc917c8bb01b2832f124a7bd63a3c72ba5e83ef7f056650dfd9a2f7944960685"
+strip_prefix = 1
+url = "https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-binary-4.0.27.zip"
+
+[meta]
+description = "Java-based scripting language"
+homepage = "https://www.groovy-lang.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

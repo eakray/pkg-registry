@@ -1,0 +1,14 @@
+name = "docker-compose"
+schema_version = "1"
+version = "2.37.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "b5b21d1886f41cdefe6f4f089503047b60c3f66322b7130636b54f5ccf374441"
+strip_prefix = 1
+url = "https://github.com/docker/compose/archive/refs/tags/v2.37.3.tar.gz"
+
+[meta]
+description = "Isolated development environments using Docker"
+homepage = "https://docs.docker.com/compose/"
+license = "Apache-2.0"
+platforms = ["darwin"]

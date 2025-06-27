@@ -1,0 +1,14 @@
+name = "pixman"
+schema_version = "1"
+version = "0.46.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "3e0de5ba6e356916946a3d958192f15505dcab85134771bfeab4ce4e29bbd733"
+strip_prefix = 1
+url = "https://cairographics.org/releases/pixman-0.46.2.tar.gz"
+
+[meta]
+description = "Low-level library for pixel manipulation"
+homepage = "https://cairographics.org/"
+license = "MIT"
+platforms = ["darwin"]

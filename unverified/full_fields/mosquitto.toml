@@ -1,0 +1,14 @@
+name = "mosquitto"
+schema_version = "1"
+version = "2.0.21"
+
+[binaries.darwin.x64.binary]
+sha256 = "7ad5e84caeb8d2bb6ed0c04614b2a7042def961af82d87f688ba33db857b899d"
+strip_prefix = 1
+url = "https://mosquitto.org/files/source/mosquitto-2.0.21.tar.gz"
+
+[meta]
+description = "Message broker implementing the MQTT protocol"
+homepage = "https://mosquitto.org/"
+license = "  license any_of: ["EPL-1.0", "BSD-3-Clause"]"
+platforms = ["darwin"]

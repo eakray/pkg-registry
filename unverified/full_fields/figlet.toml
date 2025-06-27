@@ -1,0 +1,14 @@
+name = "figlet"
+schema_version = "1"
+version = "2.2.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "bf88c40fd0f077dab2712f54f8d39ac952e4e9f2e1882f1195be9e5e4257417d"
+strip_prefix = 1
+url = "http://ftp.figlet.org/pub/figlet/program/unix/figlet-2.2.5.tar.gz"
+
+[meta]
+description = "Banner-like program prints strings as ASCII art"
+homepage = "http://www.figlet.org/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]

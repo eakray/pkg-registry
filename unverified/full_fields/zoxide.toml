@@ -1,0 +1,14 @@
+name = "zoxide"
+schema_version = "1"
+version = "0.9.8"
+
+[binaries.darwin.x64.binary]
+sha256 = "1b276edbf328aafc86afe1ebce41f45ccba3a3125412e89c8c5d8e825b0c7407"
+strip_prefix = 1
+url = "https://github.com/ajeetdsouza/zoxide/archive/refs/tags/v0.9.8.tar.gz"
+
+[meta]
+description = "Shell extension to navigate your filesystem faster"
+homepage = "https://github.com/ajeetdsouza/zoxide"
+license = "MIT"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "pyenv"
+schema_version = "1"
+version = "2.6.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "f558daace68867ad33e3d0f670fc04cf98d2a586c33eb5cbe5963ec46de422c3"
+strip_prefix = 1
+url = "https://github.com/pyenv/pyenv/archive/refs/tags/v2.6.3.tar.gz"
+
+[meta]
+description = "Python version management"
+homepage = "https://github.com/pyenv/pyenv"
+license = "MIT"
+platforms = ["darwin"]

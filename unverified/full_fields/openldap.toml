@@ -1,0 +1,14 @@
+name = "openldap"
+schema_version = "1"
+version = "2.6.10"
+
+[binaries.darwin.x64.binary]
+sha256 = "c065f04aad42737aebd60b2fe4939704ac844266bc0aeaa1609f0cad987be516"
+strip_prefix = 1
+url = "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.10.tgz"
+
+[meta]
+description = "Open source suite of directory software"
+homepage = "https://www.openldap.org/software/"
+license = "OLDAP-2.8"
+platforms = ["darwin"]

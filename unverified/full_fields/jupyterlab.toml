@@ -1,0 +1,14 @@
+name = "jupyterlab"
+schema_version = "1"
+version = "4.4.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "a94c32fd7f8b93e82a49dc70a6ec45a5c18281ca2a7228d12765e4e210e5bca2"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/d3/2d/d1678dcf2db66cb4a38a80d9e5fcf48c349f3ac12f2d38882993353ae768/jupyterlab-4.4.3.tar.gz"
+
+[meta]
+description = "Interactive environments for writing and running code"
+homepage = "https://jupyter.org/"
+license = "  license all_of: ["
+platforms = ["darwin"]

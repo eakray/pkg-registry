@@ -1,0 +1,14 @@
+name = "aws-vault"
+schema_version = "1"
+version = "7.4.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "9e4cc6cd1db472f25abe059097c8af2f5875d44130b85d076d171347ff7cd93e"
+strip_prefix = 1
+url = "https://github.com/ByteNess/aws-vault/archive/refs/tags/v7.4.2.tar.gz"
+
+[meta]
+description = "Securely store and access AWS credentials in development environments"
+homepage = "https://github.com/ByteNess/aws-vault"
+license = "MIT"
+platforms = ["darwin"]

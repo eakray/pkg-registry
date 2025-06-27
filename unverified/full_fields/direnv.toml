@@ -1,0 +1,14 @@
+name = "direnv"
+schema_version = "1"
+version = "2.36.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "edb89ca67ef46a792d4e20177dae9dbd229e26dcbcfb17baa9645c1ff7cc47b0"
+strip_prefix = 1
+url = "https://github.com/direnv/direnv/archive/refs/tags/v2.36.0.tar.gz"
+
+[meta]
+description = "Load/unload environment variables based on $PWD"
+homepage = "https://direnv.net/"
+license = "MIT"
+platforms = ["darwin"]

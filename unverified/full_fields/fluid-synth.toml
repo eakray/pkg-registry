@@ -1,0 +1,14 @@
+name = "fluid-synth"
+schema_version = "1"
+version = "2.4.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "a6be90fd4842b9e7246500597180af5cf213c11bfa3998a3236dd8ff47961ea8"
+strip_prefix = 1
+url = "https://github.com/FluidSynth/fluidsynth/archive/refs/tags/v2.4.6.tar.gz"
+
+[meta]
+description = "Real-time software synthesizer based on the SoundFont 2 specs"
+homepage = "https://www.fluidsynth.org"
+license = "LGPL-2.1-or-later"
+platforms = ["darwin"]

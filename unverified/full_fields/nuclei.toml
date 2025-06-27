@@ -1,0 +1,14 @@
+name = "nuclei"
+schema_version = "1"
+version = "3.4.5"
+
+[binaries.darwin.x64.binary]
+sha256 = "5ea8c1f1fc932032328c1f864a85db65715b12b62a9f3ad0bb5b37d3363f2e1c"
+strip_prefix = 1
+url = "https://github.com/projectdiscovery/nuclei/archive/refs/tags/v3.4.5.tar.gz"
+
+[meta]
+description = "HTTP/DNS scanner configurable via YAML templates"
+homepage = "https://docs.projectdiscovery.io/tools/nuclei/overview"
+license = "MIT"
+platforms = ["darwin"]

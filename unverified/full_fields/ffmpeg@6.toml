@@ -1,0 +1,14 @@
+name = "ffmpeg@6"
+schema_version = "1"
+version = "6.1.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "3b624649725ecdc565c903ca6643d41f33bd49239922e45c9b1442c63dca4e38"
+strip_prefix = 1
+url = "https://ffmpeg.org/releases/ffmpeg-6.1.2.tar.xz"
+
+[meta]
+description = "Play, record, convert, and stream audio and video"
+homepage = "https://ffmpeg.org/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

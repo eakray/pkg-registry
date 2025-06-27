@@ -1,0 +1,14 @@
+name = "less"
+schema_version = "1"
+version = "less-679.tar.gz"
+
+[binaries.darwin.x64.binary]
+sha256 = "9b68820c34fa8a0af6b0e01b74f0298bcdd40a0489c61649b47058908a153d78"
+strip_prefix = 1
+url = "https://www.greenwoodsoftware.com/less/less-679.tar.gz"
+
+[meta]
+description = "Pager program similar to more"
+homepage = "https://www.greenwoodsoftware.com/less/index.html"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

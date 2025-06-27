@@ -1,0 +1,14 @@
+name = "tcl-tk"
+schema_version = "1"
+version = "9.0.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "a72b1607d7a399c75148c80fcdead88ed3371a29884181f200f2200cdee33bbc"
+strip_prefix = 1
+url = "https://downloads.sourceforge.net/project/tcl/Tcl/9.0.1/tcl9.0.1-src.tar.gz"
+
+[meta]
+description = "Tool Command Language"
+homepage = "https://www.tcl-lang.org"
+license = "TCL"
+platforms = ["darwin"]

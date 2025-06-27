@@ -1,0 +1,14 @@
+name = "pyinstaller"
+schema_version = "1"
+version = "6.14.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "35d5c06a668e21f0122178dbf20e40fd21012dc8f6170042af6050c4e7b3edca"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/9f/4a/d66d3a9c34349d73eb099401060e2591da8ccc5ed427e54fff3961302513/pyinstaller-6.14.1.tar.gz"
+
+[meta]
+description = "Bundle a Python application and all its dependencies"
+homepage = "https://pyinstaller.org/"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

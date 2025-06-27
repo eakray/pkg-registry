@@ -1,0 +1,14 @@
+name = "hcloud"
+schema_version = "1"
+version = "1.51.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "530b5925a93da73b7f346e61ff7f8742fae400cd6dfaa1374963b1adbe594138"
+strip_prefix = 1
+url = "https://github.com/hetznercloud/cli/archive/refs/tags/v1.51.0.tar.gz"
+
+[meta]
+description = "Command-line interface for Hetzner Cloud"
+homepage = "https://github.com/hetznercloud/cli"
+license = "MIT"
+platforms = ["darwin"]

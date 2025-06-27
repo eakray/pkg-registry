@@ -1,0 +1,14 @@
+name = "openssh"
+schema_version = "1"
+version = "9.9p2"
+
+[binaries.darwin.x64.binary]
+sha256 = "91aadb603e08cc285eddf965e1199d02585fa94d994d6cae5b41e1721e215673"
+strip_prefix = 1
+url = "https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.9p2.tar.gz"
+
+[meta]
+description = "OpenBSD freely-licensed SSH connectivity tools"
+homepage = "https://www.openssh.com/"
+license = "SSH-OpenSSH"
+platforms = ["darwin"]

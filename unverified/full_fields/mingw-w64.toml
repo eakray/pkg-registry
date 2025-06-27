@@ -1,0 +1,14 @@
+name = "mingw-w64"
+schema_version = "1"
+version = "mingw-w6413.0.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "5afe822af5c4edbf67daaf45eec61d538f49eef6b19524de64897c6b95828caf"
+strip_prefix = 1
+url = "https://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v13.0.0.tar.bz2"
+
+[meta]
+description = "Minimalist GNU for Windows and GCC cross-compilers"
+homepage = "https://sourceforge.net/projects/mingw-w64/"
+license = "ZPL-2.1"
+platforms = ["darwin"]

@@ -1,0 +1,8 @@
+name = "zsh"
+schema_version = "1"
+
+[meta]
+description = "UNIX shell (command interpreter)"
+homepage = "https://www.zsh.org/"
+license = "  license all_of: ["
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "gitlab-ci-local"
+schema_version = "1"
+version = "4.61.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "66367d6e77c88a538d78c7cf862bd3099c9da85e0255f7eb5a30bc69dc8a58a5"
+strip_prefix = 1
+url = "https://registry.npmjs.org/gitlab-ci-local/-/gitlab-ci-local-4.61.0.tgz"
+
+[meta]
+description = "Run gitlab pipelines locally as shell executor or docker executor"
+homepage = "https://github.com/firecow/gitlab-ci-local"
+license = "MIT"
+platforms = ["darwin"]

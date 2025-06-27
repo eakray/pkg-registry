@@ -1,0 +1,14 @@
+name = "istioctl"
+schema_version = "1"
+version = "1.26.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "fb3b3569165e8b1cf01c676b7ce9a903abf730446df7e2753f436072aefbfd5e"
+strip_prefix = 1
+url = "https://github.com/istio/istio/archive/refs/tags/1.26.2.tar.gz"
+
+[meta]
+description = "Istio configuration command-line utility"
+homepage = "https://istio.io/"
+license = "Apache-2.0"
+platforms = ["darwin"]

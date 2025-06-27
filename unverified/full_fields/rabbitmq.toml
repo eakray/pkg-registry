@@ -1,0 +1,14 @@
+name = "rabbitmq"
+schema_version = "1"
+version = "4.1.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "a00731f61bb3fa6000b62d5c5b8fe407638ebc8c2042e0079860ee66ce320f53"
+strip_prefix = 1
+url = "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.1.1/rabbitmq-server-generic-unix-4.1.1.tar.xz"
+
+[meta]
+description = "Messaging and streaming broker"
+homepage = "https://www.rabbitmq.com"
+license = "MPL-2.0"
+platforms = ["darwin"]

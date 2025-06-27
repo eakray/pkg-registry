@@ -1,0 +1,8 @@
+name = "rust"
+schema_version = "1"
+
+[meta]
+description = "Safe, concurrent, practical language"
+homepage = "https://www.rust-lang.org/"
+license = "  license any_of: ["Apache-2.0", "MIT"]"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "imagemagick@6"
+schema_version = "1"
+version = "6.9.13"
+
+[binaries.darwin.x64.binary]
+sha256 = "17ba5ee0e0ce4a2248db5115d3683dd7c24e82eec96515da028997c9f926a121"
+strip_prefix = 1
+url = "https://imagemagick.org/archive/releases/ImageMagick-6.9.13-25.tar.xz"
+
+[meta]
+description = "Tools and libraries to manipulate images in many formats"
+homepage = "https://legacy.imagemagick.org/"
+license = "ImageMagick"
+platforms = ["darwin"]

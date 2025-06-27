@@ -1,0 +1,14 @@
+name = "sphinx-doc"
+schema_version = "1"
+version = "8.2.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "398ad29dee7f63a75888314e9424d40f52ce5a6a87ae88e7071e80af296ec348"
+strip_prefix = 1
+url = "https://files.pythonhosted.org/packages/38/ad/4360e50ed56cb483667b8e6dadf2d3fda62359593faabbe749a27c4eaca6/sphinx-8.2.3.tar.gz"
+
+[meta]
+description = "Tool to create intelligent and beautiful documentation"
+homepage = "https://www.sphinx-doc.org/"
+license = "BSD-2-Clause"
+platforms = ["darwin"]

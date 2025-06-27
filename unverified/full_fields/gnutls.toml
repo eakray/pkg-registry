@@ -1,0 +1,14 @@
+name = "gnutls"
+schema_version = "1"
+version = "3.8.9"
+
+[binaries.darwin.x64.binary]
+sha256 = "69e113d802d1670c4d5ac1b99040b1f2d5c7c05daec5003813c049b5184820ed"
+strip_prefix = 1
+url = "https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.9.tar.xz"
+
+[meta]
+description = "GNU Transport Layer Security (TLS) Library"
+homepage = "https://gnutls.org/"
+license = "  license all_of: ["LGPL-2.1-or-later", "GPL-3.0-only"]"
+platforms = ["darwin"]

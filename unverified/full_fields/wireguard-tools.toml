@@ -1,0 +1,14 @@
+name = "wireguard-tools"
+schema_version = "1"
+version = "1.0.20250521"
+
+[binaries.darwin.x64.binary]
+sha256 = "b6f2628b85b1b23cc06517ec9c74f82d52c4cdbd020f3dd2f00c972a1782950e"
+strip_prefix = 1
+url = "https://git.zx2c4.com/wireguard-tools/snapshot/wireguard-tools-1.0.20250521.tar.xz"
+
+[meta]
+description = "Tools for the WireGuard secure network tunnel"
+homepage = "https://www.wireguard.com/"
+license = "GPL-2.0-only"
+platforms = ["darwin"]

@@ -1,0 +1,8 @@
+name = "dotnet"
+schema_version = "1"
+
+[meta]
+description = ".NET Core"
+homepage = "https://dotnet.microsoft.com/"
+license = "MIT"
+platforms = ["darwin"]

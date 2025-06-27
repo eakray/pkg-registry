@@ -1,0 +1,14 @@
+name = "boost-python3"
+schema_version = "1"
+version = "1.88.0"
+
+[binaries.darwin.x64.binary]
+sha256 = "ad9ce2c91bc0977a7adc92d51558f3b9c53596bb88246a280175ebb475da1762"
+strip_prefix = 1
+url = "https://github.com/boostorg/boost/releases/download/boost-1.88.0/boost-1.88.0-b2-nodocs.tar.xz"
+
+[meta]
+description = "C++ library for C++/Python3 interoperability"
+homepage = "https://www.boost.org/"
+license = "BSL-1.0"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "wireshark"
+schema_version = "1"
+version = "4.4.7"
+
+[binaries.darwin.x64.binary]
+sha256 = "5644143fed6363fa6c0cf58c2a6fe9ba0922efaea8f981c7228260bf46f1494b"
+strip_prefix = 1
+url = "https://www.wireshark.org/download/src/all-versions/wireshark-4.4.7.tar.xz"
+
+[meta]
+description = "Network analyzer and capture tool - without graphical user interface"
+homepage = "https://www.wireshark.org"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

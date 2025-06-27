@@ -1,0 +1,14 @@
+name = "nettle"
+schema_version = "1"
+version = "3.10.1"
+
+[binaries.darwin.x64.binary]
+sha256 = "b0fcdd7fc0cdea6e80dcf1dd85ba794af0d5b4a57e26397eee3bc193272d9132"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/nettle/nettle-3.10.1.tar.gz"
+
+[meta]
+description = "Low-level cryptographic library"
+homepage = "https://www.lysator.liu.se/~nisse/nettle/"
+license = "  license any_of: ["GPL-2.0-or-later", "LGPL-3.0-or-later"]"
+platforms = ["darwin"]

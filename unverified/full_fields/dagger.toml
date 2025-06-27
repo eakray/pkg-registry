@@ -1,0 +1,14 @@
+name = "dagger"
+schema_version = "1"
+version = "0.18.11"
+
+[binaries.darwin.x64.binary]
+sha256 = "3433234726aab1cf49d40077328ddb84214bd5da3403e5c7afa02f0c9e0f96a4"
+strip_prefix = 1
+url = "https://github.com/dagger/dagger/archive/refs/tags/v0.18.11.tar.gz"
+
+[meta]
+description = "Portable devkit for CI/CD pipelines"
+homepage = "https://dagger.io"
+license = "Apache-2.0"
+platforms = ["darwin"]

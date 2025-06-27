@@ -1,0 +1,14 @@
+name = "sqlmap"
+schema_version = "1"
+version = "1.9.6"
+
+[binaries.darwin.x64.binary]
+sha256 = "7cf60ca5364062ef7eab05a26fdeaf3b1457ea2200bf8198ed131ef7931c9bbf"
+strip_prefix = 1
+url = "https://github.com/sqlmapproject/sqlmap/archive/refs/tags/1.9.6.tar.gz"
+
+[meta]
+description = "Penetration testing for SQL injection and database servers"
+homepage = "https://sqlmap.org"
+license = "GPL-2.0-or-later"
+platforms = ["darwin"]

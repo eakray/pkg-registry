@@ -1,0 +1,14 @@
+name = "code-server"
+schema_version = "1"
+version = "4.101.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "6f53a281ac4c2db0ea61f7f48d82e80312e5627342838b26a6127f81267b8aca"
+strip_prefix = 1
+url = "https://registry.npmjs.org/code-server/-/code-server-4.101.2.tgz"
+
+[meta]
+description = "Access VS Code through the browser"
+homepage = "https://github.com/coder/code-server"
+license = "MIT"
+platforms = ["darwin"]

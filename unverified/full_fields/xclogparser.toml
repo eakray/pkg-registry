@@ -1,0 +1,14 @@
+name = "xclogparser"
+schema_version = "1"
+version = "0.2.42"
+
+[binaries.darwin.x64.binary]
+sha256 = "38f02fc3359b557b4eddb1bd0c12e063858bad19f65171a50c61d7b393b9ec17"
+strip_prefix = 1
+url = "https://github.com/MobileNativeFoundation/XCLogParser/archive/refs/tags/v0.2.42.tar.gz"
+
+[meta]
+description = "Tool to parse the SLF serialization format used by Xcode"
+homepage = "https://github.com/MobileNativeFoundation/XCLogParser"
+license = "Apache-2.0"
+platforms = ["darwin"]

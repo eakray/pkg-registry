@@ -1,0 +1,14 @@
+name = "httrack"
+schema_version = "1"
+version = "3.49.2"
+
+[binaries.darwin.x64.binary]
+sha256 = "3477a0e5568e241c63c9899accbfcdb6aadef2812fcce0173688567b4c7d4025"
+strip_prefix = 1
+url = "https://mirror.httrack.com/historical/httrack-3.49.2.tar.gz"
+
+[meta]
+description = "Website copier/offline browser"
+homepage = "https://www.httrack.com/"
+license = "GPL-3.0-or-later" => { with: "openvpn-openssl-exception }"
+platforms = ["darwin"]

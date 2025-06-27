@@ -1,0 +1,14 @@
+name = "mtr"
+schema_version = "1"
+version = "0.95"
+
+[binaries.darwin.x64.binary]
+sha256 = "12490fb660ba5fb34df8c06a0f62b4f9cbd11a584fc3f6eceda0a99124e8596f"
+strip_prefix = 1
+url = "https://github.com/traviscross/mtr/archive/refs/tags/v0.95.tar.gz"
+
+[meta]
+description = "'traceroute' and 'ping' in a single tool"
+homepage = "https://www.bitwizard.nl/mtr/"
+license = "  license all_of: ["GPL-2.0-only", "BSD-3-Clause", "LGPL-2.0-only"]"
+platforms = ["darwin"]

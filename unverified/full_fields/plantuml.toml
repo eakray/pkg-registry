@@ -1,0 +1,14 @@
+name = "plantuml"
+schema_version = "1"
+version = "1.2025.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "837b7922fe30cac1336fd57c5aecc82f0a06032c77db949a6983a9a6ae41704a"
+strip_prefix = 1
+url = "https://github.com/plantuml/plantuml/releases/download/v1.2025.3/plantuml-1.2025.3.jar"
+
+[meta]
+description = "Draw UML diagrams"
+homepage = "https://plantuml.com/"
+license = "GPL-3.0-or-later"
+platforms = ["darwin"]

@@ -1,0 +1,14 @@
+name = "guile"
+schema_version = "1"
+version = "3.0.10"
+
+[binaries.darwin.x64.binary]
+sha256 = "bd7168517fd526333446d4f7ab816527925634094fbd37322e17e2b8d8e76388"
+strip_prefix = 1
+url = "https://ftp.gnu.org/gnu/guile/guile-3.0.10.tar.xz"
+
+[meta]
+description = "GNU Ubiquitous Intelligent Language for Extensions"
+homepage = "https://www.gnu.org/software/guile/"
+license = "LGPL-3.0-or-later"
+platforms = ["darwin"]

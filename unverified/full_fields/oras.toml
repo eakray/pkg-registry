@@ -1,0 +1,14 @@
+name = "oras"
+schema_version = "1"
+version = "1.2.3"
+
+[binaries.darwin.x64.binary]
+sha256 = "f08ddcccaedbb336e85942b6ccb9625c2a7e4e411d5909bd6f670eb0d7ab3977"
+strip_prefix = 1
+url = "https://github.com/oras-project/oras/archive/refs/tags/v1.2.3.tar.gz"
+
+[meta]
+description = "OCI Registry As Storage"
+homepage = "https://github.com/oras-project/oras"
+license = "Apache-2.0"
+platforms = ["darwin"]

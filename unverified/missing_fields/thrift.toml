@@ -1,0 +1,8 @@
+name = "thrift"
+schema_version = "1"
+
+[meta]
+description = "Framework for scalable cross-language services development"
+homepage = "https://thrift.apache.org/"
+license = "Apache-2.0"
+platforms = ["darwin"]

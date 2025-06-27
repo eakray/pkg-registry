@@ -1,0 +1,14 @@
+name = "mise"
+schema_version = "1"
+version = "2025.6.8"
+
+[binaries.darwin.x64.binary]
+sha256 = "e51ef65a03e8da03ee1d2b75bd2a3715318a33ecef1223216761f6eaecad2cf0"
+strip_prefix = 1
+url = "https://github.com/jdx/mise/archive/refs/tags/v2025.6.8.tar.gz"
+
+[meta]
+description = "Polyglot runtime manager (asdf rust clone)"
+homepage = "https://mise.jdx.dev/"
+license = "MIT"
+platforms = ["darwin"]

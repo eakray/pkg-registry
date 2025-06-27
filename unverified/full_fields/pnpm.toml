@@ -1,0 +1,14 @@
+name = "pnpm"
+schema_version = "1"
+version = "10.12.4"
+
+[binaries.darwin.x64.binary]
+sha256 = "cadfd9e6c9fcc2cb76fe7c0779a5250b632898aea5f53d833a73690c77a778d9"
+strip_prefix = 1
+url = "https://registry.npmjs.org/pnpm/-/pnpm-10.12.4.tgz"
+
+[meta]
+description = "Fast, disk space efficient package manager"
+homepage = "https://pnpm.io/"
+license = "MIT"
+platforms = ["darwin"]

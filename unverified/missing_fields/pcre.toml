@@ -1,0 +1,8 @@
+name = "pcre"
+schema_version = "1"
+
+[meta]
+description = "Perl compatible regular expressions library"
+homepage = "https://www.pcre.org/"
+license = "BSD-3-Clause"
+platforms = ["darwin"]
