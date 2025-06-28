@@ -3,9 +3,9 @@ schema_version = "1"
 version = "18.12.0"
 
 [binaries.darwin.x64.binary]
-sha256 = "0699c8e02581a9c312d7157331561d36ef23963766eb47daa702edb6fd6735bd"
+sha256 = "7aa5ef109086be0adf433b851504f0522a71a02c6d675e729375cd591a854f3c"
 strip_prefix = 1
-url = "https://nodejs.org/dist/v20.9.0/node-v18.12.0-darwin-x64.tar.gz"
+url = "https://nodejs.org/dist/v18.12.0/node-v18.12.0-darwin-x64.tar.gz"
 
 [install]
 steps = ["extract", "symlink bin/node", "symlink bin/npm"]
