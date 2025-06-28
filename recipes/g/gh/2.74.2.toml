@@ -3,22 +3,22 @@ schema_version = "1"
 version = "2.74.2"
 
 [binaries.darwin.arm64.binary]
-sha256 = "sha256:42dceea5beae957a8a9545e38043a6d75fa3b5505fdcea75a278f873f0845b26"
+sha256 = "42dceea5beae957a8a9545e38043a6d75fa3b5505fdcea75a278f873f0845b26"
 url = "https://github.com/cli/cli/releases/download/v2.74.2/gh_2.74.2_macOS_arm64.zip"
 strip_prefix = 1
 
 [binaries.darwin.amd64.binary]
-sha256 = "sha256:c716ecdd9d5e381e521d772caa4dea29d647d465b94b1c67df9154e71f33451e"
+sha256 = "c716ecdd9d5e381e521d772caa4dea29d647d465b94b1c67df9154e71f33451e"
 url = "https://github.com/cli/cli/releases/download/v2.74.2/gh_2.74.2_macOS_amd64.zip"
 strip_prefix = 1
 
 [binaries.linux.amd64.binary]
-sha256 = "sha256:c421091ae5800390e6aef1f50bfda59cc1d4f2ef2200bcd4e1a662c05c28c444"
+sha256 = "c421091ae5800390e6aef1f50bfda59cc1d4f2ef2200bcd4e1a662c05c28c444"
 url = "https://github.com/cli/cli/releases/download/v2.74.2/gh_2.74.2_linux_amd64.tar.gz"
 strip_prefix = 1
 
 [binaries.linux.arm64.binary]
-sha256 = "sha256:f0b07f0aeaf00f137df1bd33a76e717b1945f4b83bd6a3296b365414d3eb413f"
+sha256 = "f0b07f0aeaf00f137df1bd33a76e717b1945f4b83bd6a3296b365414d3eb413f"
 url = "https://github.com/cli/cli/releases/download/v2.74.2/gh_2.74.2_linux_arm64.tar.gz"
 strip_prefix = 1
 
