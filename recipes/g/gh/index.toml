@@ -1,0 +1,8 @@
+name = "gh"
+
+latest = "2.74.2"
+
+versions = ["2.74.2"]
+
+[version_metadata."2.74.2"]
+has_binaries = true
