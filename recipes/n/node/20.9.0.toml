@@ -8,9 +8,9 @@ license = "MIT"
 homepage = "https://nodejs.org/"
 platforms = ["darwin"]
 
-[binaries.darwin.x64.binary]
-url = "https://nodejs.org/dist/v20.9.0/node-v20.9.0-darwin-x64.tar.gz"
-sha256 = "fc5b73f2a78c17bbe926cdb1447d652f9f094c79582f1be6471b4b38a2e1ccc8"
+[binaries.darwin.arm64.binary]
+url = "https://nodejs.org/dist/v20.9.0/node-v20.9.0-darwin-arm64.tar.gz"
+sha256 = "31d2d46ae8d8a3982f54e2ff1e60c2e4a8e80bf78a3e8b46dcaac95ac5d7ce6a"
 strip_prefix = 1
 
 [install]
