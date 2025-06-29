@@ -9,3 +9,9 @@ path = "g/gh"
 latest = "2.74.2"
 versions = ["2.74.2"]
 summary = "GitHub CLI"
+
+[packages.wget]
+path = "w/wget"
+latest = "1.25.0"
+versions = ["1.25.0"]
+summary = "wget"

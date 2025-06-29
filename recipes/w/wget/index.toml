@@ -1,0 +1,8 @@
+name = "wget"
+
+latest = "1.25.0"
+
+versions = ["1.25.0"]
+
+[version_metadata."1.25.0"]
+has_binaries = true
