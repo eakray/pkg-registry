@@ -3,7 +3,7 @@ schema_version = "1"
 version = "1.25.0"
 
 [binaries.darwin.arm64.binary]
-sha256 = "9e5b59eeedf64e135d96fe8b928bddf00e890430b0e1bfb8fe1ace4457d3f91b"
+sha256 = "766e48423e79359ea31e41db9e5c289675947a7fcf2efdcedb726ac9d0da3784"
 url = "https://ftp.gnu.org/gnu/wget/wget-1.25.0.tar.gz"
 strip_prefix = 1
 
